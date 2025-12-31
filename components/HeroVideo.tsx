@@ -5,19 +5,19 @@ import Link from 'next/link'
 
 const videos = [
   {
-    src: '/8347238-uhd_2160_3840_25fps.mp4',
+    src: 'https://sitestorage.oreonhq.com/8347238-uhd_2160_3840_25fps.mp4',
     title: 'Software built for',
     subtitle: 'what comes next.',
     description: 'Oreon HQ leads the development of the Oreon platform, focusing on long term usability, real world deployment, and sustainable growth.',
   },
   {
-    src: '/1957727-hd_1920_1080_30fps.mp4',
+    src: 'https://sitestorage.oreonhq.com/1957727-hd_1920_1080_30fps.mp4',
     title: 'Gaming, reimagined.',
     subtitle: 'Seamless experiences.',
     description: 'We aim to provide a seamless gaming experience, ensuring performance and compatibility across a wide range of hardware and software.',
   },
   {
-    src: '/3289569-hd_1920_1080_25fps.mp4',
+    src: 'https://sitestorage.oreonhq.com/3289569-hd_1920_1080_25fps.mp4',
     title: 'Supporting legacy hardware.',
     subtitle: 'Reducing e-waste.',
     description: 'Oreon 11 supports the oldest x86_64 processors, extending the life of existing hardware and leading to less e-waste.',
