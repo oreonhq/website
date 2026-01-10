@@ -1,76 +1,106 @@
+'use client'
+
+import { AlertTriangle, Download as DownloadIcon, ArrowRight } from 'lucide-react'
 import Link from 'next/link'
-import { ExternalLink, Calendar, Archive, Bell } from 'lucide-react'
 
 export default function Download() {
+  const editions = [
+    {
+      name: "Oreon 11 Core",
+      tagline: "The base experience",
+      desc: "Fully FOSS and community led. The perfect choice for enthusiasts who value absolute digital freedom and simplicity.",
+      status: "FOSS / Community",
+      color: "text-[#afe400]"
+    },
+    {
+      name: "Oreon 11 Server Core",
+      tagline: "Lightweight backend",
+      desc: "Fully FOSS and community led. A minimal server distribution designed for high performance in home labs.",
+      status: "FOSS / Community",
+      color: "text-[#afe400]"
+    },
+    {
+      name: "Oreon 11 Studio",
+      tagline: "For creators",
+      desc: "Managed by Oreon HQ. A specialized edition pre-configured for high-end audio, video, and graphics production.",
+      status: "Pro / Licensed",
+      color: "text-[#007b56]"
+    },
+    {
+      name: "Oreon 11 Enterprise",
+      tagline: "Rock solid",
+      desc: "Led by Oreon HQ. Support guarantees, security audits, and specialized fleet management tools for organizations.",
+      status: "Enterprise / Support",
+      color: "text-[#001457]"
+    },
+    {
+      name: "Oreon 11 Server Enterprise",
+      tagline: "Infrastructure at scale",
+      desc: "Led by Oreon HQ. High-availability server infrastructure with official ticket-based support and long-term security support.",
+      status: "Enterprise / Support",
+      color: "text-[#001457]"
+    }
+  ]
+
   return (
-    <div>
-      <section className="relative w-full h-[40vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-blue-800 via-blue-700 to-blue-900">
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold text-white drop-shadow-lg mb-4">Downloads</h1>
-          <p className="text-xl md:text-2xl text-white/90 drop-shadow-md max-w-3xl mx-auto">
-            Get Oreon 11 and access legacy releases. Downloads available for the latest stable release and previous versions.
-          </p>
+    <div className="theme-light pt-[56px] min-h-screen bg-white">
+      {/* Warning Banner */}
+      <div className="bg-[#afe400] py-3 px-4 flex items-center justify-center gap-3">
+        <AlertTriangle className="w-5 h-5 text-black" />
+        <span className="text-sm font-bold text-black uppercase tracking-widest">Downloads are coming soon. All links are currently inactive.</span>
+      </div>
+
+      <section className="bg-[#f8fafc] border-b border-black/5 py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl animate-enterprise">
+            <h1 className="hero-heading text-black mb-6">Choose your Edition.</h1>
+            <p className="text-xl text-gray-500 leading-relaxed font-light">
+              Oreon is available in several versions tailored for different needs. From community-led FOSS to professional enterprise editions.
+            </p>
+          </div>
         </div>
       </section>
 
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <section className="enterprise-section">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="space-y-8">
+            {editions.map((edition, i) => (
+              <div key={i} className="group p-8 border border-black/5 bg-gray-50 rounded-enterprise hover:bg-white hover:shadow-xl transition-all duration-300">
+                <div className="flex flex-col md:flex-row items-start gap-12">
+                  <div className="flex-1 flex flex-col items-start">
+                    <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
+                      <div>
+                        <h2 className="text-3xl font-bold text-gray-900 tracking-tight italic">{edition.name}</h2>
+                        <p className="text-[#007b56] font-medium text-sm italic">{edition.tagline}</p>
+                      </div>
+                    </div>
+                    
+                    <p className="text-gray-500 text-lg leading-relaxed mb-10 font-light max-w-2xl">
+                      {edition.desc}
+                    </p>
+                    
+                    <button 
+                      disabled
+                      className="btn-oreon-gradient flex items-center gap-2"
+                    >
+                      <DownloadIcon className="w-4 h-4" /> Coming Soon
+                    </button>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
 
-        <div className="space-y-8">
-          <section className="p-10 border border-gray-200 bg-white rounded-md">
-            <div className="flex items-start gap-4 mb-6">
-              <div className="w-8 h-8 text-gray-700 flex-shrink-0 mt-1">
-                <Calendar className="w-8 h-8" />
-              </div>
-              <div className="flex-1">
-                <h2 className="text-3xl font-semibold mb-4">Oreon 11</h2>
-                <p className="text-gray-700 text-lg leading-relaxed">
-                  Oreon 11 is currently under development, expected to release July
-                  2026. This page will host Oreon 11 downloads once available.
-                </p>
-              </div>
-            </div>
-          </section>
-
-          <section className="p-10 border border-gray-200 bg-white rounded-md">
-            <div className="flex items-start gap-4 mb-6">
-              <div className="w-8 h-8 text-gray-700 flex-shrink-0 mt-1">
-                <Archive className="w-8 h-8" />
-              </div>
-              <div className="flex-1">
-                <h2 className="text-3xl font-semibold mb-4">
-                  Legacy Releases and Spins
-                </h2>
-                <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                  Previous Oreon releases and Consortium maintained spins are
-                  available here:
-                </p>
-                <a
-                  href="https://oreonproject.org/downloads"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-8 py-4 border border-gray-300 text-gray-900 font-semibold bg-white rounded-md hover:bg-gray-50 transition-colors"
-                >
-                  <ExternalLink className="w-4 h-4" />
-                  Legacy downloads
-                </a>
-              </div>
-            </div>
-          </section>
-
-          <section className="p-10 border border-gray-300 bg-gray-50 rounded-md">
-            <div className="flex items-start gap-4">
-              <div className="w-8 h-8 text-gray-700 flex-shrink-0 mt-1">
-                <Bell className="w-8 h-8" />
-              </div>
-              <div className="flex-1">
-                <h2 className="text-3xl font-semibold mb-4">Stay Informed</h2>
-                <p className="text-gray-700 leading-relaxed">
-                  Development progress and announcements are shared through community
-                  channels. Check the footer for links to Discord, Forums, and Matrix.
-                </p>
-              </div>
-            </div>
-          </section>
+          <div className="mt-20 p-12 bg-gray-900 rounded-enterprise text-white text-center relative overflow-hidden">
+             <div className="absolute inset-0 opacity-10" style={{ background: 'var(--oreon-gradient)' }} />
+             <div className="relative z-10">
+                <h3 className="text-2xl font-bold mb-6 italic">Need a custom deployment?</h3>
+                <p className="text-white/60 mb-10 max-w-xl mx-auto font-light">Contact us for custom images, preset hardware configurations, or specific enterprise requirements.</p>
+                <Link href="/contact" className="btn-enterprise-secondary text-white border-white/20">
+                  Speak with us <ArrowRight className="w-4 h-4 ml-2" />
+                </Link>
+             </div>
+          </div>
         </div>
       </section>
     </div>

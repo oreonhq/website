@@ -1,50 +1,72 @@
 import Link from 'next/link'
+import { ArrowRight, Download, FileText } from 'lucide-react'
 
 export default function Press() {
   return (
-    <div>
-      <section className="relative w-full h-[40vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-red-900 via-red-800 to-red-950">
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold text-white drop-shadow-lg mb-4">Press and Media</h1>
-          <p className="text-xl md:text-2xl text-white/90 drop-shadow-md max-w-3xl mx-auto">
-            Media resources, press releases, and contact information for journalists and media professionals.
-          </p>
+    <div className="theme-light pt-[56px] min-h-screen bg-white">
+      <section className="bg-[#f8fafc] border-b border-black/5 py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl animate-enterprise">
+            <h1 className="hero-heading text-black mb-6">
+              Press and Media.
+            </h1>
+            <p className="text-xl text-gray-500 leading-relaxed font-light">
+              Media resources, press releases, and company background for journalists or content creators.
+            </p>
+          </div>
         </div>
       </section>
 
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <section className="enterprise-section">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-12 gap-16">
+            <div className="lg:col-span-8 space-y-12">
+              <section className="p-12 border border-black/5 rounded-enterprise bg-gray-50">
+                <div className="flex items-center gap-3 mb-8">
+                   <h2 className="text-2xl font-bold text-black uppercase tracking-tight italic">Our Background</h2>
+                </div>
+                <div className="space-y-8 font-light text-gray-600 leading-relaxed text-lg">
+                  <p>Oreon HQ leads the development of Oreon, focusing on long term support and enterprise deployment strategies.</p>
+                  <p>Oreon is a desktop and laptop operating system designed for the user, the community, and the enterprise.</p>
+                </div>
+              </section>
 
-        <div className="space-y-8">
-          <section className="p-10 border border-gray-200 bg-white rounded-md">
-            <h2 className="text-3xl font-semibold mb-4">About Oreon HQ</h2>
-            <p className="text-gray-700 text-lg leading-relaxed">
-              Oreon HQ leads the development of the Oreon platform, focusing on
-              OEM readiness, long term support, and real world deployment.
-            </p>
-          </section>
+              <div className="hr-enterprise" />
 
-          <section className="p-10 border border-gray-200 bg-white rounded-md">
-            <h2 className="text-3xl font-semibold mb-4">About Oreon</h2>
-            <p className="text-gray-700 text-lg leading-relaxed">
-              Oreon is a desktop and laptop operating system designed to stay
-              usable over time, without sacrificing stability or forcing premature
-              upgrades.
-            </p>
-          </section>
+              <section className="p-12 bg-[#111113] rounded-enterprise text-white relative overflow-hidden">
+                 <div className="absolute inset-0 opacity-10" style={{ background: 'var(--oreon-gradient)' }} />
+                 <div className="relative z-10">
+                    <h2 className="text-3xl font-bold mb-8 italic">Press Outreach</h2>
+                    <p className="text-white/60 mb-10 font-light text-lg">For interviews, detailed explanations, or any other inquiries, please contact our CEO, Brandon Lester by emailing him at <a href="mailto:blester@oreonhq.com" className="text-[#007b56] hover:underline">blester@oreonhq.com</a>.</p>
+                 </div>
+              </section>
+            </div>
 
-          <section className="p-10 border border-gray-300 bg-gray-50 rounded-md">
-            <h2 className="text-3xl font-semibold mb-4">Press Contact</h2>
-            <p className="text-gray-700 text-lg leading-relaxed mb-6">
-              For interviews, background, or press inquiries, please contact us
-              through the contact page.
-            </p>
-            <Link
-              href="/contact"
-              className="inline-block px-8 py-4 bg-gray-900 text-white font-semibold rounded-md"
-            >
-              Contact Us →
-            </Link>
-          </section>
+            <aside className="lg:col-span-4 space-y-12 animate-enterprise">
+              <div className="p-8 border-l border-black/5">
+                <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6">Media Kits (currently inactive)</h3>
+                <div className="space-y-6">
+                   {[
+                     { label: "Branding", val: "Logos and icons" },
+                     { label: "Product Images", val: "Oreon 11 screenshots" }
+                   ].map((item, i) => (
+                     <div key={i} className="group cursor-pointer">
+                        <div className="flex items-center justify-between mb-2">
+                           <span className="text-xs font-bold text-gray-900">{item.label}</span>
+                           <Download className="w-4 h-4 text-gray-300 group-hover:text-[#007b56] transition-colors" />
+                        </div>
+                        <p className="text-xs text-gray-400 font-light">{item.val}</p>
+                     </div>
+                   ))}
+                </div>
+                <div className="mt-10 pt-10 border-t border-black/5">
+                   <a href="#" className="flex items-center gap-2 text-sm font-bold text-[#007b56] hover:underline">
+                      <FileText className="w-4 h-4" /> Branding Kit (ZIP)
+                   </a>
+                </div>
+              </div>
+            </aside>
+          </div>
         </div>
       </section>
     </div>

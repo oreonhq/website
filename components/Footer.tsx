@@ -3,129 +3,86 @@ import Image from 'next/image'
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-50 border-t border-gray-200 mt-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+    <footer className="bg-[#121214] border-t border-white/5 relative overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-16">
           <div className="col-span-1 md:col-span-2">
-            <Link href="/" className="inline-block mb-4">
+            <Link href="/" className="inline-block mb-10 transition-opacity hover:opacity-70">
               <Image
                 src="/oreonlogo.png"
                 alt="Oreon HQ"
-                width={120}
-                height={40}
-                className="h-8 w-auto"
+                width={180}
+                height={56}
+                className="h-[40px] w-auto invert brightness-0 invert"
               />
             </Link>
-            <p className="text-gray-600 text-sm max-w-md">
-              Software built for what comes next. Leading the development of
-              the Oreon platform with a focus on long-term usability, real-world
-              deployment, and sustainable growth.
+            <p className="text-white/60 text-base leading-relaxed max-w-sm font-light">
+              One OS. Built for what comes next.
             </p>
           </div>
 
           <div>
-            <h4 className="text-gray-900 font-semibold mb-4">Resources</h4>
-            <ul className="space-y-2">
-              <li>
-                <Link
-                  href="/oreon"
-                  className="text-gray-600 hover:text-gray-900 text-sm transition-colors"
-                >
-                  About Oreon
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/oreon/download"
-                  className="text-gray-600 hover:text-gray-900 text-sm transition-colors"
-                >
-                  Downloads
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/structure"
-                  className="text-gray-600 hover:text-gray-900 text-sm transition-colors"
-                >
-                  How Oreon is Built
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/press"
-                  className="text-gray-600 hover:text-gray-900 text-sm transition-colors"
-                >
-                  Press
-                </Link>
-              </li>
+            <h4 className="text-white/50 font-bold mb-8 text-xs uppercase tracking-[0.2em]">Platform</h4>
+            <ul className="space-y-4">
+              {[
+                { name: 'Oreon OS', href: '/oreon' },
+                { name: 'Downloads', href: '/oreon/download' },
+                { name: 'Governance', href: '/structure' },
+                { name: 'About HQ', href: '/about' },
+              ].map((link) => (
+                <li key={link.name}>
+                  <Link
+                    href={link.href}
+                    className="text-white/80 hover:text-white transition-colors duration-200 text-sm"
+                  >
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
           <div>
-            <h4 className="text-gray-900 font-semibold mb-4">Connect</h4>
-            <ul className="space-y-2">
-              <li>
-                <a
-                  href="https://discord.gg/2Yyacu58Ap"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-600 hover:text-gray-900 text-sm transition-colors"
-                >
-                  Discord
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://forums.oreonproject.org/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-600 hover:text-gray-900 text-sm transition-colors"
-                >
-                  Forums
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://matrix.to/#/#oreonproject:matrix.org"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-600 hover:text-gray-900 text-sm transition-colors"
-                >
-                  Matrix
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/oreonproject"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-600 hover:text-gray-900 text-sm transition-colors"
-                >
-                  GitHub
-                </a>
-              </li>
-              <li>
-                <Link
-                  href="/contact"
-                  className="text-gray-600 hover:text-gray-900 text-sm transition-colors"
-                >
-                  Contact
-                </Link>
-              </li>
+            <h4 className="text-white/50 font-bold mb-8 text-xs uppercase tracking-[0.2em]">Resources</h4>
+            <ul className="space-y-4">
+              {[
+                { name: 'Community Forums', href: 'https://forums.oreonproject.org/' },
+                { name: 'Oreon Project GitHub', href: 'https://github.com/oreonproject' },
+                { name: 'Oreon HQ GitHub', href: 'https://github.com/oreonhq' },
+                { name: 'Press & Media', href: '/press' },
+                { name: 'Legal Center', href: '/legal' },
+              ].map((link) => (
+                <li key={link.name}>
+                  <a
+                    href={link.href}
+                    target={link.href.startsWith('http') ? "_blank" : undefined}
+                    rel={link.href.startsWith('http') ? "noopener noreferrer" : undefined}
+                    className="text-white/80 hover:text-white transition-colors duration-200 text-sm"
+                  >
+                    {link.name}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
 
-        <div className="mt-8 pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-500 text-sm">
+        <div className="mt-24 pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
+          <p className="text-white/40 text-xs font-bold uppercase tracking-[0.2em]">
             © {new Date().getFullYear()} Oreon HQ. All rights reserved.
           </p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
+          <div className="flex space-x-12">
             <Link
               href="/legal"
-              className="text-gray-500 hover:text-gray-900 text-sm transition-colors"
+              className="text-white/40 hover:text-white text-xs font-bold uppercase tracking-[0.2em] transition-colors"
             >
-              Legal
+              Privacy & Terms
+            </Link>
+            <Link
+              href="/contact"
+              className="text-white/40 hover:text-white text-xs font-bold uppercase tracking-[0.2em] transition-colors"
+            >
+              Support
             </Link>
           </div>
         </div>

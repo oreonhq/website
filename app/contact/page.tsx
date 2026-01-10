@@ -1,103 +1,97 @@
-import { Mail, MessageCircle } from 'lucide-react'
+import Link from 'next/link'
+import { Mail, MessageCircle, ArrowRight, ShieldCheck, Download, Globe } from 'lucide-react'
 
 export default function Contact() {
   return (
-    <div>
-      <section className="relative w-full h-[40vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-indigo-800 via-indigo-700 to-indigo-900">
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold text-white drop-shadow-lg mb-4">Contact</h1>
-          <p className="text-xl md:text-2xl text-white/90 drop-shadow-md max-w-3xl mx-auto">
-            Get in touch with Oreon HQ for partnerships, OEM engagement, press inquiries, and general questions.
-          </p>
+    <div className="theme-light pt-[56px] min-h-screen bg-white">
+      <section className="bg-[#f8fafc] border-b border-black/5 py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl">
+            <h1 className="hero-heading text-black mb-6">Get in touch.</h1>
+            <p className="text-xl text-gray-500 leading-relaxed font-light">
+              Whether you need community support or are looking for strategic partnerships, our team is here to help.
+            </p>
+          </div>
         </div>
       </section>
 
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <section className="enterprise-section">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-12 gap-16">
+            <div className="lg:col-span-8 space-y-12">
+              <div className="grid md:grid-cols-2 gap-8">
+                <section className="p-8 border border-black/5 rounded-enterprise bg-gray-50">
+                  <h2 className="text-xl font-bold text-black uppercase tracking-widest text-xs mb-6">Enterprise Contact</h2>
+                  <div className="space-y-8">
+                    <div>
+                      <p className="text-[10px] text-gray-400 font-bold uppercase tracking-[0.2em] mb-2">Enterprise Inquiries</p>
+                      <a href="mailto:partnerships@oreonhq.com" className="text-lg font-bold text-black hover:text-[#007b56] transition-colors">enterprise@oreonhq.com</a>
+                    </div>
+                  </div>
+                </section>
 
-        <div className="space-y-12">
-          <section className="p-10 border border-gray-200 bg-white rounded-md">
-            <h2 className="text-3xl font-semibold mb-6">Get in Touch</h2>
-            <p className="text-gray-700 text-lg leading-relaxed mb-8">
-              Reach Oreon HQ regarding:
-            </p>
-            <ul className="space-y-3 mb-8">
-              <li className="flex items-start">
-                <span className="text-gray-700 text-lg mr-3">•</span>
-                <span className="text-gray-700 text-lg">General inquiries</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-gray-700 text-lg mr-3">•</span>
-                <span className="text-gray-700 text-lg">Partnerships</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-gray-700 text-lg mr-3">•</span>
-                <span className="text-gray-700 text-lg">OEM engagement</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-gray-700 text-lg mr-3">•</span>
-                <span className="text-gray-700 text-lg">Press</span>
-              </li>
-            </ul>
-          </section>
-
-          <section className="p-10 border border-gray-200 bg-white rounded-md">
-            <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
-            <div className="space-y-6">
-              <div className="flex items-center">
-                <Mail className="w-6 h-6 text-gray-700 mr-4" />
-                <div>
-                  <p className="font-medium text-gray-900">Email</p>
-                  <a href="mailto:support@oreonhq.com" className="text-blue-700">
-                    support@oreonhq.com
-                  </a>
-                </div>
+                <section className="p-8 border border-black/5 rounded-enterprise bg-gray-50">
+                  <h2 className="text-xl font-bold text-black uppercase tracking-widest text-xs mb-6">Support</h2>
+                  <div className="space-y-8">
+                    <div>
+                      <p className="text-[10px] text-gray-400 font-bold uppercase tracking-[0.2em] mb-2">If you have an enterprise support contract with us, please use our enterprise support ticketing system to get quick official support for Oreon products.</p>
+                    </div>
+                    <div className="pt-4">
+                      <Link href="https://enterprise.oreonhq.com" className="btn-oreon-gradient w-fit">Visit Enterprise Portal →</Link>
+                    </div>
+                  </div>
+                </section>
               </div>
-              <div className="pt-4 border-t border-gray-200">
-                <p className="font-medium text-gray-900 mb-4">Community Support</p>
-                <p className="text-gray-600 mb-4">
-                  For community support, join the Discord or forums (links available in the footer).
-                </p>
-                <div className="flex gap-4">
-                  <a 
-                    href="https://discord.gg/2Yyacu58Ap"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center text-blue-700 font-medium hover:text-blue-800 transition-colors"
-                  >
-                    <MessageCircle className="w-5 h-5 mr-2" />
-                    Discord
-                  </a>
-                  <a 
-                    href="https://forums.oreonproject.org/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center text-blue-700 font-medium hover:text-blue-800 transition-colors"
-                  >
-                    <MessageCircle className="w-5 h-5 mr-2" />
-                    Forums
-                  </a>
-                  <a 
-                    href="https://matrix.to/#/#oreonproject:matrix.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center text-blue-700 font-medium hover:text-blue-800 transition-colors"
-                  >
-                    <MessageCircle className="w-5 h-5 mr-2" />
-                    Matrix
-                  </a>
-                  <a 
-                    href="https://github.com/oreonproject"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center text-blue-700 font-medium hover:text-blue-800 transition-colors"
-                  >
-                    <MessageCircle className="w-5 h-5 mr-2" />
-                    GitHub
-                  </a>
+
+              <div className="hr-enterprise" />
+
+              <div>
+                <h3 className="text-2xl font-bold text-black mb-8 tracking-tight italic text-2xl">Connect with us regarding:</h3>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                  {[
+                    { label: "Community Support", icon: MessageCircle },
+                    { label: "Support Timelines", icon: ShieldCheck },
+                    { label: "OEM Partnerships", icon: Globe },
+                    { label: "Installation", icon: Download }
+                  ].map((item, i) => (
+                    <div key={i} className="flex flex-col items-center gap-3 text-sm font-medium text-gray-500 border border-black/5 p-6 rounded-enterprise bg-white transition-all">
+                      <item.icon className="w-5 h-5 text-[#007b56]" />
+                      <span className="text-center text-xs">{item.label}</span>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
-          </section>
+
+            <aside className="lg:col-span-4 space-y-8">
+              <div className="p-8 bg-[#111113] rounded-enterprise text-white relative overflow-hidden">
+                <div className="absolute inset-0 opacity-10" style={{ background: 'var(--oreon-gradient)' }} />
+                <div className="relative z-10">
+                  <h3 className="text-xs font-bold uppercase tracking-widest mb-6 opacity-80 uppercase tracking-widest">Community Hub</h3>
+                  <p className="text-sm font-light mb-8 leading-relaxed">Join the Oreon community and get support in our community channels.</p>
+                  <div className="space-y-4">
+                    {[
+                      { name: 'Discord', href: 'https://discord.gg/2Yyacu58Ap' },
+                      { name: 'Forums', href: 'https://forums.oreonproject.org/' },
+                      { name: 'Matrix', href: 'https://matrix.to/#/#oreonproject:matrix.org' },
+                      { name: 'GitHub', href: 'https://github.com/oreonproject' },
+                    ].map((social) => (
+                      <a
+                        key={social.name}
+                        href={social.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-between p-3 border border-white/10 rounded-lg hover:bg-white/10 transition-all text-sm font-medium"
+                      >
+                        {social.name}
+                        <ArrowRight className="w-4 h-4" />
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </aside>
+          </div>
         </div>
       </section>
     </div>

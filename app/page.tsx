@@ -1,135 +1,129 @@
 import Link from 'next/link'
-import { Code, Settings, Shield, Server } from 'lucide-react'
 import HeroVideo from '@/components/HeroVideo'
+import FeatureCarousel from '@/components/FeatureCarousel'
+import StackedFleetManager from '@/components/StackedFleetManager'
+import { Shield, Layout, Settings, Terminal, Zap, Heart, Paintbrush, Coffee, Box, EyeOff, Scale, Monitor, MousePointer2, Lock, Globe } from 'lucide-react'
 
 export default function Home() {
   return (
-    <>
-      <div>
-        <HeroVideo />
+    <main className="min-h-screen">
+      <HeroVideo />
 
-        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-          <h2 className="text-4xl font-bold mb-16 text-center">
-            What We&apos;re Building
-          </h2>
-
-          <div className="grid md:grid-cols-2 gap-6 mb-16">
-            <div className="p-8 border border-gray-200 bg-white rounded-md">
-              <div className="w-12 h-12 mb-6 text-gray-700">
-                <Code className="w-12 h-12" />
-              </div>
-              <h3 className="text-2xl font-semibold mb-4">Core Development</h3>
-              <p className="text-gray-600 leading-relaxed">
-                We develop and maintain the core Oreon platform, including the
-                operating system, tooling, and update infrastructure.
+      <div className="theme-light bg-white">
+        {/* Professional Workflow Section */}
+        <section className="enterprise-section border-t border-black/5">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center max-w-3xl mx-auto mb-24">
+              <h2 className="text-4xl font-bold text-gray-900 mb-6 tracking-tight">Built for real people.</h2>
+              <p className="text-xl text-gray-500 font-light leading-relaxed">
+                Oreon provides a high-performance operating system designed with the user at the core. It is built for many people, from home users to global enterprises.
               </p>
             </div>
 
-            <div className="p-8 border border-gray-200 bg-white rounded-md">
-              <div className="w-12 h-12 mb-6 text-gray-700">
-                <Settings className="w-12 h-12" />
-              </div>
-              <h3 className="text-2xl font-semibold mb-4">
-                OEM Friendly by Design
-              </h3>
-              <p className="text-gray-600 leading-relaxed">
-                Oreon is designed to be shipped on real hardware. We prioritize
-                predictable behavior, stable interfaces, and clear deployment
-                paths for OEMs.
-              </p>
-            </div>
-
-            <div className="p-8 border border-gray-200 bg-white rounded-md">
-              <div className="w-12 h-12 mb-6 text-gray-700">
-                <Shield className="w-12 h-12" />
-              </div>
-              <h3 className="text-2xl font-semibold mb-4">
-                Long Term Support Without Stagnation
-              </h3>
-              <p className="text-gray-600 leading-relaxed">
-                We support Oreon releases long term, while avoiding the problem
-                of outdated software lingering forever. Release packs allow users
-                and organizations to stay on a known, supported set of packages,
-                while still receiving fixes, and upgrade on their own timeline.
-              </p>
-            </div>
-
-            <div className="p-8 border border-gray-200 bg-white rounded-md">
-              <div className="w-12 h-12 mb-6 text-gray-700">
-                <Server className="w-12 h-12" />
-              </div>
-              <h3 className="text-2xl font-semibold mb-4">Fleet Management</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Oreon Fleet Manager is designed to help deploy, manage, and
-                maintain Oreon systems at scale, from individual power users to
-                large installations.
-              </p>
-            </div>
-          </div>
-
-          <div className="p-10 border border-gray-300 bg-gray-50 rounded-md">
-            <h3 className="text-2xl font-semibold mb-4">Open Collaboration</h3>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              While most core development happens within Oreon HQ, Oreon is built
-              openly. The Oreon Open Technology Consortium contributes through
-              community involvement, spins, experiments, and targeted contributions
-              that complement core development.
-            </p>
-            <Link
-              href="/structure"
-              className="text-blue-700 font-medium"
-            >
-              Learn how responsibilities are divided →
-            </Link>
+            <FeatureCarousel />
           </div>
         </section>
 
-        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-t border-gray-200">
-          <h2 className="text-3xl font-bold mb-8 text-center">
-            Updates and Community
-          </h2>
-          <p className="text-gray-600 text-center mb-8 max-w-2xl mx-auto">
-            Development updates and announcements are shared through:
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <a
-              href="https://discord.gg/2Yyacu58Ap"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-6 py-3 border border-gray-300 bg-white text-gray-900 font-medium rounded-md hover:bg-gray-50 transition-colors"
-            >
-              Discord
-            </a>
-            <a
-              href="https://forums.oreonproject.org/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-6 py-3 border border-gray-300 bg-white text-gray-900 font-medium rounded-md hover:bg-gray-50 transition-colors"
-            >
-              Forums
-            </a>
-            <a
-              href="https://matrix.to/#/#oreonproject:matrix.org"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-6 py-3 border border-gray-300 bg-white text-gray-900 font-medium rounded-md hover:bg-gray-50 transition-colors"
-            >
-              Matrix
-            </a>
-            <a
-              href="https://github.com/oreonproject"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-6 py-3 border border-gray-300 bg-white text-gray-900 font-medium rounded-md hover:bg-gray-50 transition-colors"
-            >
-              GitHub
-            </a>
+        {/* User Experience Section */}
+        <section className="enterprise-section bg-gray-50 overflow-hidden">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-3xl">
+              <h2 className="text-4xl font-bold text-gray-900 mb-8 tracking-tight flex items-center gap-4">
+                The KDE Plasma Experience <Paintbrush className="w-8 h-8 text-[#007b56]" />
+              </h2>
+              <p className="text-gray-600 text-lg leading-relaxed mb-10 font-light">
+                Starting with Oreon 11, we have standardized on KDE Plasma. This provides a mature, easy to use, and highly customizable desktop environment that gets the job done.
+              </p>
+              <div className="grid md:grid-cols-2 gap-12">
+                {[
+                  { title: "Trusted Technology", desc: "KDE Plasma is a mature, easy to use, and highly customizable desktop environment developed by a global community of developers. Isn't that just awesome?" },
+                  { 
+                    title: "Community Driven", 
+                    desc: (
+                      <>
+                        KDE Plasma is a community-driven desktop environment that is free and open source. We recommend donating to the KDE Project to support their hard work.{" "}
+                        <a href="https://kde.org/donate/" target="_blank" rel="noopener noreferrer" className="text-[#007b56] underline">
+                          https://kde.org/donate/
+                        </a>
+                      </>
+                    )
+                  }
+                ].map((item, i) => (
+                  <div key={i} className="space-y-4">
+                    <h4 className="font-bold text-gray-900 text-xl">{item.title}</h4>
+                    <p className="text-gray-500 text-sm font-light leading-relaxed">{item.desc}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
-          <p className="text-sm text-gray-500 text-center mt-6">
-            Links available in the footer.
-          </p>
+        </section>
+
+        {/* Privacy Section */}
+        <section className="enterprise-section bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid lg:grid-cols-12 gap-16 items-center">
+              <div className="lg:col-span-5 order-2 lg:order-1">
+                <div className="grid grid-cols-2 gap-6">
+                  {[
+                    { icon: EyeOff, gradient: "from-orange-500 to-red-600" },
+                    { icon: Lock, gradient: "from-blue-600 to-cyan-500" },
+                    { icon: Terminal, gradient: "from-emerald-500 to-teal-600" },
+                    { icon: Globe, gradient: "from-rose-500 to-pink-600" }
+                  ].map((item, i) => (
+                    <div 
+                      key={i} 
+                      className={`h-48 border border-black/5 bg-gradient-to-br ${item.gradient} rounded-enterprise flex items-center justify-center transition-all`}
+                    >
+                      <item.icon className="w-20 h-20 text-white" />
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div className="lg:col-span-7 order-1 lg:order-2">
+                <h2 className="text-4xl font-bold text-gray-900 mb-8 tracking-tight">Your data is your property.</h2>
+                <p className="text-gray-600 text-lg leading-relaxed mb-8 font-light">
+                  Oreon is built from the ground up to respect digital privacy. We will never steal your data, track your usage, or force cloud-based telemetry into your OS.
+                </p>
+                <p className="text-gray-500 font-light leading-relaxed mb-10">
+                  Every connection is transparent, every background task is auditable. This makes Oreon the perfect platform for professional environments where digital privacy is mandatory.
+                </p>
+                <Link href="/legal" className="btn-link">Read our Privacy Commitment →</Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* The Oreon Project Section */}
+        <section className="enterprise-section text-white overflow-hidden relative"
+                 style={{ background: 'linear-gradient(165deg, #afe400 0%, #007b56 30%, #001457 70%, #000000 100%)' }}>
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <h2 className="text-4xl font-bold text-white mb-8 tracking-tight">The Oreon Project.</h2>
+            <p className="text-white text-lg leading-relaxed mb-12 max-w-3xl mx-auto font-light">
+              We leverage enterprise backing to better help community-led development. This this promises to keep the core OS free, open, and community-driven. Our mission is to balance professional stability with the spirit of open source.
+            </p>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <Link href="https://oreonproject.org" target="_blank" rel="noopener noreferrer" className="btn-white">
+                Visit Oreon Project →
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Fleet Manager Section - Bottom */}
+        <section className="enterprise-section bg-gray-50 border-t border-black/5">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-4xl mx-auto text-center mb-20">
+              <h2 className="text-4xl font-bold text-gray-900 mb-8 tracking-tight">Oreon Fleet Manager.</h2>
+              <p className="text-gray-600 text-lg leading-relaxed font-light">
+                Centralized control for your fleet of devices. Oreon Fleet Manager allows IT administrators to manage your entire fleet of Oreon devices from a single interface.
+              </p>
+            </div>
+            
+            <StackedFleetManager />
+          </div>
         </section>
       </div>
-    </>
+    </main>
   )
 }

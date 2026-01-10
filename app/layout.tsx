@@ -25,9 +25,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={redHatDisplay.variable}>
-      <body className="bg-white text-gray-900 antialiased font-sans">
+      <body className="antialiased font-sans bg-[#111113] text-white min-h-screen">
         <Header />
-        <main className="min-h-screen">{children}</main>
+        {children}
         <Footer />
       </body>
     </html>
