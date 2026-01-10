@@ -114,7 +114,7 @@ export default function Home() {
         <section className="enterprise-section bg-gray-50 border-t border-black/5">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto text-center mb-20">
-              <h2 className="text-4xl font-bold text-gray-900 mb-8 tracking-tight">Oreon Fleet Manager.</h2>
+              <h2 className="text-4xl font-bold text-gray-900 mb-8 tracking-tight">Oreon Fleet Manager (work in progress).</h2>
               <p className="text-gray-600 text-lg leading-relaxed font-light">
                 Centralized control for your fleet of devices. Oreon Fleet Manager allows IT administrators to manage your entire fleet of Oreon devices from a single interface.
               </p>
