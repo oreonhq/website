@@ -49,7 +49,7 @@ export default function Download() {
           <div className="max-w-3xl animate-enterprise">
             <h1 className="hero-heading text-black mb-6">Choose your Edition.</h1>
             <p className="text-xl text-gray-500 leading-relaxed font-light">
-              Oreon is available in several versions tailored for different needs. From stable long-term support to modern rolling releases.
+              Oreon is available in several versions tailored for different needs.
             </p>
           </div>
         </div>
