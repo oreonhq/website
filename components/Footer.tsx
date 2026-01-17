@@ -46,7 +46,7 @@ export default function Footer() {
             <h4 className="text-white/50 font-bold mb-8 text-xs uppercase tracking-[0.2em]">Resources</h4>
             <ul className="space-y-4">
               {[
-                { name: 'Community Forums', href: 'https://forums.oreonproject.org/' },
+                { name: 'Community Forums', href: 'https://github.com/orgs/oreonproject/discussions' },
                 { name: 'Oreon Project GitHub', href: 'https://github.com/oreonproject' },
                 { name: 'Oreon HQ GitHub', href: 'https://github.com/oreonhq' },
                 { name: 'Press & Media', href: '/press' },

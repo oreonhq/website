@@ -26,7 +26,7 @@ export default function HeroVideo() {
               Get Oreon
             </Link>
             <Link
-              href="https://forums.oreonproject.org/t/looking-ahead-to-the-new-year-2026/51"
+              href="/oreon"
               className="text-white font-medium flex items-center gap-2 hover:opacity-80 transition-opacity"
             >
               See what's planned for Oreon 11 <ArrowRight className="w-4 h-4" />

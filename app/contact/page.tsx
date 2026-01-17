@@ -72,7 +72,7 @@ export default function Contact() {
                   <div className="space-y-4">
                     {[
                       { name: 'Discord', href: 'https://discord.gg/2Yyacu58Ap' },
-                      { name: 'Forums', href: 'https://forums.oreonproject.org/' },
+                      { name: 'Forums', href: 'https://github.com/orgs/oreonproject/discussions' },
                       { name: 'Matrix', href: 'https://matrix.to/#/#oreonproject:matrix.org' },
                       { name: 'GitHub', href: 'https://github.com/oreonproject' },
                     ].map((social) => (

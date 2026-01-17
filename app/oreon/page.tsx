@@ -5,7 +5,7 @@ export default function Oreon() {
         <div className="animate-enterprise">
           <h1 className="hero-heading text-black mb-8">Oreon 11 is coming soon.</h1>
           <p className="text-xl text-gray-500 font-light leading-relaxed mb-12">
-            We are working on the final details of the next major release of Oreon. Come back in July 2026 for the release.
+            We are working on the final details of the next major release of Oreon. Check back later for more information.
           </p>
         </div>
       </section>
