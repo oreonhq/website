@@ -39,31 +39,11 @@ export default function Legal() {
                 </div>
               </section>
 
-              <div className="hr-enterprise" />
-
-              <section>
-                <h2 className="text-3xl font-bold text-gray-900 mb-8 uppercase tracking-widest text-xs">Terms of Engagement</h2>
-                <p className="text-gray-400 text-sm font-light leading-relaxed mb-8 italic">
-                  By accessing Oreon HQ infrastructure, you adhere to our professional standards of engagement.
-                </p>
-                <div className="grid md:grid-cols-2 gap-8">
-                  <div className="p-8 bg-gray-50 border border-black/5 rounded-enterprise">
-                    <h4 className="text-black font-bold text-xs uppercase tracking-widest mb-4">Usage Rights</h4>
-                    <p className="text-gray-400 text-xs font-light leading-relaxed italic">Access is granted for evaluation and professional strategic planning only. Commercial redistribution requires formal certification from the Oreon Platform Council.</p>
-                  </div>
-                  <div className="p-8 bg-gray-50 border border-black/5 rounded-enterprise">
-                    <h4 className="text-black font-bold text-xs uppercase tracking-widest mb-4">Platform Integrity</h4>
-                    <p className="text-gray-400 text-xs font-light leading-relaxed italic">Reverse engineering of proprietary certified drivers provided through official OEM channels is strictly restricted to ensure ecosystem stability.</p>
-                  </div>
-                </div>
-              </section>
-            </div>
-
             <aside className="lg:col-span-4 animate-enterprise">
               <div className="p-8 border-l border-black/5">
                 <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6 italic">Intellectual Property</h3>
                 <p className="text-xs text-gray-400 leading-relaxed font-light italic mb-8 leading-relaxed">
-                  Oreon and the Oreon HQ logo are trademarks of the lead maintainers and the Open Technology Consortium.
+                  Oreon and the Oreon HQ logo are trademarks of Oreon HQ.
                 </p>
                 <p className="text-[10px] text-gray-300 uppercase font-black tracking-[0.3em]">Authorized Strategic Use Only</p>
               </div>
