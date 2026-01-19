@@ -19,7 +19,7 @@ export default function Legal() {
           <div className="grid lg:grid-cols-12 gap-16">
             <div className="lg:col-span-8 space-y-16">
               <section>
-                <h2 className="text-3xl font-bold text-gray-900 mb-8 uppercase tracking-widest text-xs">Privacy Policy</h2>
+                <h2 className="text-xs font-bold text-gray-900 mb-8 uppercase tracking-widest">Privacy Policy</h2>
                 <div className="space-y-12">
                   {[
                     {
@@ -38,6 +38,7 @@ export default function Legal() {
                   ))}
                 </div>
               </section>
+            </div>
 
             <aside className="lg:col-span-4 animate-enterprise">
               <div className="p-8 border-l border-black/5">
