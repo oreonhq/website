@@ -47,19 +47,19 @@ export default function Contact() {
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-8 tracking-tight italic text-2xl">Connect with us regarding:</h3>
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <ul className="space-y-4">
                   {[
                     { label: "Community Support", icon: MessageCircle },
                     { label: "Support Timelines", icon: ShieldCheck },
                     { label: "OEM Partnerships", icon: Globe },
                     { label: "Installation", icon: Download }
                   ].map((item, i) => (
-                    <div key={i} className="flex flex-col items-center gap-3 text-sm font-medium text-gray-500 border border-black/5 p-6 rounded-enterprise bg-white transition-all">
-                      <item.icon className="w-5 h-5 text-[#007b56]" />
-                      <span className="text-center text-xs">{item.label}</span>
-                    </div>
+                    <li key={i} className="flex items-center gap-4 text-gray-700">
+                      <item.icon className="w-5 h-5 text-gray-400 flex-shrink-0" />
+                      <span className="font-light">{item.label}</span>
+                    </li>
                   ))}
-                </div>
+                </ul>
               </div>
             </div>
 

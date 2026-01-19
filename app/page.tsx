@@ -63,7 +63,7 @@ export default function Home() {
         <section className="enterprise-section bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-12 gap-16 items-center">
-              <div className="lg:col-span-5 order-2 lg:order-1">
+              <div className="hidden lg:grid lg:col-span-5 lg:order-1">
                 <div className="grid grid-cols-2 gap-6">
                   {[
                     { icon: EyeOff, gradient: "from-orange-500 to-red-600" },
@@ -80,7 +80,7 @@ export default function Home() {
                   ))}
                 </div>
               </div>
-              <div className="lg:col-span-7 order-1 lg:order-2">
+              <div className="lg:col-span-7 lg:order-2">
                 <h2 className="text-4xl font-bold text-gray-900 mb-8 tracking-tight">Your data is your property.</h2>
                 <p className="text-gray-600 text-lg leading-relaxed mb-8 font-light">
                   Oreon is built from the ground up to respect digital privacy. We will never steal your data, track your usage, or force cloud-based telemetry into your OS.
