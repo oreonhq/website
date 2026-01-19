@@ -25,7 +25,7 @@ export default function Footer() {
             <h4 className="text-white/50 font-bold mb-8 text-xs uppercase tracking-[0.2em]">Platform</h4>
             <ul className="space-y-4">
               {[
-                { name: 'Oreon OS', href: '/oreon' },
+                { name: 'Oreon', href: '/oreon' },
                 { name: 'Downloads', href: '/oreon/download' },
                 { name: 'Governance', href: '/structure' },
                 { name: 'About HQ', href: '/about' },

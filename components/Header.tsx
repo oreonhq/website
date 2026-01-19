@@ -14,7 +14,7 @@ export default function Header() {
       name: 'Product', 
       href: '/oreon',
       items: [
-        { name: 'Oreon OS', desc: 'Modern consumer & enterprise OS', href: '/oreon' },
+        { name: 'Oreon', desc: 'Modern consumer & enterprise OS', href: '/oreon' },
         { name: 'Fleet Manager', desc: 'Centralized node control', href: '/oreon' },
         { name: 'Editions', desc: 'Find your perfect fit', href: '/oreon/download' },
       ]
@@ -145,7 +145,7 @@ export default function Header() {
                   className="btn-white w-full justify-center"
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  Download Oreon OS
+                  Download Oreon
                 </Link>
               </div>
             </div>
