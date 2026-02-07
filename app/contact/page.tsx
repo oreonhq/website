@@ -71,9 +71,7 @@ export default function Contact() {
                   <p className="text-sm font-light mb-8 leading-relaxed">Join the Oreon community and get support in our community channels.</p>
                   <div className="space-y-4">
                     {[
-                      { name: 'Discord', href: 'https://discord.gg/2Yyacu58Ap' },
                       { name: 'Forums', href: 'https://github.com/orgs/oreonproject/discussions' },
-                      { name: 'Matrix', href: 'https://matrix.to/#/#oreonproject:matrix.org' },
                       { name: 'GitHub', href: 'https://github.com/oreonproject' },
                     ].map((social) => (
                       <a
