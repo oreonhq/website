@@ -31,8 +31,8 @@ export default function Legal() {
                       content: "Starting with Oreon 11, download metrics are aggregate and anonymized. We monitor bandwidth allocation via Cloudflare for operational capacity planning only. No individual IP addresses are permanently stored or associated with specific downloads."
                     }
                   ].map((item, i) => (
-                    <div key={i} className="group p-8 border border-black/5 bg-gray-50 rounded-enterprise hover:bg-white hover:shadow-xl transition-all">
-                      <h3 className="text-xl font-bold text-gray-900 mb-4 italic transition-colors group-hover:text-[#007b56]">{item.title}</h3>
+                    <div key={i} className="p-8 border border-black/5 bg-gray-50 rounded-enterprise">
+                      <h3 className="text-xl font-bold text-gray-900 mb-4 italic">{item.title}</h3>
                       <p className="text-gray-500 font-light leading-relaxed">{item.content}</p>
                     </div>
                   ))}
@@ -46,7 +46,6 @@ export default function Legal() {
                 <p className="text-xs text-gray-400 leading-relaxed font-light italic mb-8 leading-relaxed">
                   Oreon and the Oreon HQ logo are trademarks of Oreon HQ.
                 </p>
-                <p className="text-[10px] text-gray-300 uppercase font-black tracking-[0.3em]">Authorized Strategic Use Only</p>
               </div>
             </aside>
           </div>

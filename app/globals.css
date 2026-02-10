@@ -64,7 +64,7 @@ a {
 /* Button Classes */
 .btn-oreon-gradient {
   padding: 12px 28px;
-  background: var(--oreon-gradient);
+  background: var(--oreon-primary);
   color: white !important;
   font-weight: 600;
   font-size: 15px;
@@ -74,12 +74,11 @@ a {
   align-items: center;
   gap: 8px;
   border: none;
-  background-size: 200% auto;
   cursor: pointer;
 }
 
 .btn-oreon-gradient:hover:not(:disabled) {
-  background-position: right center;
+  background-color: #006347;
   padding-left: 48px;
   padding-right: 48px;
 }

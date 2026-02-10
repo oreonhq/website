@@ -1,9 +1,24 @@
 'use client'
 
-import { AlertTriangle, Download as DownloadIcon, ArrowRight, ShieldCheck, Copy, Check } from 'lucide-react'
+import { Megaphone, Download as DownloadIcon, ArrowRight, ShieldCheck, Copy, Check } from 'lucide-react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { useState } from 'react'
+
+// ---------------------------------------------------------------------------
+// Announcement banner (website maintainer: set to true to show, false to hide)
+// ---------------------------------------------------------------------------
+const SHOW_ANNOUNCEMENT_BANNER = true
+
+const ANNOUNCEMENT = {
+  title: 'Oreon 10 February 2026 Update (Build 2602)',
+  subtitle: 'This is a quality update build for Oreon 10.',
+  changelog: [
+    'Added support for legacy Intel Macs',
+    'Fixed several bugs'
+  ],
+  footer: 'ISOs have been updated.'
+}
 
 export default function Download() {
   const [copiedText, setCopiedText] = useState<string | null>(null)
@@ -18,13 +33,13 @@ export default function Download() {
     {
       name: "Oreon 10",
       tagline: "Our Latest and Greatest",
-      build: "2510",
+      build: "2602",
       desc: "The latest and final generation of Oreon based on AlmaLinux. Built for extreme longevity with a guaranteed 10-year support timeline for both desktop and server environments.",
       status: "Latest Release",
       color: "text-[#007b56]",
       image: "/oreon10.png",
       architectures: [
-        { label: "x86_64", note: "Intel & AMD", hash: "65d47985bcd1789845f0f5a14ad73172aef531a390e17ce742c12fcd1a0c55e2", link: "https://boostyconnect.com/download/3715/?tmstv=1745095104" },
+        { label: "x86_64", note: "Intel & AMD", hash: "ec3d4bc463739ecb832298931af296951803b0968c6d12219d25a54a5191eaff", link: "https://mirrors.oreonhq.com/Oreon-10-Core-2602-x86_64.iso" },
         { label: "aarch64", note: "ARM64", hash: "N/A", link: "https://boostyconnect.com/download/3717/?tmstv=1745095104" }
       ]
     },
@@ -34,7 +49,7 @@ export default function Download() {
       build: "2504",
       desc: "Our older stable release based on AlmaLinux 9. A field-tested, reliable experience for systems that require a proven track record.",
       status: "Older Stable",
-      color: "text-[#afe400]",
+      color: "text-[#007b56]",
       image: "/limer2.png",
       architectures: [
         { label: "x86_64", note: "Intel & AMD", hash: "78c698a2b3f4f6ebc31c3e30ea8ab9b9ba313a9d8f8a908a6796d0c9a6f60237", link: "https://boostyconnect.com/download/2331/?tmstv=1745095104" }
@@ -55,11 +70,32 @@ export default function Download() {
         </div>
       </section>
 
+      {SHOW_ANNOUNCEMENT_BANNER && (
+        <section className="bg-[#007b56] text-white border-b border-black/10 py-10">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex items-start gap-4">
+              <Megaphone className="w-8 h-8 shrink-0 mt-0.5 text-white/90" />
+              <div className="min-w-0">
+                <h2 className="text-2xl font-bold mb-2">{ANNOUNCEMENT.title}</h2>
+                <p className="text-white/90 text-lg mb-4">{ANNOUNCEMENT.subtitle}</p>
+                <p className="text-base font-medium mb-2">Changelog:</p>
+                <ul className="list-disc list-inside text-base text-white/90 space-y-1 mb-4">
+                  {ANNOUNCEMENT.changelog.map((item, i) => (
+                    <li key={i}>{item}</li>
+                  ))}
+                </ul>
+                <p className="text-base font-semibold text-white/95">{ANNOUNCEMENT.footer}</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
       <section className="enterprise-section">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="space-y-12">
-            {editions.map((edition, i) => (
-              <div key={i} className="group p-8 border border-black/5 bg-gray-50 rounded-enterprise hover:bg-white transition-all duration-300">
+        <div className="w-full space-y-12">
+          {editions.map((edition, i) => (
+            <div key={i} className="w-full px-4 sm:px-6 lg:px-8 py-8 border-y border-black/5 bg-gray-50">
+              <div className="max-w-7xl mx-auto">
                 <div className="flex flex-col lg:flex-row items-center gap-12">
                   <div className="flex-1 flex flex-col items-start">
                     <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
@@ -98,9 +134,11 @@ export default function Download() {
                   </div>
                 </div>
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
+        </div>
 
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Checksum Verification Section */}
           <div className="mt-32 border-t border-black/5 pt-24">
             <div className="max-w-4xl">
