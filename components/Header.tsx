@@ -15,8 +15,6 @@ export default function Header() {
       href: '/oreon',
       items: [
         { name: 'Oreon', desc: 'Modern consumer & enterprise OS', href: '/oreon' },
-        { name: 'Fleet Manager', desc: 'Centralized node control', href: '/oreon' },
-        { name: 'Editions', desc: 'Find your perfect fit', href: '/oreon/download' },
       ]
     },
     { 
