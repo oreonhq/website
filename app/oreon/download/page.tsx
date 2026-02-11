@@ -1,6 +1,6 @@
 'use client'
 
-import { Megaphone, Download as DownloadIcon, ArrowRight, ShieldCheck, Copy, Check } from 'lucide-react'
+import { Megaphone, Download as DownloadIcon, ArrowRight, ShieldCheck, Copy, Check, ExternalLink } from 'lucide-react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { useState } from 'react'
@@ -35,6 +35,7 @@ export default function Download() {
       tagline: "Our Latest and Greatest",
       build: "2602",
       desc: "The latest and final generation of Oreon based on AlmaLinux. Built for extreme longevity with a guaranteed 10-year support timeline for both desktop and server environments.",
+      sourceLink: "https://copr.fedorainfracloud.org/coprs/brandonlester/oreon-10/",
       status: "Latest Release",
       color: "text-[#007b56]",
       image: "/oreon10.png",
@@ -48,6 +49,7 @@ export default function Download() {
       tagline: "Legacy Stable",
       build: "2504",
       desc: "Our older stable release based on AlmaLinux 9. A field-tested, reliable experience for systems that require a proven track record.",
+      sourceLink: "https://copr.fedorainfracloud.org/coprs/brandonlester/oreon-lime-r2/",
       status: "Older Stable",
       color: "text-[#007b56]",
       image: "/limer2.png",
@@ -58,7 +60,7 @@ export default function Download() {
   ]
 
   return (
-    <div className="theme-light pt-[56px] min-h-screen bg-white">
+    <div className="download-page theme-light pt-[56px] min-h-screen bg-white">
       <section className="bg-[#f8fafc] border-b border-black/5 py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl animate-enterprise">
@@ -111,16 +113,27 @@ export default function Download() {
                     
                     <div className="flex flex-wrap gap-6">
                       {edition.architectures.map((arch, archIdx) => (
-                        <div key={archIdx} className="flex flex-col gap-3">
+                        <div key={archIdx} className="flex flex-col gap-3 w-[220px]">
                           <a 
                             href={arch.link}
-                            className="btn-oreon-gradient flex items-center gap-2"
+                            className="btn-oreon-gradient w-full justify-center flex items-center gap-2"
                           >
                             <DownloadIcon className="w-4 h-4" /> Download {arch.label}
                           </a>
                           <span className="text-xs text-gray-400 font-medium px-1 uppercase tracking-wider">{arch.note}</span>
                         </div>
                       ))}
+                      <div className="flex flex-col gap-3 w-[220px]">
+                        <a
+                          href={edition.sourceLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn-white w-full justify-center border border-black/10 flex items-center gap-2"
+                        >
+                          <ExternalLink className="w-4 h-4" /> Source code
+                        </a>
+                        <span className="text-xs text-gray-400 font-medium px-1 uppercase tracking-wider">COPR</span>
+                      </div>
                     </div>
                   </div>
                   
@@ -236,6 +249,22 @@ export default function Download() {
           </div>
         </div>
       </section>
+      <style jsx global>{`
+        .download-page .btn-oreon-gradient,
+        .download-page .btn-white {
+          transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease !important;
+        }
+
+        .download-page .btn-oreon-gradient:hover:not(:disabled),
+        .download-page .btn-white:hover:not(:disabled) {
+          padding-left: 28px;
+          padding-right: 28px;
+        }
+
+        .download-page .btn-white:hover:not(:disabled) {
+          background-color: #f3f4f6;
+        }
+      `}</style>
     </div>
   )
 }
