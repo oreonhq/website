@@ -24,7 +24,6 @@ export default function Header() {
       href: '/structure',
       items: [
         { name: 'Governance', desc: 'Strategic platform lead', href: '/structure' },
-        { name: 'Oreon Project', desc: 'Hardware partner network', href: '/structure' },
         { name: 'Open Source', desc: 'FOSS at our core', href: '/about' },
       ]
     },

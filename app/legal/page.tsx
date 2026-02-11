@@ -28,7 +28,7 @@ export default function Legal() {
                     },
                     {
                       title: "Anonymized Metrics",
-                      content: "Starting with Oreon 11, download metrics are aggregate and anonymized. We monitor bandwidth allocation via Cloudflare for operational capacity planning only. No individual IP addresses are permanently stored or associated with specific downloads."
+                      content: "Starting with Oreon 10 and Oreon Lime (R2) (Build 2602) and later, download metrics are aggregate and anonymized. We monitor bandwidth allocation via Cloudflare for operational capacity planning only. No individual IP addresses are permanently stored or associated with specific downloads."
                     }
                   ].map((item, i) => (
                     <div key={i} className="p-8 border border-black/5 bg-gray-50 rounded-enterprise">

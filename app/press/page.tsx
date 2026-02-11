@@ -1,5 +1,4 @@
-import Link from 'next/link'
-import { ArrowRight, Download, FileText } from 'lucide-react'
+import { Download, FileText } from 'lucide-react'
 
 export default function Press() {
   return (
@@ -26,7 +25,7 @@ export default function Press() {
                    <h2 className="text-2xl font-bold text-black uppercase tracking-tight italic">Our Background</h2>
                 </div>
                 <div className="space-y-8 font-light text-gray-600 leading-relaxed text-lg">
-                  <p>Oreon HQ leads the development of Oreon, focusing on long term support and enterprise deployment strategies.</p>
+                  <p>Oreon HQ leads the development of Oreon, mainly focusing on long term support and the enterprise world.</p>
                   <p>Oreon is a desktop and laptop operating system designed for the user, the community, and the enterprise.</p>
                 </div>
               </section>
@@ -44,24 +43,36 @@ export default function Press() {
 
             <aside className="lg:col-span-4 space-y-12 animate-enterprise">
               <div className="p-8 border-l border-black/5">
-                <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6">Media Kits (currently inactive)</h3>
+                <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6">Media Kits</h3>
                 <div className="space-y-6">
                    {[
-                     { label: "Branding", val: "Logos and icons" },
-                     { label: "Product Images", val: "Oreon 11 screenshots" }
+                     { label: "Product Images", val: "Oreon 10 screenshots", href: "https://sitestorage.oreonhq.com/oreon-10-screenshots.zip" },
+                     { label: "Branding", val: "Logos and icons", href: "https://sitestorage.oreonhq.com/logos.zip" },
+                     { label: "Full Press Kit", val: "Complete media package", href: "https://sitestorage.oreonhq.com/oreonmediakit.zip" }
                    ].map((item, i) => (
-                     <div key={i} className="group cursor-pointer">
-                        <div className="flex items-center justify-between mb-2">
-                           <span className="text-xs font-bold text-gray-900">{item.label}</span>
-                           <Download className="w-4 h-4 text-gray-300 group-hover:text-[#007b56] transition-colors" />
-                        </div>
-                        <p className="text-xs text-gray-400 font-light">{item.val}</p>
-                     </div>
+                     <a
+                       key={i}
+                       href={item.href}
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       className="group block"
+                     >
+                       <div className="flex items-center justify-between mb-2">
+                         <span className="text-xs font-bold text-gray-900">{item.label}</span>
+                         <Download className="w-4 h-4 text-gray-300 group-hover:text-[#007b56] transition-colors" />
+                       </div>
+                       <p className="text-xs text-gray-400 font-light">{item.val}</p>
+                     </a>
                    ))}
                 </div>
                 <div className="mt-10 pt-10 border-t border-black/5">
-                   <a href="#" className="flex items-center gap-2 text-sm font-bold text-[#007b56] hover:underline">
-                      <FileText className="w-4 h-4" /> Branding Kit (ZIP)
+                   <a
+                     href="https://sitestorage.oreonhq.com/oreonmediakit.zip"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     className="flex items-center gap-2 text-sm font-bold text-[#007b56] hover:underline"
+                   >
+                      <FileText className="w-4 h-4" /> Download Full Press Kit (ZIP)
                    </a>
                 </div>
               </div>

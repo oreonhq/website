@@ -1,5 +1,4 @@
-import Link from 'next/link'
-import { Mail, MessageCircle, ArrowRight, ShieldCheck, Download, Globe } from 'lucide-react'
+import { MessageCircle, ArrowRight, ShieldCheck, Download, Globe } from 'lucide-react'
 
 export default function Contact() {
   return (
@@ -37,7 +36,12 @@ export default function Contact() {
                       <p className="text-[10px] text-gray-400 font-bold uppercase tracking-[0.2em] mb-2">If you have an enterprise support contract with us, please use our enterprise support ticketing system to get quick official support for Oreon products.</p>
                     </div>
                     <div className="pt-4">
-                      <Link href="https://enterprise.oreonhq.com" className="btn-oreon-gradient w-fit">Visit Enterprise Portal →</Link>
+                      <a
+                        href="mailto:enterprise-support@oreonhq.com"
+                        className="text-lg font-bold text-black hover:text-[#007b56] transition-colors"
+                      >
+                        enterprise-support@oreonhq.com
+                      </a>
                     </div>
                   </div>
                 </section>
@@ -71,14 +75,14 @@ export default function Contact() {
                   <p className="text-sm font-light mb-8 leading-relaxed">Join the Oreon community and get support in our community channels.</p>
                   <div className="space-y-4">
                     {[
-                      { name: 'Forums', href: 'https://github.com/orgs/oreonproject/discussions' },
-                      { name: 'GitHub', href: 'https://github.com/oreonproject' },
+                      { name: 'Oreon HQ GitHub', href: 'https://github.com/oreonhq' },
+                      { name: 'Open Source Commitment', href: '/about' },
                     ].map((social) => (
                       <a
                         key={social.name}
                         href={social.href}
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        target={social.href.startsWith('http') ? "_blank" : undefined}
+                        rel={social.href.startsWith('http') ? "noopener noreferrer" : undefined}
                         className="flex items-center justify-between p-3 border border-white/10 rounded-lg hover:bg-white/10 transition-all text-sm font-medium"
                       >
                         {social.name}

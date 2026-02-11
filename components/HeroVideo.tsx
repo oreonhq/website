@@ -29,7 +29,7 @@ export default function HeroVideo() {
               href="/oreon"
               className="text-white font-medium flex items-center gap-2 hover:opacity-80 transition-opacity"
             >
-              See what's planned for Oreon 11 <ArrowRight className="w-4 h-4" />
+              See what's offered in Oreon 10 <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
         </div>

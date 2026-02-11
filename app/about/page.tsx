@@ -9,7 +9,7 @@ export default function About() {
           <div className="max-w-3xl">
             <h1 className="hero-heading text-black mb-6">Our Vision.</h1>
             <p className="text-xl text-gray-500 leading-relaxed font-light">
-              Oreon HQ bridges the gap between community-led development and enterprise deployment.
+              Oreon HQ bridges the gap between community-led development and the enterprise.
             </p>
           </div>
         </div>
@@ -24,7 +24,7 @@ export default function About() {
             </h2>
             
             <p className="text-gray-600 leading-relaxed mb-8 font-light">
-              We believe that open source is the future of computing. We leverage enterprise backing to fund the Oreon Project, so that FOSS development remains stable, effective, and accessible to community members and the users without taking away digital privacy.
+              We believe open source is the future of computing. Our investment in FOSS remains active through public code and upstream contributions.
             </p>
 
             <div className="h-px bg-black/5 w-full my-12" />

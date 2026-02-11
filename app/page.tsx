@@ -1,8 +1,7 @@
 import Link from 'next/link'
 import HeroVideo from '@/components/HeroVideo'
 import FeatureCarousel from '@/components/FeatureCarousel'
-import StackedFleetManager from '@/components/StackedFleetManager'
-import { Shield, Layout, Settings, Terminal, Zap, Heart, Paintbrush, Coffee, Box, EyeOff, Scale, Monitor, MousePointer2, Lock, Globe } from 'lucide-react'
+import { Terminal, Paintbrush, EyeOff, Lock, Globe } from 'lucide-react'
 
 export default function Home() {
   return (
@@ -32,7 +31,7 @@ export default function Home() {
                 The KDE Plasma Experience <Paintbrush className="w-8 h-8 text-[#007b56]" />
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed mb-10 font-light">
-                Starting with Oreon 11, we have standardized on KDE Plasma. This provides a mature, easy to use, and highly customizable desktop environment that gets the job done.
+                Starting with our next major release, we have planned to standardize on KDE Plasma. This provides a mature, easy to use, and highly customizable desktop environment that gets the job done.
               </p>
               <div className="grid md:grid-cols-2 gap-12">
                 {[
@@ -94,35 +93,19 @@ export default function Home() {
           </div>
         </section>
 
-        {/* The Oreon Project Section */}
+        {/* Open Source Commitment Section */}
         <section className="enterprise-section text-white overflow-hidden relative"
                  style={{ background: 'linear-gradient(165deg, #afe400 0%, #007b56 30%, #001457 70%, #000000 100%)' }}>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-            <h2 className="text-4xl font-bold text-white mb-8 tracking-tight">The Oreon Project (currently halted).</h2>
+            <h2 className="text-4xl font-bold text-white mb-8 tracking-tight">Open source stays at our core.</h2>
             <p className="text-white text-lg leading-relaxed mb-12 max-w-3xl mx-auto font-light">
-              We leverage enterprise backing to better help community-led development. This this promises to keep the core OS free, open, and community-driven. Our mission is to balance professional stability with the spirit of open source.
+              Our open-source commitment has not changed. We continue to publish open source code while supporting upstream communities to keep Oreon open for everyone.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Link href="https://oreonproject.org" target="_blank" rel="noopener noreferrer" className="btn-white">
-                Visit Oreon Project →
+              <Link href="/about" className="btn-white">
+                Read Our Open Source Commitment →
               </Link>
             </div>
-          </div>
-        </section>
-
-        {/* Fleet Manager Section - Bottom */}
-        <section className="enterprise-section bg-gray-50 border-t border-black/5">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="max-w-3xl mx-auto text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
-                Oreon Fleet Manager
-              </h2>
-              <p className="text-gray-600 text-lg md:text-xl leading-relaxed font-light">
-                While still work in progress, we promise a control panel for your fleet of devices.
-              </p>
-            </div>
-
-            <StackedFleetManager />
           </div>
         </section>
       </div>

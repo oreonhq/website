@@ -8,7 +8,7 @@ export default function Structure() {
           <div className="max-w-3xl">
             <h1 className="hero-heading text-black mb-8">Project Governance.</h1>
             <p className="text-xl text-gray-500 leading-relaxed font-light">
-              Oreon has two separate parts split for community and enterprise.
+              Oreon is led by a single governance team with a long-term open-source commitment.
             </p>
           </div>
         </div>
@@ -27,18 +27,16 @@ export default function Structure() {
             </div>
             <div>
               <div className="flex flex-col items-start h-full p-12 md:p-14 border border-black/5 bg-gray-50 rounded-enterprise hover:bg-white transition-all duration-300">
-                <h2 className="text-2xl font-bold text-black mb-8 tracking-tight">Oreon Project</h2>
+                <h2 className="text-2xl font-bold text-black mb-8 tracking-tight">Open Source Commitment</h2>
                 <p className="text-gray-600 text-lg leading-relaxed font-light mb-6">
-                  A community-led project partially owned by Oreon HQ that is dedicated to finding contributors and interacting with the community.
+                  We actively support open source by maintaining open development and contributing upstream.
                 </p>
-                <a
-                  href="https://oreonproject.org"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  href="/about"
                   className="btn-oreon-gradient w-fit"
                 >
-                  Visit Oreon Project →
-                </a>
+                  Read Our Open Source Approach →
+                </Link>
               </div>
             </div>
           </div>
