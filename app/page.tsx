@@ -28,21 +28,21 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl">
               <h2 className="text-4xl font-bold text-gray-900 mb-8 tracking-tight flex items-center gap-4">
-                The KDE Plasma Experience <Paintbrush className="w-8 h-8 text-[#007b56]" />
+                The GNOME Experience <Paintbrush className="w-8 h-8 text-[#007b56]" />
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed mb-10 font-light">
-                Starting with our next major release, we have planned to standardize on KDE Plasma. This provides a mature, easy to use, and highly customizable desktop environment that gets the job done.
+                Oreon is built on GNOME. This provides a mature, easy to use, and highly customizable desktop environment that gets the job done.
               </p>
               <div className="grid md:grid-cols-2 gap-12">
                 {[
-                  { title: "Trusted Technology", desc: "KDE Plasma is a mature, easy to use, and highly customizable desktop environment developed by a global community of developers. Isn't that just awesome?" },
+                  { title: "Trusted Technology", desc: "GNOME is a mature, easy to use, and fairly customizable desktop environment developed by Red Hat and the FOSS community." },
                   { 
                     title: "Community Driven", 
                     desc: (
                       <>
-                        KDE Plasma is a community-driven desktop environment that is free and open source. We recommend donating to the KDE Project to support their hard work.{" "}
-                        <a href="https://kde.org/donate/" target="_blank" rel="noopener noreferrer" className="text-[#007b56] underline">
-                          https://kde.org/donate/
+                        GNOME is a community-driven desktop environment that is free and open source. We recommend donating to GNOME to support their hard work.{" "}
+                        <a href="https://donate.gnome.org/" target="_blank" rel="noopener noreferrer" className="text-[#007b56] underline">
+                        https://donate.gnome.org/
                         </a>
                       </>
                     )
