@@ -8,7 +8,7 @@ export default function Legal() {
               Legal
             </h1>
             <p className="text-xl text-gray-500 leading-relaxed font-light">
-              Compliance, privacy protocols, and trademark information for the Oreon platform.
+              Privacy policy and other legal information for Oreon.
             </p>
           </div>
         </div>

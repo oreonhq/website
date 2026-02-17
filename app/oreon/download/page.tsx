@@ -32,9 +32,9 @@ export default function Download() {
   const editions = [
     {
       name: "Oreon 10",
-      tagline: "Our Latest and Greatest",
+      tagline: "Latest Version",
       build: "2602",
-      desc: "The latest and final generation of Oreon based on AlmaLinux. Built for extreme longevity with a guaranteed 10-year support timeline for both desktop and server environments.",
+      desc: "The latest release of Oreon based on AlmaLinux 10. This is the recommended version for most users.",
       sourceLink: "https://copr.fedorainfracloud.org/coprs/brandonlester/oreon-10/",
       status: "Latest Release",
       color: "text-[#007b56]",
@@ -46,9 +46,8 @@ export default function Download() {
     },
     {
       name: "Oreon Lime (R2)",
-      tagline: "Legacy Stable",
       build: "2504",
-      desc: "Our older stable release based on AlmaLinux 9. A field-tested, reliable experience for systems that require a proven track record.",
+      desc: "Older stable release based on AlmaLinux 9. This version still receives updates but is no longer recommended for new installations.",
       sourceLink: "https://copr.fedorainfracloud.org/coprs/brandonlester/oreon-lime-r2/",
       status: "Older Stable",
       color: "text-[#007b56]",
@@ -137,7 +136,7 @@ export default function Download() {
                     </div>
                   </div>
                   
-                  <div className="flex-1 w-full max-w-xl aspect-video relative rounded-xl overflow-hidden shadow-2xl">
+                  <div className="flex-1 w-full max-w-xl aspect-video relative rounded-xl overflow-hidden">
                     <Image 
                       src={edition.image} 
                       alt={edition.name}
@@ -235,17 +234,6 @@ export default function Download() {
                 </div>
               </div>
             </div>
-          </div>
-
-          <div className="mt-24 p-12 bg-gray-900 rounded-enterprise text-white text-center relative overflow-hidden">
-             <div className="absolute inset-0 opacity-10" style={{ background: 'var(--oreon-gradient)' }} />
-             <div className="relative z-10">
-                <h3 className="text-2xl font-bold mb-6 italic">Need a custom deployment?</h3>
-                <p className="text-white/60 mb-10 max-w-xl mx-auto font-light">Contact us for custom images, preset hardware configurations, or specific enterprise requirements.</p>
-                <Link href="/contact" className="btn-enterprise-secondary text-white border-white/20">
-                  Speak with us <ArrowRight className="w-4 h-4 ml-2" />
-                </Link>
-             </div>
           </div>
         </div>
       </section>

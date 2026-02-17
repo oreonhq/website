@@ -17,18 +17,17 @@ export default function Footer() {
               />
             </Link>
             <p className="text-white/60 text-base leading-relaxed max-w-sm font-light">
-              One OS. Built for what comes next.
+              The Stable Linux Desktop for Gaming, Building, and Getting Things Done.
             </p>
           </div>
 
           <div>
-            <h4 className="text-white/50 font-bold mb-8 text-xs uppercase tracking-[0.2em]">Platform</h4>
+            <h4 className="text-white/50 font-bold mb-8 text-xs uppercase tracking-[0.2em]">Oreon</h4>
             <ul className="space-y-4">
               {[
                 { name: 'Oreon', href: '/oreon' },
                 { name: 'Downloads', href: '/oreon/download' },
-                { name: 'Governance', href: '/structure' },
-                { name: 'About HQ', href: '/about' },
+                { name: 'About us', href: '/about' },
               ].map((link) => (
                 <li key={link.name}>
                   <Link
@@ -46,7 +45,7 @@ export default function Footer() {
             <h4 className="text-white/50 font-bold mb-8 text-xs uppercase tracking-[0.2em]">Resources</h4>
             <ul className="space-y-4">
               {[
-                { name: 'Open Source Commitment', href: '/about' },
+                { name: 'Open Source', href: '/about' },
                 { name: 'Oreon HQ GitHub', href: 'https://github.com/oreonhq' },
                 { name: 'Press & Media', href: '/press' },
                 { name: 'Legal Center', href: '/legal' },
@@ -78,7 +77,7 @@ export default function Footer() {
               Privacy & Terms
             </Link>
             <Link
-              href="/contact"
+              href="/help"
               className="text-white/40 hover:text-white text-xs font-bold uppercase tracking-[0.2em] transition-colors"
             >
               Support

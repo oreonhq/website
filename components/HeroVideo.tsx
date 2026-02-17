@@ -11,11 +11,11 @@ export default function HeroVideo() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-20">
         <div className="max-w-3xl">
           <h1 className="text-white text-5xl md:text-7xl font-bold mb-8 tracking-tight leading-tight">
-            One OS. <span className="opacity-70 font-medium">Built for what comes next.</span>
+            Modern where it matters. <span className="opacity-70 font-medium">Stable where it counts.</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-white/80 mb-12 max-w-2xl leading-relaxed font-light">
-            Oreon is the convergence of power, beauty, and privacy. Engineered for everyone, from home users to global enterprises.
+            A polished, reliable Linux experience built for everyday users.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 items-center">

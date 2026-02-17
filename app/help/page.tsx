@@ -1,4 +1,4 @@
-import { MessageCircle, ArrowRight, ShieldCheck, Download, Globe } from 'lucide-react'
+import { MessageCircle, ArrowRight, ShieldCheck, Download, Globe, HelpCircle } from 'lucide-react'
 
 export default function Contact() {
   return (
@@ -6,10 +6,7 @@ export default function Contact() {
       <section className="bg-[#f8fafc] border-b border-black/5 py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <h1 className="hero-heading text-black mb-6">Get in touch.</h1>
-            <p className="text-xl text-gray-500 leading-relaxed font-light">
-              Whether you need community support or are looking for strategic partnerships, our team is here to help.
-            </p>
+            <h1 className="hero-heading text-black mb-6">Help & Support.</h1>
           </div>
         </div>
       </section>
@@ -20,27 +17,25 @@ export default function Contact() {
             <div className="lg:col-span-8 space-y-12">
               <div className="grid md:grid-cols-2 gap-8">
                 <section className="p-8 border border-black/5 rounded-enterprise bg-gray-50">
-                  <h2 className="text-xl font-bold text-black uppercase tracking-widest text-xs mb-6">Enterprise Contact</h2>
+                  <h2 className="text-xl font-bold text-black uppercase tracking-widest text-xs mb-6">Feedback</h2>
                   <div className="space-y-8">
                     <div>
-                      <p className="text-[10px] text-gray-400 font-bold uppercase tracking-[0.2em] mb-2">Enterprise Inquiries</p>
-                      <a href="mailto:partnerships@oreonhq.com" className="text-lg font-bold text-black hover:text-[#007b56] transition-colors">enterprise@oreonhq.com</a>
+                      <a href="mailto:partnerships@oreonhq.com" className="text-lg font-bold text-black hover:text-[#007b56] transition-colors">team@oreonhq.com</a>
                     </div>
                   </div>
                 </section>
 
                 <section className="p-8 border border-black/5 rounded-enterprise bg-gray-50">
-                  <h2 className="text-xl font-bold text-black uppercase tracking-widest text-xs mb-6">Support</h2>
+                  <h2 className="text-xl font-bold text-black uppercase tracking-widest text-xs mb-6">Enterprise Support</h2>
                   <div className="space-y-8">
                     <div>
-                      <p className="text-[10px] text-gray-400 font-bold uppercase tracking-[0.2em] mb-2">If you have an enterprise support contract with us, please use our enterprise support ticketing system to get quick official support for Oreon products.</p>
                     </div>
                     <div className="pt-4">
                       <a
                         href="mailto:enterprise-support@oreonhq.com"
                         className="text-lg font-bold text-black hover:text-[#007b56] transition-colors"
                       >
-                        enterprise-support@oreonhq.com
+                        Coming soon.
                       </a>
                     </div>
                   </div>
@@ -50,13 +45,12 @@ export default function Contact() {
               <div className="hr-enterprise" />
 
               <div>
-                <h3 className="text-2xl font-bold text-black mb-8 tracking-tight italic text-2xl">Connect with us regarding:</h3>
+                <h3 className="text-2xl font-bold text-black mb-8 tracking-tight text-2xl">What we or our community can help with:</h3>
                 <ul className="space-y-4">
                   {[
-                    { label: "Community Support", icon: MessageCircle },
-                    { label: "Support Timelines", icon: ShieldCheck },
-                    { label: "OEM Partnerships", icon: Globe },
-                    { label: "Installation", icon: Download }
+                    { label: "Feedback", icon: MessageCircle },
+                    { label: "General support", icon: HelpCircle },
+                    { label: "Community events", icon: Globe }
                   ].map((item, i) => (
                     <li key={i} className="flex items-center gap-4 text-gray-700">
                       <item.icon className="w-5 h-5 text-gray-400 flex-shrink-0" />
@@ -76,7 +70,7 @@ export default function Contact() {
                   <div className="space-y-4">
                     {[
                       { name: 'Oreon HQ GitHub', href: 'https://github.com/oreonhq' },
-                      { name: 'Open Source Commitment', href: '/about' },
+                      { name: 'Discord Community', href: 'https://discord.gg/CRaPhvEYaa' },
                     ].map((social) => (
                       <a
                         key={social.name}

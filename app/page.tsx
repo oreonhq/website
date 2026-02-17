@@ -13,9 +13,9 @@ export default function Home() {
         <section className="enterprise-section border-t border-black/5">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-3xl mx-auto mb-24">
-              <h2 className="text-4xl font-bold text-gray-900 mb-6 tracking-tight">Built for real people.</h2>
+              <h2 className="text-4xl font-bold text-gray-900 mb-6 tracking-tight">Built for you.</h2>
               <p className="text-xl text-gray-500 font-light leading-relaxed">
-                Oreon provides a high-performance operating system designed with the user at the core. It is built for many people, from home users to global enterprises.
+                Oreon provides a high-performance operating system designed with the user at the core. It is built for many people, from basic users to developers.
               </p>
             </div>
 
@@ -85,7 +85,7 @@ export default function Home() {
                   Oreon is built from the ground up to respect digital privacy. We will never steal your data, track your usage, or force cloud-based telemetry into your OS.
                 </p>
                 <p className="text-gray-500 font-light leading-relaxed mb-10">
-                  Every connection is transparent, every background task is auditable. This makes Oreon the perfect platform for professional environments where digital privacy is mandatory.
+                  Every connection is transparent, every background task is auditable. This makes Oreon the perfect OS for users who value their privacy.
                 </p>
                 <Link href="/legal" className="btn-link">Read our Privacy Commitment →</Link>
               </div>
@@ -97,13 +97,13 @@ export default function Home() {
         <section className="enterprise-section text-white overflow-hidden relative"
                  style={{ background: 'linear-gradient(165deg, #afe400 0%, #007b56 30%, #001457 70%, #000000 100%)' }}>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-            <h2 className="text-4xl font-bold text-white mb-8 tracking-tight">Open source stays at our core.</h2>
+            <h2 className="text-4xl font-bold text-white mb-8 tracking-tight">Oreon is community-driven.</h2>
             <p className="text-white text-lg leading-relaxed mb-12 max-w-3xl mx-auto font-light">
-              Our open-source commitment has not changed. We continue to publish open source code while supporting upstream communities to keep Oreon open for everyone.
+              Oreon is community-driven. We promise to publish open source code and support upstream communities to keep Oreon open for everyone.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Link href="/about" className="btn-white">
-                Read Our Open Source Commitment →
+              <Link href="/help" className="btn-white">
+                Get Involved →
               </Link>
             </div>
           </div>

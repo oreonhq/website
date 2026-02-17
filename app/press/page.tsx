@@ -10,7 +10,7 @@ export default function Press() {
               Press and Media.
             </h1>
             <p className="text-xl text-gray-500 leading-relaxed font-light">
-              Media resources, press releases, and company background for journalists or content creators.
+              Media resources, press releases, and background info for journalists or content creators.
             </p>
           </div>
         </div>
@@ -22,10 +22,9 @@ export default function Press() {
             <div className="lg:col-span-8 space-y-12">
               <section className="p-12 border border-black/5 rounded-enterprise bg-gray-50">
                 <div className="flex items-center gap-3 mb-8">
-                   <h2 className="text-2xl font-bold text-black uppercase tracking-tight italic">Our Background</h2>
+                   <h2 className="text-2xl font-bold text-black tracking-tight">What is Oreon?</h2>
                 </div>
                 <div className="space-y-8 font-light text-gray-600 leading-relaxed text-lg">
-                  <p>Oreon HQ leads the development of Oreon, mainly focusing on long term support and the enterprise world.</p>
                   <p>Oreon is a desktop and laptop operating system designed for the user, the community, and the enterprise.</p>
                 </div>
               </section>
@@ -36,7 +35,7 @@ export default function Press() {
                  <div className="absolute inset-0 opacity-10" style={{ background: 'var(--oreon-gradient)' }} />
                  <div className="relative z-10">
                     <h2 className="text-3xl font-bold mb-8 italic">Press Outreach</h2>
-                    <p className="text-white/60 mb-10 font-light text-lg">For interviews, detailed explanations, or any other inquiries, please contact our CEO, Brandon Lester by emailing him at <a href="mailto:blester@oreonhq.com" className="text-[#007b56] hover:underline">blester@oreonhq.com</a>.</p>
+                    <p className="text-white/60 mb-10 font-light text-lg">For interviews, detailed explanations, or any other inquiries, please contact our Founder, Brandon Lester by emailing him at <a href="mailto:blester@oreonhq.com" className="text-[#007b56] hover:underline">blester@oreonhq.com</a>.</p>
                  </div>
               </section>
             </div>

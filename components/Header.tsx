@@ -11,18 +11,10 @@ export default function Header() {
 
   const navigation = [
     { 
-      name: 'Product', 
+      name: 'Oreon', 
       href: '/oreon',
       items: [
-        { name: 'Oreon', desc: 'Modern consumer & enterprise OS', href: '/oreon' },
-      ]
-    },
-    { 
-      name: 'Platform', 
-      href: '/structure',
-      items: [
-        { name: 'Governance', desc: 'Strategic platform lead', href: '/structure' },
-        { name: 'Open Source', desc: 'FOSS at our core', href: '/about' },
+        { name: 'Oreon', desc: 'Oreon 10', href: '/oreon' },
       ]
     },
     { 
@@ -31,11 +23,10 @@ export default function Header() {
       items: [
         { name: 'Press & Media', desc: 'Assets and news', href: '/press' },
         { name: 'Legal Center', desc: 'Compliance & terms', href: '/legal' },
-        { name: 'Enterprise Support', desc: 'Direct assistance', href: '/contact' },
+        { name: 'Help & Support', desc: 'Direct assistance', href: '/help' },
       ]
     },
     { name: 'About', href: '/about' },
-    { name: 'Contact', href: '/contact' },
   ]
 
   return (
