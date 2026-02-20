@@ -2,29 +2,31 @@
 
 import { useState, useEffect, useCallback } from 'react'
 import { Paintbrush, Zap, EyeOff, Pause, Play, ChevronLeft, ChevronRight } from 'lucide-react'
-
-const features = [
-  {
-    icon: Paintbrush,
-    title: "Familiar Workflow",
-    desc: "A familiar, beautiful desktop environment designed to avoid relearning the ropes of a new OS.",
-    color: "#007b56"
-  },
-  {
-    icon: Zap,
-    title: "Optimized Performance",
-    desc: "With a wide range of hardware support, Oreon ensures it is fully dedicated to your workload without older devices being left behind.",
-    color: "#afe400"
-  },
-  {
-    icon: EyeOff,
-    title: "Absolute Privacy",
-    desc: "Oreon will never steal your data. No telemetry, no tracking. It is built for sensitive professional environments where digital privacy is mandatory.",
-    color: "#001457"
-  }
-]
+import { useTranslations } from '@/contexts/I18nContext'
 
 export default function FeatureCarousel() {
+  const { t } = useTranslations()
+  const features = [
+    {
+      icon: Paintbrush,
+      titleKey: 'home.carousel.familiarWorkflow' as const,
+      descKey: 'home.carousel.familiarWorkflowDesc' as const,
+      color: '#007b56',
+    },
+    {
+      icon: Zap,
+      titleKey: 'home.carousel.optimizedPerformance' as const,
+      descKey: 'home.carousel.optimizedPerformanceDesc' as const,
+      color: '#afe400',
+    },
+    {
+      icon: EyeOff,
+      titleKey: 'home.carousel.absolutePrivacy' as const,
+      descKey: 'home.carousel.absolutePrivacyDesc' as const,
+      color: '#001457',
+    },
+  ]
+
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isPlaying, setIsPlaying] = useState(true)
 
@@ -94,9 +96,9 @@ export default function FeatureCarousel() {
                 <div className="w-16 h-16 bg-gray-50 border border-black/5 rounded-2xl flex items-center justify-center mb-8 shadow-sm">
                   <feature.icon className="w-8 h-8" style={{ color: feature.color }} />
                 </div>
-                <h3 className="text-3xl font-bold text-gray-900 mb-6 italic">{feature.title}</h3>
+                <h3 className="text-3xl font-bold text-gray-900 mb-6 italic">{t(feature.titleKey)}</h3>
                 <p className="text-gray-600 text-lg font-light leading-relaxed">
-                  {feature.desc}
+                  {t(feature.descKey)}
                 </p>
               </div>
             </div>
