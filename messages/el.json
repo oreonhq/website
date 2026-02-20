@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "Κεντρικά γραφεία Oreon",
+    "siteName": "Oreon HQ",
     "getOreon": "Αποκτήστε το Oreon",
     "downloadOreon": "Λήψη Oreon",
     "nav": {
@@ -201,7 +201,7 @@
     "download": "Λήψη",
     "intelAmd": "Intel & AMD",
     "arm64": "ARM64",
-    "oreonLimeR2": "Ασβέστης Oreon (R2)",
+    "oreonLimeR2": "Oreon Lime (R2)",
     "olderStable": "Παλαιότερο Σταθερό",
     "oreonLimeR2Desc": "Παλαιότερη σταθερή έκδοση βασισμένη στο AlmaLinux 9. Αυτή η έκδοση εξακολουθεί να λαμβάνει ενημερώσεις αλλά δεν συνιστάται πλέον για νέες εγκαταστάσεις.",
     "verifyDownload": "Επαληθεύστε τη λήψη σας",

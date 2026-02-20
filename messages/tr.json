@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "Oreon Genel Merkezi",
+    "siteName": "Oreon HQ",
     "getOreon": "Oreon'u Alın",
     "downloadOreon": "Oreon'u İndirin",
     "nav": {
@@ -201,7 +201,7 @@
     "download": "İndir",
     "intelAmd": "Intel ve AMD",
     "arm64": "ARM64",
-    "oreonLimeR2": "Oreon Kireç (R2)",
+    "oreonLimeR2": "Oreon Lime (R2)",
     "olderStable": "Yaşlı Ahır",
     "oreonLimeR2Desc": "AlmaLinux 9 tabanlı eski kararlı sürüm. Bu sürüm hala güncelleme alıyor ancak artık yeni kurulumlar için önerilmiyor.",
     "verifyDownload": "İndirmenizi Doğrulayın",

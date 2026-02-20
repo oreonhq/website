@@ -201,7 +201,7 @@
     "download": "Descargar",
     "intelAmd": "Intel y AMD",
     "arm64": "ARM64",
-    "oreonLimeR2": "Oreon Cal (R2)",
+    "oreonLimeR2": "Oreon Lime (R2)",
     "olderStable": "Estable de más edad",
     "oreonLimeR2Desc": "Versión estable más antigua basada en AlmaLinux 9. Esta versión sigue recibiendo actualizaciones pero ya no se recomienda para nuevas instalaciones.",
     "verifyDownload": "Verifique su descarga",

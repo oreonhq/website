@@ -1,11 +1,11 @@
 {
   "common": {
-    "siteName": "المقر الرئيسي لشركة أوريون",
+    "siteName": "Oreon HQ",
     "getOreon": "احصل على أوريون",
     "downloadOreon": "تحميل أوريون",
     "nav": {
       "oreon": "أوريون",
-      "oreon10": "أوريون 10",
+      "oreon10": "Oreon 10",
       "resources": "الموارد",
       "pressMedia": "الصحافة والإعلام",
       "pressMediaDesc": "الأصول والأخبار",
@@ -192,7 +192,7 @@
     "announcementSubtitle": "هذه بنية تحديث عالية الجودة لـ Oreon 10.",
     "changelog": "سجل التغييرات:",
     "announcementFooter": "تم تحديث ISOs.",
-    "oreon10": "أوريون 10",
+    "oreon10": "Oreon 10",
     "latestVersion": "أحدث إصدار",
     "latestRelease": "أحدث إصدار",
     "oreon10Desc": "أحدث إصدار من Oreon يعتمد على AlmaLinux 10. هذا هو الإصدار الموصى به لمعظم المستخدمين.",
@@ -201,7 +201,7 @@
     "download": "تنزيل",
     "intelAmd": "Intel & AMD",
     "arm64": "ARM64",
-    "oreonLimeR2": "أوريون لايم (R2)",
+    "oreonLimeR2": "Oreon Lime (R2)",
     "olderStable": "الإسطبلات الأقدم",
     "oreonLimeR2Desc": "إصدار مستقر أقدم يستند إلى AlmaLinux 9. لا يزال هذا الإصدار يتلقى تحديثات ولكن لم يعد موصى به للتثبيتات الجديدة.",
     "verifyDownload": "التحقق من التنزيل",

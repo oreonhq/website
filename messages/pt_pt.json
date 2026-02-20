@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "Sede da Oreon",
+    "siteName": "Oreon HQ",
     "getOreon": "Obter Oreon",
     "downloadOreon": "Descarregar o Oreon",
     "nav": {
@@ -201,7 +201,7 @@
     "download": "Descarregar",
     "intelAmd": "Intel e AMD",
     "arm64": "ARM64",
-    "oreonLimeR2": "Cal Oreon (R2)",
+    "oreonLimeR2": "Oreon Lime (R2)",
     "olderStable": "Mais velho estável",
     "oreonLimeR2Desc": "Versão estável mais antiga baseada no AlmaLinux 9. Esta versão ainda recebe actualizações mas já não é recomendada para novas instalações.",
     "verifyDownload": "Verificar a sua transferência",

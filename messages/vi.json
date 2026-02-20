@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "Trụ sở chính Oreon",
+    "siteName": "Oreon HQ",
     "getOreon": "Nhận Oreon",
     "downloadOreon": "Tải xuống Oreon",
     "nav": {
@@ -22,7 +22,7 @@
       "aboutUs": "Giới thiệu về chúng tôi",
       "resources": "Tài nguyên",
       "openSource": "Nguồn mở",
-      "oreonGitHub": "Trụ sở chính Oreon trên GitHub",
+      "oreonGitHub": "Oreon HQ GitHub",
       "pressMedia": "Báo chí & Truyền thông",
       "legalCenter": "Trung tâm Pháp lý",
       "copyright": "© {năm} Oreon HQ. Tất cả quyền được bảo lưu.",
@@ -117,7 +117,7 @@
     "communityEvents": "Sự kiện cộng đồng",
     "communityHub": "Trung tâm Cộng đồng",
     "communityHubDesc": "Hãy tham gia cộng đồng Oreon và nhận sự hỗ trợ trong các kênh cộng đồng của chúng tôi.",
-    "oreonGitHub": "Trụ sở chính Oreon trên GitHub",
+    "oreonGitHub": "Oreon HQ GitHub",
     "discordCommunity": "Cộng đồng Discord",
     "oreonWiki": "Oreon Wiki"
   },
@@ -201,7 +201,7 @@
     "download": "Tải xuống",
     "intelAmd": "Intel & AMD",
     "arm64": "ARM64",
-    "oreonLimeR2": "Oreon Chanh (R2)",
+    "oreonLimeR2": "Oreon Lime (R2)",
     "olderStable": "Phiên bản ổn định cũ",
     "oreonLimeR2Desc": "Phiên bản ổn định cũ dựa trên AlmaLinux 9. Phiên bản này vẫn nhận được các bản cập nhật nhưng không còn được khuyến nghị cho các cài đặt mới.",
     "verifyDownload": "Xác minh tải xuống của bạn",

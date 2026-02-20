@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "Siège d'Oreon",
+    "siteName": "Oreon HQ",
     "getOreon": "Obtenir Oreon",
     "downloadOreon": "Télécharger Oreon",
     "nav": {
@@ -22,7 +22,7 @@
       "aboutUs": "A propos de nous",
       "resources": "Ressources",
       "openSource": "Source ouverte",
-      "oreonGitHub": "Oreon GitHub",
+      "oreonGitHub": "Oreon HQ GitHub",
       "pressMedia": "Presse et médias",
       "legalCenter": "Centre juridique",
       "copyright": "© {year} Oreon HQ. Tous droits réservés.",
@@ -117,7 +117,7 @@
     "communityEvents": "Événements communautaires",
     "communityHub": "Centre communautaire",
     "communityHubDesc": "Rejoignez la communauté Oreon et bénéficiez d'une assistance sur nos canaux communautaires.",
-    "oreonGitHub": "Oreon GitHub",
+    "oreonGitHub": "Oreon HQ GitHub",
     "discordCommunity": "Communauté Discord",
     "oreonWiki": "Oreon Wiki"
   },

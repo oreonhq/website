@@ -52,6 +52,17 @@ const DEEPL_API =
   (process.env.DEEPL_PRO ? 'https://api.deepl.com/v2/translate' : 'https://api-free.deepl.com/v2/translate')
 const FORCE = process.env.FORCE_TRANSLATE === '1' || process.env.FORCE_TRANSLATE === 'true'
 
+// Keys whose values are brand names and must never be translated (Oreon, Oreon HQ, Oreon 10, Oreon Lime, etc.)
+const BRAND_KEYS = new Set([
+  'common.siteName',
+  'common.footer.oreonGitHub',
+  'common.nav.oreon',
+  'common.nav.oreon10',
+  'help.oreonGitHub',
+  'download.oreon10',
+  'download.oreonLimeR2',
+])
+
 function flatten(obj, prefix = '') {
   const out = []
   for (const [k, v] of Object.entries(obj)) {
@@ -59,7 +70,8 @@ function flatten(obj, prefix = '') {
     if (v !== null && typeof v === 'object' && !Array.isArray(v)) {
       out.push(...flatten(v, key))
     } else if (typeof v === 'string') {
-      const skipTranslate = v.startsWith('http://') || v.startsWith('https://')
+      const skipTranslate =
+        v.startsWith('http://') || v.startsWith('https://') || BRAND_KEYS.has(key)
       out.push({ key, value: v, skipTranslate })
     }
   }

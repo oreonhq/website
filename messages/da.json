@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "Oreons hovedkvarter",
+    "siteName": "Oreon HQ",
     "getOreon": "Få Oreon",
     "downloadOreon": "Download Oreon",
     "nav": {
@@ -201,7 +201,7 @@
     "download": "Download",
     "intelAmd": "Intel og AMD",
     "arm64": "ARM64",
-    "oreonLimeR2": "Oreon Kalk (R2)",
+    "oreonLimeR2": "Oreon Lime (R2)",
     "olderStable": "Ældre stabil",
     "oreonLimeR2Desc": "Ældre stabil udgave baseret på AlmaLinux 9. Denne version modtager stadig opdateringer, men anbefales ikke længere til nye installationer.",
     "verifyDownload": "Bekræft din download",

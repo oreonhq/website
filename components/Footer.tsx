@@ -87,6 +87,9 @@ export default function Footer() {
           </div>
         </div>
 
+        <p className="mt-16 text-white/40 text-sm font-light max-w-2xl">
+          Translations are machine-assisted and community-reviewed. Help improve Oreon in your language.
+        </p>
         <div className="mt-24 pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
           <p className="text-white/40 text-xs font-bold uppercase tracking-[0.2em]">
             {t('common.footer.copyright', { year: new Date().getFullYear() })}

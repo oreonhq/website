@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "Щаб на Oreon",
+    "siteName": "Oreon HQ",
     "getOreon": "Вземете Oreon",
     "downloadOreon": "Изтегляне на Oreon",
     "nav": {
@@ -22,7 +22,7 @@
       "aboutUs": "За нас",
       "resources": "Ресурси",
       "openSource": "Отворен код",
-      "oreonGitHub": "Щаб на Oreon GitHub",
+      "oreonGitHub": "Oreon HQ GitHub",
       "pressMedia": "Преса и медии",
       "legalCenter": "Правен център",
       "copyright": "© {година} Oreon HQ. Всички права запазени.",
@@ -117,7 +117,7 @@
     "communityEvents": "Събития в Общността",
     "communityHub": "Общностен център",
     "communityHubDesc": "Присъединете се към общността на Oreon и получете подкрепа в каналите на общността.",
-    "oreonGitHub": "Щаб на Oreon GitHub",
+    "oreonGitHub": "Oreon HQ GitHub",
     "discordCommunity": "Общност Discord",
     "oreonWiki": "Oreon Wiki"
   },

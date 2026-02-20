@@ -201,7 +201,7 @@
     "download": "Letöltés",
     "intelAmd": "Intel és AMD",
     "arm64": "ARM64",
-    "oreonLimeR2": "Oreon Mész (R2)",
+    "oreonLimeR2": "Oreon Lime (R2)",
     "olderStable": "Régebbi stabil",
     "oreonLimeR2Desc": "Régebbi stabil kiadás, amely az AlmaLinux 9-en alapul. Ez a verzió még mindig kap frissítéseket, de új telepítésekhez már nem ajánlott.",
     "verifyDownload": "Ellenőrizze a letöltést",
