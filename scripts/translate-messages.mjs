@@ -144,11 +144,33 @@ async function translateLocale(flatEntries, targetLang, authKey, keysToTranslate
     const texts = batch.map((e) => e.value)
     const result = await translateBatch(texts, targetLang, authKey)
     for (let j = 0; j < batch.length; j++) {
-      translated.set(batch[j].key, result[j])
+      translated.set(batch[j].key, fixBrandMistranslations(result[j]))
     }
     await new Promise((r) => setTimeout(r, BATCH_DELAY_MS))
   }
   return Array.from(translated.entries(), ([key, value]) => ({ key, value: value ?? '' }))
+}
+
+// Replace known mistranslations of Oreon/Lime with Latin brand names
+const OREON_MISTRANSLATIONS = [
+  ['オレゴン', 'Oreon'], // Japanese Oregon (wrong)
+  ['オレオン', 'Oreon'], // Japanese katakana
+  ['奥利昂', 'Oreon'], // Chinese
+  ['奧利昂', 'Oreon'], // Traditional Chinese
+  ['오레온', 'Oreon'], // Korean
+  ['ओरियन', 'Oreon'], // Hindi
+  ['Ореон', 'Oreon'], // Cyrillic
+  ['ореон', 'Oreon'], // Cyrillic lowercase
+  ['أوريون', 'Oreon'], // Arabic
+  ['โอเรียน', 'Oreon'], // Thai
+]
+function fixBrandMistranslations(s) {
+  if (typeof s !== 'string') return s
+  let out = s
+  for (const [wrong, correct] of OREON_MISTRANSLATIONS) {
+    out = out.split(wrong).join(correct)
+  }
+  return out
 }
 
 function buildNested(entries) {

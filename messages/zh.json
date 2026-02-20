@@ -4,7 +4,7 @@
     "getOreon": "获取 Oreon",
     "downloadOreon": "下载 Oreon",
     "nav": {
-      "oreon": "奥利昂",
+      "oreon": "Oreon",
       "oreon10": "Oreon 10",
       "resources": "资源",
       "pressMedia": "新闻与媒体",
@@ -17,7 +17,7 @@
     },
     "footer": {
       "tagline": "基于可信技术的全球支持 Linux",
-      "oreon": "奥利昂",
+      "oreon": "Oreon",
       "downloads": "下载",
       "aboutUs": "关于我们",
       "resources": "资源",
@@ -146,7 +146,7 @@
     "anonymizedMetrics": "匿名指标",
     "anonymizedMetricsContent": "从 Oreon 10 和 Oreon Lime (R2) (Build 2602) 及更高版本开始，下载指标将进行汇总和匿名化。我们通过 Cloudflare 监控带宽分配，仅用于业务容量规划。不会永久保存单个 IP 地址，也不会将其与特定下载相关联。",
     "termsOfService": "服务条款",
-    "useOfOreon": "奥利昂的使用",
+    "useOfOreon": "Oreon的使用",
     "useOfOreonContent": "下载、安装或使用 Oreon 即表示您同意这些条款。Oreon 是免费开源软件。您可以将其用于任何目的（个人、教育或商业），无需支付版税或请求许可。您可以根据 Oreon 所含软件的许可证和以下条款共享、修改和重新发布 Oreon。",
     "enterpriseOfferings": "企业和商业产品",
     "enterpriseOfferingsContent": "Oreon 总部可能为企业客户提供 Oreon 操作系统之外的特定组件，包括根据单独的商业条款提供。此类产品不会改变开源 Oreon 操作系统本身的许可或可用性。",
@@ -163,7 +163,7 @@
     "footerTrademark": "Oreon 和 Oreon 徽标是 Oreon HQ 的商标。"
   },
   "oreon": {
-    "heroTitle": "奥利昂 10",
+    "heroTitle": "Oreon 10",
     "heroSubtitle": "Oreon 10 是一款稳定、易用的桌面操作系统，适合希望有更友好的 RHEL® 替代品的用户。",
     "downloadPage": "下载页面",
     "wallpaperAlt": "Oreon 10 壁纸背景",
@@ -172,7 +172,7 @@
     "atAGlance1": "基于 AlmaLinux 10 构建，为您提供企业级稳定基础，长期支持至 2035 年。",
     "atAGlance2": "使用经我们改进的 GNOME 布局，让从 Windows 或 macOS 迁移过来的用户感觉熟悉，无需进行大量定制。如果你愿意，还可以根据自己的喜好进行定制。",
     "atAGlance3": "安全生命周期计划从 2024 年 12 月 12 日开始的发布日期到 2035 年的 EOS 窗口，适用于希望在整个生命周期内使用同一操作系统的用户。这意味着您可以确保您的系统在很长一段时间内都不会出现安全漏洞。",
-    "whatOreon10Is": "奥利昂 10 究竟是什么",
+    "whatOreon10Is": "Oreon 10 究竟是什么",
     "whatOreon10Is1": "基于 AlmaLinux 10，上游基础稳定。",
     "whatOreon10Is2": "使用由我们设计的 GNOME 布局，以减少来自其他操作系统的用户的学习曲线。",
     "whatOreon10Is3": "设计时首先考虑日常可用性，而不是美观性。",
@@ -189,7 +189,7 @@
     "title": "选择您的版本。",
     "subtitle": "Oreon 有多个版本，可满足不同需求。",
     "announcementTitle": "Oreon 10 2026 年 2 月更新（构建版 2602）",
-    "announcementSubtitle": "这是为奥利昂 10 打造的高质量更新。",
+    "announcementSubtitle": "这是为Oreon 10 打造的高质量更新。",
     "changelog": "更新日志",
     "announcementFooter": "ISO 已更新。",
     "oreon10": "Oreon 10",
