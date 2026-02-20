@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import { LOCALE_CODES } from '@/lib/i18n/config'
+
+export const runtime = 'edge'
 import { getMessages } from '@/lib/i18n/get-messages'
 import { I18nProvider } from '@/contexts/I18nContext'
 import Header from '@/components/Header'
