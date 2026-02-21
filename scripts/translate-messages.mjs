@@ -59,6 +59,7 @@ const BRAND_KEYS = new Set([
   'common.nav.oreon',
   'common.nav.oreon10',
   'help.oreonGitHub',
+  'help.oreonCommunityForum',
   'download.oreon10',
   'download.oreonLimeR2',
 ])
