@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import { useTranslations } from '@/contexts/I18nContext'
 import LocaleLink from './LocaleLink'
+import DonateButton from './DonateButton'
 
 export default function Footer() {
   const { t } = useTranslations()
@@ -94,7 +95,8 @@ export default function Footer() {
           <p className="text-white/40 text-xs font-bold uppercase tracking-[0.2em]">
             {t('common.footer.copyright', { year: new Date().getFullYear() })}
           </p>
-          <div className="flex space-x-12">
+          <div className="flex flex-wrap items-center justify-center md:justify-end gap-6 md:gap-12">
+            <DonateButton variant="footer" />
             <LocaleLink
               href="/legal"
               className="text-white/40 hover:text-white text-xs font-bold uppercase tracking-[0.2em] transition-colors"

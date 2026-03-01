@@ -123,6 +123,16 @@ export default async function Home({
               <LocaleLink href="/help" className="btn-white">
                 {t('home.community.getInvolved')}
               </LocaleLink>
+              {(locale === 'en_us' || locale === 'en_gb') && (
+                <a
+                  href="https://buy.stripe.com/00g4gkgH34qc4eI288"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-white"
+                >
+                  Donate →
+                </a>
+              )}
             </div>
           </div>
         </section>

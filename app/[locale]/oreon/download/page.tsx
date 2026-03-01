@@ -5,12 +5,41 @@ import Image from 'next/image'
 import { useState } from 'react'
 import { useTranslations } from '@/contexts/I18nContext'
 import LocaleLink from '@/components/LocaleLink'
+import { DONATE_URL } from '@/components/DonateButton'
 
 const SHOW_ANNOUNCEMENT_BANNER = true
+const ENGLISH_LOCALES = ['en_us', 'en_gb']
 
 export default function Download() {
-  const { t } = useTranslations()
+  const { t, locale } = useTranslations()
   const [copiedText, setCopiedText] = useState<string | null>(null)
+  const [donateModalOpen, setDonateModalOpen] = useState(false)
+  const [pendingDownloadUrl, setPendingDownloadUrl] = useState<string | null>(null)
+  const isEnglish = ENGLISH_LOCALES.includes(locale)
+
+  const handleIsoClick = (e: React.MouseEvent, url: string) => {
+    if (!isEnglish) return
+    e.preventDefault()
+    setPendingDownloadUrl(url)
+    setDonateModalOpen(true)
+  }
+
+  const closeModalAndDownload = () => {
+    if (pendingDownloadUrl) {
+      window.location.href = pendingDownloadUrl
+      setPendingDownloadUrl(null)
+    }
+    setDonateModalOpen(false)
+  }
+
+  const handleDonateYes = () => {
+    if (pendingDownloadUrl) {
+      window.open(DONATE_URL, '_blank', 'noopener,noreferrer')
+      window.location.href = pendingDownloadUrl
+      setPendingDownloadUrl(null)
+    }
+    setDonateModalOpen(false)
+  }
 
   const copyToClipboard = (text: string) => {
     navigator.clipboard.writeText(text)
@@ -101,9 +130,19 @@ export default function Download() {
                     <div className="flex flex-wrap gap-6">
                       {edition.architectures.map((arch, archIdx) => (
                         <div key={archIdx} className="flex flex-col gap-3 w-[220px]">
-                          <a href={arch.link} className="btn-oreon-gradient w-full justify-center flex items-center gap-2">
-                            <DownloadIcon className="w-4 h-4" /> {t('download.download')} {arch.label}
-                          </a>
+                          {isEnglish ? (
+                            <button
+                              type="button"
+                              onClick={(e) => handleIsoClick(e, arch.link)}
+                              className="btn-oreon-gradient w-full justify-center flex items-center gap-2"
+                            >
+                              <DownloadIcon className="w-4 h-4" /> {t('download.download')} {arch.label}
+                            </button>
+                          ) : (
+                            <a href={arch.link} className="btn-oreon-gradient w-full justify-center flex items-center gap-2">
+                              <DownloadIcon className="w-4 h-4" /> {t('download.download')} {arch.label}
+                            </a>
+                          )}
                           <span className="text-xs text-gray-400 font-medium px-1 uppercase tracking-wider">{t(arch.noteKey)}</span>
                         </div>
                       ))}
@@ -214,6 +253,32 @@ export default function Download() {
           </div>
         </div>
       </section>
+
+      {donateModalOpen && isEnglish && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50" role="dialog" aria-modal="true" aria-labelledby="donate-modal-title">
+          <div className="bg-white rounded-xl shadow-xl max-w-md w-full p-6 border border-black/10">
+            <h2 id="donate-modal-title" className="text-lg font-bold text-gray-900 mb-2">Would you like to donate?</h2>
+            <p className="text-gray-600 text-sm mb-6">Support Oreon open source development with a one-time donation.</p>
+            <div className="flex gap-3">
+              <button
+                type="button"
+                onClick={handleDonateYes}
+                className="flex-1 min-w-0 btn-oreon-gradient py-2.5 px-5 text-sm font-medium rounded-lg"
+              >
+                Yes
+              </button>
+              <button
+                type="button"
+                onClick={closeModalAndDownload}
+                className="flex-1 min-w-0 py-2.5 px-5 text-sm font-medium text-gray-600 hover:text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
+              >
+                No thanks
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       <style jsx global>{`
         .download-page .btn-oreon-gradient,
         .download-page .btn-white {
