@@ -189,8 +189,8 @@
   "download": {
     "title": "Alege-ți ediția.",
     "subtitle": "Oreon este disponibil în mai multe versiuni adaptate diferitelor nevoi.",
-    "announcementTitle": "Oreon 10 februarie 2026 Actualizare (Build 2602)",
-    "announcementSubtitle": "Aceasta este o actualizare de calitate construită pentru Oreon 10.",
+    "announcementTitle": "Oreon 10 March 2026 Update (Build 2603)",
+    "announcementSubtitle": "This is a major feature update for Oreon 10.",
     "changelog": "Changelog:",
     "announcementFooter": "ISO-urile au fost actualizate.",
     "oreon10": "Oreon 10",
@@ -214,7 +214,14 @@
     "runCommandTerminal": "Rulați această comandă în terminal:",
     "windowsPowerShell": "Windows PowerShell",
     "runCommandPowerShell": "Rulați această comandă în PowerShell:",
-    "announcementChangelog1": "Suport adăugat pentru Mac-urile Intel vechi",
-    "announcementChangelog2": "Fixarea mai multor erori"
+    "announcementChangelog1": "Replaced Anaconda with Centrio Installer (custom installer)",
+    "announcementChangelog2": "Added NVIDIA driver detection and optional automatic installation during OS setup",
+    "announcementChangelog3": "Added default web browser selection during installation with several web browser options",
+    "announcementChangelog4": "Enabled Flatpak by default with option to disable during installation",
+    "announcementChangelog5": "Added selectable installation bundles for office work, development, gaming, and more",
+    "announcementChangelog6": "Added OEM configuration section in installer for pre-shipped repositories and packages",
+    "announcementChangelog7": "Switched default filesystem from XFS to Btrfs with system rollback support (other fs options available during OS setup)",
+    "announcementChangelog8": "Updated system branding and logos with cleaner, properly sized assets",
+    "announcementChangelog9": "Switched to systemd-resolved for DNS management"
   }
 }

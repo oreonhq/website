@@ -189,8 +189,8 @@
   "download": {
     "title": "Vælg din udgave.",
     "subtitle": "Oreon fås i flere versioner, der er skræddersyet til forskellige behov.",
-    "announcementTitle": "Oreon 10 februar 2026 opdatering (Build 2602)",
-    "announcementSubtitle": "Dette er en kvalitetsopdatering til Oreon 10.",
+    "announcementTitle": "Oreon 10 March 2026 Update (Build 2603)",
+    "announcementSubtitle": "This is a major feature update for Oreon 10.",
     "changelog": "Changelog:",
     "announcementFooter": "ISO'erne er blevet opdateret.",
     "oreon10": "Oreon 10",
@@ -214,7 +214,14 @@
     "runCommandTerminal": "Kør denne kommando i din terminal:",
     "windowsPowerShell": "Windows PowerShell",
     "runCommandPowerShell": "Kør denne kommando i PowerShell:",
-    "announcementChangelog1": "Tilføjet understøttelse af ældre Intel-Macs",
-    "announcementChangelog2": "Rettet flere fejl"
+    "announcementChangelog1": "Replaced Anaconda with Centrio Installer (custom installer)",
+    "announcementChangelog2": "Added NVIDIA driver detection and optional automatic installation during OS setup",
+    "announcementChangelog3": "Added default web browser selection during installation with several web browser options",
+    "announcementChangelog4": "Enabled Flatpak by default with option to disable during installation",
+    "announcementChangelog5": "Added selectable installation bundles for office work, development, gaming, and more",
+    "announcementChangelog6": "Added OEM configuration section in installer for pre-shipped repositories and packages",
+    "announcementChangelog7": "Switched default filesystem from XFS to Btrfs with system rollback support (other fs options available during OS setup)",
+    "announcementChangelog8": "Updated system branding and logos with cleaner, properly sized assets",
+    "announcementChangelog9": "Switched to systemd-resolved for DNS management"
   }
 }

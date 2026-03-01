@@ -189,8 +189,8 @@
   "download": {
     "title": "เลือกฉบับของคุณ",
     "subtitle": "Oreon มีให้เลือกหลายรุ่นที่ออกแบบมาเพื่อตอบสนองความต้องการที่แตกต่างกัน",
-    "announcementTitle": "Oreon อัปเดต 10 กุมภาพันธ์ 2026 (บิลด์ 2602)",
-    "announcementSubtitle": "นี่คือการอัปเดตคุณภาพสำหรับ Oreon 10",
+    "announcementTitle": "Oreon 10 March 2026 Update (Build 2603)",
+    "announcementSubtitle": "This is a major feature update for Oreon 10.",
     "changelog": "บันทึกการเปลี่ยนแปลง:",
     "announcementFooter": "ISO ได้รับการอัปเดตแล้ว",
     "oreon10": "Oreon 10",
@@ -214,7 +214,14 @@
     "runCommandTerminal": "รันคำสั่งนี้ในเทอร์มินัลของคุณ:",
     "windowsPowerShell": "Windows PowerShell",
     "runCommandPowerShell": "รันคำสั่งนี้ใน PowerShell:",
-    "announcementChangelog1": "เพิ่มการรองรับสำหรับ Mac รุ่นเก่าที่ใช้ Intel",
-    "announcementChangelog2": "แก้ไขข้อบกพร่องหลายรายการ"
+    "announcementChangelog1": "Replaced Anaconda with Centrio Installer (custom installer)",
+    "announcementChangelog2": "Added NVIDIA driver detection and optional automatic installation during OS setup",
+    "announcementChangelog3": "Added default web browser selection during installation with several web browser options",
+    "announcementChangelog4": "Enabled Flatpak by default with option to disable during installation",
+    "announcementChangelog5": "Added selectable installation bundles for office work, development, gaming, and more",
+    "announcementChangelog6": "Added OEM configuration section in installer for pre-shipped repositories and packages",
+    "announcementChangelog7": "Switched default filesystem from XFS to Btrfs with system rollback support (other fs options available during OS setup)",
+    "announcementChangelog8": "Updated system branding and logos with cleaner, properly sized assets",
+    "announcementChangelog9": "Switched to systemd-resolved for DNS management"
   }
 }

@@ -189,8 +189,8 @@
   "download": {
     "title": "Sürümünüzü seçin.",
     "subtitle": "Oreon'un farklı ihtiyaçlara göre uyarlanmış çeşitli versiyonları mevcuttur.",
-    "announcementTitle": "Oreon 10 Şubat 2026 Güncellemesi (Yapı 2602)",
-    "announcementSubtitle": "Bu, Oreon 10 için oluşturulmuş kaliteli bir güncellemedir.",
+    "announcementTitle": "Oreon 10 March 2026 Update (Build 2603)",
+    "announcementSubtitle": "This is a major feature update for Oreon 10.",
     "changelog": "Değişiklik günlüğü:",
     "announcementFooter": "ISO'lar güncellendi.",
     "oreon10": "Oreon 10",
@@ -214,7 +214,14 @@
     "runCommandTerminal": "Bu komutu terminalinizde çalıştırın:",
     "windowsPowerShell": "Windows PowerShell",
     "runCommandPowerShell": "Bu komutu PowerShell'de çalıştırın:",
-    "announcementChangelog1": "Eski Intel Mac'ler için destek eklendi",
-    "announcementChangelog2": "Birkaç hata düzeltildi"
+    "announcementChangelog1": "Replaced Anaconda with Centrio Installer (custom installer)",
+    "announcementChangelog2": "Added NVIDIA driver detection and optional automatic installation during OS setup",
+    "announcementChangelog3": "Added default web browser selection during installation with several web browser options",
+    "announcementChangelog4": "Enabled Flatpak by default with option to disable during installation",
+    "announcementChangelog5": "Added selectable installation bundles for office work, development, gaming, and more",
+    "announcementChangelog6": "Added OEM configuration section in installer for pre-shipped repositories and packages",
+    "announcementChangelog7": "Switched default filesystem from XFS to Btrfs with system rollback support (other fs options available during OS setup)",
+    "announcementChangelog8": "Updated system branding and logos with cleaner, properly sized assets",
+    "announcementChangelog9": "Switched to systemd-resolved for DNS management"
   }
 }

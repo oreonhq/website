@@ -189,8 +189,8 @@
   "download": {
     "title": "अपना संस्करण चुनें।",
     "subtitle": "Oreon विभिन्न आवश्यकताओं के अनुरूप कई संस्करणों में उपलब्ध है।",
-    "announcementTitle": "Oreon 10 फरवरी 2026 अपडेट (बिल्ड 2602)",
-    "announcementSubtitle": "यह Oreon 10 के लिए एक गुणवत्ता अपडेट बिल्ड है।",
+    "announcementTitle": "Oreon 10 March 2026 Update (Build 2603)",
+    "announcementSubtitle": "This is a major feature update for Oreon 10.",
     "changelog": "परिवर्तन-लेख:",
     "announcementFooter": "आईएसओ अपडेट किए गए हैं।",
     "oreon10": "Oreon 10",
@@ -214,7 +214,14 @@
     "runCommandTerminal": "अपने टर्मिनल में यह कमांड चलाएँ:",
     "windowsPowerShell": "विंडोज़ पावरशेल",
     "runCommandPowerShell": "PowerShell में यह कमांड चलाएँ:",
-    "announcementChangelog1": "पुराने Intel Macs के लिए समर्थन जोड़ा गया।",
-    "announcementChangelog2": "कई बग्स ठीक किए गए"
+    "announcementChangelog1": "Replaced Anaconda with Centrio Installer (custom installer)",
+    "announcementChangelog2": "Added NVIDIA driver detection and optional automatic installation during OS setup",
+    "announcementChangelog3": "Added default web browser selection during installation with several web browser options",
+    "announcementChangelog4": "Enabled Flatpak by default with option to disable during installation",
+    "announcementChangelog5": "Added selectable installation bundles for office work, development, gaming, and more",
+    "announcementChangelog6": "Added OEM configuration section in installer for pre-shipped repositories and packages",
+    "announcementChangelog7": "Switched default filesystem from XFS to Btrfs with system rollback support (other fs options available during OS setup)",
+    "announcementChangelog8": "Updated system branding and logos with cleaner, properly sized assets",
+    "announcementChangelog9": "Switched to systemd-resolved for DNS management"
   }
 }

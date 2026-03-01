@@ -22,15 +22,15 @@ export default function Download() {
     {
       nameKey: 'download.oreon10' as const,
       taglineKey: 'download.latestVersion' as const,
-      build: '2602',
+      build: '2603',
       descKey: 'download.oreon10Desc' as const,
       sourceLink: 'https://copr.fedorainfracloud.org/coprs/brandonlester/oreon-10/',
       statusKey: 'download.latestRelease' as const,
       color: 'text-[#007b56]',
       image: '/oreon10.png',
       architectures: [
-        { label: 'x86_64', noteKey: 'download.intelAmd' as const, hash: 'ec3d4bc463739ecb832298931af296951803b0968c6d12219d25a54a5191eaff', link: 'https://mirrors.oreonhq.com/Oreon-10-Core-2602-x86_64.iso' },
-        { label: 'aarch64', noteKey: 'download.arm64' as const, hash: 'N/A', link: 'https://boostyconnect.com/download/3717/?tmstv=1745095104' },
+        { label: 'x86_64', noteKey: 'download.intelAmd' as const, hash: '2534e84405decf55c75c872077d9729a5ff9cbd3438b329a1ef1aff2d10f4381', link: 'https://mirrors.oreonhq.com/Oreon-10-2603-x86_64.iso' },
+        { label: 'aarch64', noteKey: 'download.arm64' as const, hash: '6f685f9488baede70dc5568aa39558626904b4aeea7b30eb4ff409758743eb6d', link: 'https://mirrors.oreonhq.com/Oreon-10-2603-aarch64.iso' },
       ],
     },
     {
@@ -69,8 +69,11 @@ export default function Download() {
                 <p className="text-white/90 text-lg mb-4">{t('download.announcementSubtitle')}</p>
                 <p className="text-base font-medium mb-2">{t('download.changelog')}</p>
                 <ul className="list-disc list-inside text-base text-white/90 space-y-1 mb-4">
-                  <li>{t('download.announcementChangelog1')}</li>
-                  <li>{t('download.announcementChangelog2')}</li>
+                  {([1, 2, 3, 4, 5, 6, 7, 8, 9] as const).map((n) => {
+                    const key = `download.announcementChangelog${n}` as const
+                    const text = t(key)
+                    return text === key ? null : <li key={n}>{text}</li>
+                  })}
                 </ul>
                 <p className="text-base font-semibold text-white/95">{t('download.announcementFooter')}</p>
               </div>

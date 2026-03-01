@@ -189,8 +189,8 @@
   "download": {
     "title": "Виберіть свою версію.",
     "subtitle": "Oreon доступний у кількох версіях, пристосованих для різних потреб.",
-    "announcementTitle": "Оновлення Oreon від 10 лютого 2026 року (збірка 2602)",
-    "announcementSubtitle": "Це якісна збірка оновлення для Oreon 10.",
+    "announcementTitle": "Oreon 10 March 2026 Update (Build 2603)",
+    "announcementSubtitle": "This is a major feature update for Oreon 10.",
     "changelog": "Журнал змін:",
     "announcementFooter": "Оновлені стандарти ISO.",
     "oreon10": "Oreon 10",
@@ -214,7 +214,14 @@
     "runCommandTerminal": "Запустіть цю команду у вашому терміналі:",
     "windowsPowerShell": "Windows PowerShell",
     "runCommandPowerShell": "Запустіть цю команду в PowerShell:",
-    "announcementChangelog1": "Додано підтримку застарілих комп'ютерів Intel Mac",
-    "announcementChangelog2": "Виправлено кілька помилок"
+    "announcementChangelog1": "Replaced Anaconda with Centrio Installer (custom installer)",
+    "announcementChangelog2": "Added NVIDIA driver detection and optional automatic installation during OS setup",
+    "announcementChangelog3": "Added default web browser selection during installation with several web browser options",
+    "announcementChangelog4": "Enabled Flatpak by default with option to disable during installation",
+    "announcementChangelog5": "Added selectable installation bundles for office work, development, gaming, and more",
+    "announcementChangelog6": "Added OEM configuration section in installer for pre-shipped repositories and packages",
+    "announcementChangelog7": "Switched default filesystem from XFS to Btrfs with system rollback support (other fs options available during OS setup)",
+    "announcementChangelog8": "Updated system branding and logos with cleaner, properly sized assets",
+    "announcementChangelog9": "Switched to systemd-resolved for DNS management"
   }
 }

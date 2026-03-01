@@ -189,8 +189,8 @@
   "download": {
     "title": "选择您的版本。",
     "subtitle": "Oreon 有多个版本，可满足不同需求。",
-    "announcementTitle": "Oreon 10 2026 年 2 月更新（构建版 2602）",
-    "announcementSubtitle": "这是为Oreon 10 打造的高质量更新。",
+    "announcementTitle": "Oreon 10 March 2026 Update (Build 2603)",
+    "announcementSubtitle": "This is a major feature update for Oreon 10.",
     "changelog": "更新日志",
     "announcementFooter": "ISO 已更新。",
     "oreon10": "Oreon 10",
@@ -214,7 +214,14 @@
     "runCommandTerminal": "在终端中运行此命令：",
     "windowsPowerShell": "Windows PowerShell",
     "runCommandPowerShell": "在 PowerShell 中运行此命令：",
-    "announcementChangelog1": "新增对传统英特尔 Mac 的支持",
-    "announcementChangelog2": "修复了多个错误"
+    "announcementChangelog1": "Replaced Anaconda with Centrio Installer (custom installer)",
+    "announcementChangelog2": "Added NVIDIA driver detection and optional automatic installation during OS setup",
+    "announcementChangelog3": "Added default web browser selection during installation with several web browser options",
+    "announcementChangelog4": "Enabled Flatpak by default with option to disable during installation",
+    "announcementChangelog5": "Added selectable installation bundles for office work, development, gaming, and more",
+    "announcementChangelog6": "Added OEM configuration section in installer for pre-shipped repositories and packages",
+    "announcementChangelog7": "Switched default filesystem from XFS to Btrfs with system rollback support (other fs options available during OS setup)",
+    "announcementChangelog8": "Updated system branding and logos with cleaner, properly sized assets",
+    "announcementChangelog9": "Switched to systemd-resolved for DNS management"
   }
 }

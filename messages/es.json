@@ -189,8 +189,8 @@
   "download": {
     "title": "Elija su edición.",
     "subtitle": "Oreon está disponible en varias versiones adaptadas a distintas necesidades.",
-    "announcementTitle": "Actualización de Oreon 10 de febrero de 2026 (Build 2602)",
-    "announcementSubtitle": "Esta es una actualización de calidad para Oreon 10.",
+    "announcementTitle": "Oreon 10 March 2026 Update (Build 2603)",
+    "announcementSubtitle": "This is a major feature update for Oreon 10.",
     "changelog": "Registro de cambios:",
     "announcementFooter": "Se han actualizado las ISO.",
     "oreon10": "Oreon 10",
@@ -214,7 +214,14 @@
     "runCommandTerminal": "Ejecute este comando en su terminal:",
     "windowsPowerShell": "Windows PowerShell",
     "runCommandPowerShell": "Ejecute este comando en PowerShell:",
-    "announcementChangelog1": "Se ha añadido compatibilidad con los antiguos Mac Intel",
-    "announcementChangelog2": "Corregidos varios errores"
+    "announcementChangelog1": "Replaced Anaconda with Centrio Installer (custom installer)",
+    "announcementChangelog2": "Added NVIDIA driver detection and optional automatic installation during OS setup",
+    "announcementChangelog3": "Added default web browser selection during installation with several web browser options",
+    "announcementChangelog4": "Enabled Flatpak by default with option to disable during installation",
+    "announcementChangelog5": "Added selectable installation bundles for office work, development, gaming, and more",
+    "announcementChangelog6": "Added OEM configuration section in installer for pre-shipped repositories and packages",
+    "announcementChangelog7": "Switched default filesystem from XFS to Btrfs with system rollback support (other fs options available during OS setup)",
+    "announcementChangelog8": "Updated system branding and logos with cleaner, properly sized assets",
+    "announcementChangelog9": "Switched to systemd-resolved for DNS management"
   }
 }
