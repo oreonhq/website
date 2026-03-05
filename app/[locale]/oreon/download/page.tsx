@@ -51,14 +51,14 @@ export default function Download() {
     {
       nameKey: 'download.oreon10' as const,
       taglineKey: 'download.latestVersion' as const,
-      build: '2603.2',
+      build: '2603.3',
       descKey: 'download.oreon10Desc' as const,
       sourceLink: 'https://copr.fedorainfracloud.org/coprs/brandonlester/oreon-10/',
       statusKey: 'download.latestRelease' as const,
       color: 'text-[#007b56]',
       image: '/oreon10.png',
       architectures: [
-        { label: 'x86_64', noteKey: 'download.intelAmd' as const, hash: '046de4479154a73b2c6569fdccb05caefa4947b472eb282895e7af8bc036ccb5', link: 'https://mirrors.oreonhq.com/Oreon-10-2603.2-x86_64.iso' },
+        { label: 'x86_64', noteKey: 'download.intelAmd' as const, hash: '7e3bd1a39e00bb1ef990d8dea7a377fa732631256c5ee4d5ae7778e2a8bd7eda', link: 'https://mirrors.oreonhq.com/Oreon-10-2603.3-x86_64.iso' },
         { label: 'aarch64', noteKey: 'download.arm64' as const, hash: '5b61df61ea2bbc0b59076f22fe2ee08a2b12bfdff2f8b1e85d8ba239950782ca', link: 'https://mirrors.oreonhq.com/Oreon-10-2603.2-aarch64.iso' },
       ],
     },
