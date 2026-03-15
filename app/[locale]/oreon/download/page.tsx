@@ -7,7 +7,7 @@ import { useTranslations } from '@/contexts/I18nContext'
 import LocaleLink from '@/components/LocaleLink'
 import { DONATE_URL } from '@/components/DonateButton'
 
-const SHOW_ANNOUNCEMENT_BANNER = true
+const SHOW_ANNOUNCEMENT_BANNER = false
 const ENGLISH_LOCALES = ['en_us', 'en_gb']
 
 export default function Download() {
