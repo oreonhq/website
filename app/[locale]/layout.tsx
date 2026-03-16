@@ -7,7 +7,6 @@ import { I18nProvider } from '@/contexts/I18nContext'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { SetLocaleAttr } from '@/components/SetLocaleAttr'
-import LeadershipBanner from '@/components/LeadershipBanner'
 
 export const metadata: Metadata = {
   title: 'Oreon HQ',
@@ -28,17 +27,10 @@ export default async function LocaleLayout({
   const resolvedParams = params instanceof Promise ? await params : params
   const locale = resolvedParams.locale
   const messages = await getMessages(locale)
-  const showBanner = locale === 'en_us' || locale === 'en_gb'
-
   return (
     <I18nProvider locale={locale} messages={messages}>
       <SetLocaleAttr locale={locale} />
       <Header />
-      {showBanner && (
-        <div className="pt-[56px]">
-          <LeadershipBanner />
-        </div>
-      )}
       {children}
       <Footer />
     </I18nProvider>
