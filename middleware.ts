@@ -5,7 +5,12 @@ import { LOCALE_CODES, getLocaleFromRequest } from './lib/i18n/config'
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
 
-  if (pathname.startsWith('/_next') || pathname.startsWith('/api') || pathname.includes('.')) {
+  if (
+    pathname.startsWith('/_next') ||
+    pathname.startsWith('/api') ||
+    pathname.startsWith('/.well-known') ||
+    pathname.includes('.')
+  ) {
     return NextResponse.next()
   }
 
