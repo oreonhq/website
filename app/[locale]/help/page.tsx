@@ -19,7 +19,7 @@ export default async function Help({
 
   const socials = [
     { nameKey: 'help.oreonGitHub' as const, href: 'https://github.com/oreonhq' },
-    { nameKey: 'help.discordCommunity' as const, href: 'https://discord.gg/CRaPhvEYaa' },
+    { nameKey: 'help.discordCommunity' as const, href: 'https://discord.gg/2Yyacu58Ap' },
     {
       nameKey: 'help.oreonMatrixCommunity' as const,
       href: 'https://matrix.to/#/#oreon:oreonhq.com',
