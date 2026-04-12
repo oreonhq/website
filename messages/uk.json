@@ -29,7 +29,8 @@
       "privacyTerms": "Конфіденційність та умови",
       "support": "Підтримка"
     },
-    "language": "Мова"
+    "language": "Мова",
+    "donate": "Пожертвувати"
   },
   "home": {
     "hero": {
@@ -76,7 +77,8 @@
     "community": {
       "title": "Oreon керується громадою.",
       "p": "Oreon керується спільнотою. Ми обіцяємо публікувати відкритий вихідний код і підтримувати спільноти розробників, щоб Oreon залишався відкритим для всіх.",
-      "getInvolved": "Долучайтеся → Долучайтеся"
+      "getInvolved": "Долучайтеся → Долучайтеся",
+      "donate": "Пожертвувати →"
     },
     "globalMapAlt": "Карта світу, що відображає глобальну підтримку"
   },
@@ -223,6 +225,10 @@
     "announcementChangelog6": "Added OEM configuration section in installer for pre-shipped repositories and packages",
     "announcementChangelog7": "Switched default filesystem from XFS to Btrfs with system rollback support (other fs options available during OS setup)",
     "announcementChangelog8": "Updated system branding and logos with cleaner, properly sized assets",
-    "announcementChangelog9": "Switched to systemd-resolved for DNS management"
+    "announcementChangelog9": "Switched to systemd-resolved for DNS management",
+    "donateModalTitle": "Бажаєте зробити пожертву?",
+    "donateModalDesc": "Підтримайте розробку Oreon з відкритим вихідним кодом, зробивши одноразову пожертву.",
+    "donateModalYes": "Так.",
+    "donateModalNo": "Ні, дякую."
   }
 }

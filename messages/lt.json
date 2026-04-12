@@ -29,7 +29,8 @@
       "privacyTerms": "Privatumas ir sąlygos",
       "support": "Parama"
     },
-    "language": "Kalba"
+    "language": "Kalba",
+    "donate": "Paaukoti"
   },
   "home": {
     "hero": {
@@ -76,7 +77,8 @@
     "community": {
       "title": "\"Oreon\" veikia bendruomenės labui.",
       "p": "\"Oreon\" veikia bendruomenės labui. Pažadame skelbti atvirojo kodo kodą ir remti aukštesnės pakopos bendruomenes, kad \"Oreon\" išliktų atvira visiems.",
-      "getInvolved": "Dalyvaukite →"
+      "getInvolved": "Dalyvaukite →",
+      "donate": "Paaukoti →"
     },
     "globalMapAlt": "Pasaulinis žemėlapis, atspindintis pasaulinę paramą"
   },
@@ -223,6 +225,10 @@
     "announcementChangelog6": "Added OEM configuration section in installer for pre-shipped repositories and packages",
     "announcementChangelog7": "Switched default filesystem from XFS to Btrfs with system rollback support (other fs options available during OS setup)",
     "announcementChangelog8": "Updated system branding and logos with cleaner, properly sized assets",
-    "announcementChangelog9": "Switched to systemd-resolved for DNS management"
+    "announcementChangelog9": "Switched to systemd-resolved for DNS management",
+    "donateModalTitle": "Ar norėtumėte paaukoti?",
+    "donateModalDesc": "Vienkartine auka paremkite \"Oreon\" atvirojo kodo plėtrą.",
+    "donateModalYes": "Taip",
+    "donateModalNo": "Ne, ačiū"
   }
 }

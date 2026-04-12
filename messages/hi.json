@@ -29,7 +29,8 @@
       "privacyTerms": "गोपनीयता और शर्तें",
       "support": "समर्थन"
     },
-    "language": "भाषा"
+    "language": "भाषा",
+    "donate": "दान करें"
   },
   "home": {
     "hero": {
@@ -76,7 +77,8 @@
     "community": {
       "title": "Oreon समुदाय-संचालित है।",
       "p": "Oreon समुदाय-संचालित है। हम ओपन सोर्स कोड प्रकाशित करने और अपस्ट्रीम समुदायों का समर्थन करने का वादा करते हैं, ताकि Oreon सभी के लिए खुला रहे।",
-      "getInvolved": "शामिल हों →"
+      "getInvolved": "शामिल हों →",
+      "donate": "दान करें →"
     },
     "globalMapAlt": "वैश्विक समर्थन को दर्शाने वाला विश्व मानचित्र"
   },
@@ -223,6 +225,10 @@
     "announcementChangelog6": "Added OEM configuration section in installer for pre-shipped repositories and packages",
     "announcementChangelog7": "Switched default filesystem from XFS to Btrfs with system rollback support (other fs options available during OS setup)",
     "announcementChangelog8": "Updated system branding and logos with cleaner, properly sized assets",
-    "announcementChangelog9": "Switched to systemd-resolved for DNS management"
+    "announcementChangelog9": "Switched to systemd-resolved for DNS management",
+    "donateModalTitle": "क्या आप दान करना चाहेंगे?",
+    "donateModalDesc": "एकमुश्त दान के साथ ओरेऑन ओपन सोर्स विकास का समर्थन करें।",
+    "donateModalYes": "हाँ",
+    "donateModalNo": "नहीं, धन्यवाद"
   }
 }

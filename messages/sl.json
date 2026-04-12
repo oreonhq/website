@@ -29,7 +29,8 @@
       "privacyTerms": "Zasebnost in pogoji",
       "support": "Podpora"
     },
-    "language": "Jezik"
+    "language": "Jezik",
+    "donate": "Podarite"
   },
   "home": {
     "hero": {
@@ -76,7 +77,8 @@
     "community": {
       "title": "Oreon temelji na skupnosti.",
       "p": "Oreon temelji na skupnosti. Obljubljamo, da bomo objavljali odprtokodno kodo in podpirali predhodne skupnosti, da bo Oreon ostal odprt za vse.",
-      "getInvolved": "Vključite se →"
+      "getInvolved": "Vključite se →",
+      "donate": "Podarite →"
     },
     "globalMapAlt": "Zemljevid sveta, ki predstavlja globalno podporo"
   },
@@ -223,6 +225,10 @@
     "announcementChangelog6": "Added OEM configuration section in installer for pre-shipped repositories and packages",
     "announcementChangelog7": "Switched default filesystem from XFS to Btrfs with system rollback support (other fs options available during OS setup)",
     "announcementChangelog8": "Updated system branding and logos with cleaner, properly sized assets",
-    "announcementChangelog9": "Switched to systemd-resolved for DNS management"
+    "announcementChangelog9": "Switched to systemd-resolved for DNS management",
+    "donateModalTitle": "Želite darovati?",
+    "donateModalDesc": "Podprite razvoj odprte kode Oreon z enkratno donacijo.",
+    "donateModalYes": "Da",
+    "donateModalNo": "Ne, hvala."
   }
 }

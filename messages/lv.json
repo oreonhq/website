@@ -29,7 +29,8 @@
       "privacyTerms": "Konfidencialitāte un noteikumi",
       "support": "Atbalsts"
     },
-    "language": "Valoda"
+    "language": "Valoda",
+    "donate": "Ziedot"
   },
   "home": {
     "hero": {
@@ -76,7 +77,8 @@
     "community": {
       "title": "Oreon ir kopienas virzīta.",
       "p": "Oreon ir kopienas virzīta. Mēs apsolām publicēt atklātā pirmkoda kodu un atbalstīt augšupējās kopienas, lai Oreon būtu pieejams ikvienam.",
-      "getInvolved": "Iesaistieties →"
+      "getInvolved": "Iesaistieties →",
+      "donate": "Ziedot →"
     },
     "globalMapAlt": "Pasaules karte, kurā attēlots globālais atbalsts"
   },
@@ -223,6 +225,10 @@
     "announcementChangelog6": "Added OEM configuration section in installer for pre-shipped repositories and packages",
     "announcementChangelog7": "Switched default filesystem from XFS to Btrfs with system rollback support (other fs options available during OS setup)",
     "announcementChangelog8": "Updated system branding and logos with cleaner, properly sized assets",
-    "announcementChangelog9": "Switched to systemd-resolved for DNS management"
+    "announcementChangelog9": "Switched to systemd-resolved for DNS management",
+    "donateModalTitle": "Vai vēlaties ziedot?",
+    "donateModalDesc": "Atbalstiet Oreon atvērtā pirmkoda izstrādi ar vienreizēju ziedojumu.",
+    "donateModalYes": "Jā",
+    "donateModalNo": "Nē, paldies"
   }
 }

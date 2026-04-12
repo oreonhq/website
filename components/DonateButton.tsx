@@ -5,8 +5,6 @@ import { useTranslations } from '@/contexts/I18nContext'
 
 const DONATE_URL = 'https://buy.stripe.com/00g4gkgH34qc4eI288'
 
-const ENGLISH_LOCALES = ['en_us', 'en_gb']
-
 export default function DonateButton({
   variant = 'default',
   className = '',
@@ -14,11 +12,7 @@ export default function DonateButton({
   variant?: 'default' | 'footer' | 'mobile'
   className?: string
 }) {
-  const { locale } = useTranslations()
-
-  if (!ENGLISH_LOCALES.includes(locale)) {
-    return null
-  }
+  const { t } = useTranslations()
 
   const base = 'inline-flex items-center gap-1.5 font-medium transition-colors'
   const styles = {
@@ -35,7 +29,7 @@ export default function DonateButton({
       className={`${base} ${styles[variant]} ${className}`}
     >
       <Heart className="w-3.5 h-3.5" />
-      Donate
+      {t('common.donate')}
     </a>
   )
 }

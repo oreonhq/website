@@ -29,7 +29,8 @@
       "privacyTerms": "Quyền riêng tư & Điều khoản",
       "support": "Hỗ trợ"
     },
-    "language": "Ngôn ngữ"
+    "language": "Ngôn ngữ",
+    "donate": "Đóng góp"
   },
   "home": {
     "hero": {
@@ -76,7 +77,8 @@
     "community": {
       "title": "Oreon là một dự án do cộng đồng điều hành.",
       "p": "Oreon là một dự án do cộng đồng điều hành. Chúng tôi cam kết công bố mã nguồn mở và hỗ trợ các cộng đồng nguồn gốc để duy trì Oreon mở cho tất cả mọi người.",
-      "getInvolved": "Tham gia →"
+      "getInvolved": "Tham gia →",
+      "donate": "Đóng góp →"
     },
     "globalMapAlt": "Bản đồ thế giới thể hiện sự hỗ trợ toàn cầu"
   },
@@ -223,6 +225,10 @@
     "announcementChangelog6": "Added OEM configuration section in installer for pre-shipped repositories and packages",
     "announcementChangelog7": "Switched default filesystem from XFS to Btrfs with system rollback support (other fs options available during OS setup)",
     "announcementChangelog8": "Updated system branding and logos with cleaner, properly sized assets",
-    "announcementChangelog9": "Switched to systemd-resolved for DNS management"
+    "announcementChangelog9": "Switched to systemd-resolved for DNS management",
+    "donateModalTitle": "Bạn có muốn đóng góp không?",
+    "donateModalDesc": "Hãy ủng hộ sự phát triển mã nguồn mở của Oreon bằng một khoản đóng góp một lần.",
+    "donateModalYes": "Đúng",
+    "donateModalNo": "Không, cảm ơn"
   }
 }

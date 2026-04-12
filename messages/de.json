@@ -29,7 +29,8 @@
       "privacyTerms": "Datenschutz & Bedingungen",
       "support": "Unterstützung"
     },
-    "language": "Sprache"
+    "language": "Sprache",
+    "donate": "Spenden Sie"
   },
   "home": {
     "hero": {
@@ -76,7 +77,8 @@
     "community": {
       "title": "Oreon ist gemeinschaftsorientiert.",
       "p": "Oreon ist gemeinschaftsorientiert. Wir versprechen, offenen Quellcode zu veröffentlichen und Upstream-Communities zu unterstützen, um Oreon für alle offen zu halten.",
-      "getInvolved": "Engagieren Sie sich →"
+      "getInvolved": "Engagieren Sie sich →",
+      "donate": "Spenden Sie →."
     },
     "globalMapAlt": "Weltkarte zur Darstellung der globalen Unterstützung"
   },
@@ -223,6 +225,10 @@
     "announcementChangelog6": "Added OEM configuration section in installer for pre-shipped repositories and packages",
     "announcementChangelog7": "Switched default filesystem from XFS to Btrfs with system rollback support (other fs options available during OS setup)",
     "announcementChangelog8": "Updated system branding and logos with cleaner, properly sized assets",
-    "announcementChangelog9": "Switched to systemd-resolved for DNS management"
+    "announcementChangelog9": "Switched to systemd-resolved for DNS management",
+    "donateModalTitle": "Möchten Sie spenden?",
+    "donateModalDesc": "Unterstützen Sie die Open-Source-Entwicklung von Oreon mit einer einmaligen Spende.",
+    "donateModalYes": "Ja",
+    "donateModalNo": "Nein danke"
   }
 }

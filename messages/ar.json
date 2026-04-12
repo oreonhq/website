@@ -29,7 +29,8 @@
       "privacyTerms": "الخصوصية والشروط",
       "support": "الدعم"
     },
-    "language": "اللغة"
+    "language": "اللغة",
+    "donate": "تبرع"
   },
   "home": {
     "hero": {
@@ -76,7 +77,8 @@
     "community": {
       "title": "شركة Oreon تعتمد على المجتمع.",
       "p": "تعتمد Oreon على المجتمع. نعد بنشر كود مفتوح المصدر ودعم مجتمعات المنبع لإبقاء Oreon مفتوحة للجميع.",
-      "getInvolved": "شارك معنا →"
+      "getInvolved": "شارك معنا →",
+      "donate": "تبرع →"
     },
     "globalMapAlt": "خريطة العالم التي تمثل الدعم العالمي"
   },
@@ -223,6 +225,10 @@
     "announcementChangelog6": "Added OEM configuration section in installer for pre-shipped repositories and packages",
     "announcementChangelog7": "Switched default filesystem from XFS to Btrfs with system rollback support (other fs options available during OS setup)",
     "announcementChangelog8": "Updated system branding and logos with cleaner, properly sized assets",
-    "announcementChangelog9": "Switched to systemd-resolved for DNS management"
+    "announcementChangelog9": "Switched to systemd-resolved for DNS management",
+    "donateModalTitle": "هل ترغب في التبرع؟",
+    "donateModalDesc": "ادعم تطوير Oreon مفتوح المصدر بالتبرع لمرة واحدة.",
+    "donateModalYes": "نعم",
+    "donateModalNo": "لا شكراً"
   }
 }

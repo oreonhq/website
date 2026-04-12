@@ -29,7 +29,8 @@
       "privacyTerms": "プライバシーと規約",
       "support": "サポート"
     },
-    "language": "言語"
+    "language": "言語",
+    "donate": "寄付する"
   },
   "home": {
     "hero": {
@@ -76,7 +77,8 @@
     "community": {
       "title": "Oreonはコミュニティ主導だ。",
       "p": "Oreonはコミュニティ主導です。私たちは、Oreonが誰にとってもオープンであり続けるために、オープンソースのコードを公開し、上流のコミュニティをサポートすることを約束します。",
-      "getInvolved": "参加する"
+      "getInvolved": "参加する",
+      "donate": "寄付する"
     },
     "globalMapAlt": "世界的な支持を表す世界地図"
   },
@@ -223,6 +225,10 @@
     "announcementChangelog6": "Added OEM configuration section in installer for pre-shipped repositories and packages",
     "announcementChangelog7": "Switched default filesystem from XFS to Btrfs with system rollback support (other fs options available during OS setup)",
     "announcementChangelog8": "Updated system branding and logos with cleaner, properly sized assets",
-    "announcementChangelog9": "Switched to systemd-resolved for DNS management"
+    "announcementChangelog9": "Switched to systemd-resolved for DNS management",
+    "donateModalTitle": "寄付をご希望ですか？",
+    "donateModalDesc": "Oreonのオープンソース開発を1回限りの寄付でサポートします。",
+    "donateModalYes": "はい",
+    "donateModalNo": "遠慮する"
   }
 }

@@ -29,7 +29,8 @@
       "privacyTerms": "隐私与条款",
       "support": "支持"
     },
-    "language": "语言"
+    "language": "语言",
+    "donate": "捐赠"
   },
   "home": {
     "hero": {
@@ -76,7 +77,8 @@
     "community": {
       "title": "Oreon 以社区为导向。",
       "p": "Oreon 以社区为导向。我们承诺发布开放源代码并支持上游社区，以保持 Oreon 对所有人开放。",
-      "getInvolved": "参与活动 →"
+      "getInvolved": "参与活动 →",
+      "donate": "捐赠 →"
     },
     "globalMapAlt": "代表全球支持的世界地图"
   },
@@ -223,6 +225,10 @@
     "announcementChangelog6": "Added OEM configuration section in installer for pre-shipped repositories and packages",
     "announcementChangelog7": "Switched default filesystem from XFS to Btrfs with system rollback support (other fs options available during OS setup)",
     "announcementChangelog8": "Updated system branding and logos with cleaner, properly sized assets",
-    "announcementChangelog9": "Switched to systemd-resolved for DNS management"
+    "announcementChangelog9": "Switched to systemd-resolved for DNS management",
+    "donateModalTitle": "您愿意捐款吗？",
+    "donateModalDesc": "通过一次性捐赠支持 Oreon 的开源开发。",
+    "donateModalYes": "是",
+    "donateModalNo": "不，谢谢"
   }
 }

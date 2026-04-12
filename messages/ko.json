@@ -29,7 +29,8 @@
       "privacyTerms": "개인정보 보호 및 약관",
       "support": "지원"
     },
-    "language": "언어"
+    "language": "언어",
+    "donate": "기부하기"
   },
   "home": {
     "hero": {
@@ -76,7 +77,8 @@
     "community": {
       "title": "Oreon은 커뮤니티 중심입니다.",
       "p": "Oreon은 커뮤니티 중심입니다. 저희는 오픈 소스 코드를 공개하고 업스트림 커뮤니티를 지원하여 Oreon을 모두에게 개방된 상태로 유지할 것을 약속합니다.",
-      "getInvolved": "참여하기 →"
+      "getInvolved": "참여하기 →",
+      "donate": "기부 →"
     },
     "globalMapAlt": "글로벌 지원을 나타내는 세계 지도"
   },
@@ -223,6 +225,10 @@
     "announcementChangelog6": "Added OEM configuration section in installer for pre-shipped repositories and packages",
     "announcementChangelog7": "Switched default filesystem from XFS to Btrfs with system rollback support (other fs options available during OS setup)",
     "announcementChangelog8": "Updated system branding and logos with cleaner, properly sized assets",
-    "announcementChangelog9": "Switched to systemd-resolved for DNS management"
+    "announcementChangelog9": "Switched to systemd-resolved for DNS management",
+    "donateModalTitle": "기부하시겠습니까?",
+    "donateModalDesc": "일회성 기부로 Oreon 오픈 소스 개발을 지원하세요.",
+    "donateModalYes": "예",
+    "donateModalNo": "아니요"
   }
 }

@@ -29,7 +29,8 @@
       "privacyTerms": "Απόρρητο & Όροι",
       "support": "Υποστήριξη"
     },
-    "language": "Γλώσσα"
+    "language": "Γλώσσα",
+    "donate": "Δωρεά"
   },
   "home": {
     "hero": {
@@ -76,7 +77,8 @@
     "community": {
       "title": "Το Oreon βασίζεται στην κοινότητα.",
       "p": "Το Oreon βασίζεται στην κοινότητα. Υποσχόμαστε να δημοσιεύουμε κώδικα ανοιχτού κώδικα και να υποστηρίζουμε τις κοινότητες που βρίσκονται σε εξέλιξη για να διατηρήσουμε το Oreon ανοιχτό για όλους.",
-      "getInvolved": "Συμμετοχή →"
+      "getInvolved": "Συμμετοχή →",
+      "donate": "Δωρεά →"
     },
     "globalMapAlt": "Παγκόσμιος χάρτης που αντιπροσωπεύει την παγκόσμια υποστήριξη"
   },
@@ -223,6 +225,10 @@
     "announcementChangelog6": "Added OEM configuration section in installer for pre-shipped repositories and packages",
     "announcementChangelog7": "Switched default filesystem from XFS to Btrfs with system rollback support (other fs options available during OS setup)",
     "announcementChangelog8": "Updated system branding and logos with cleaner, properly sized assets",
-    "announcementChangelog9": "Switched to systemd-resolved for DNS management"
+    "announcementChangelog9": "Switched to systemd-resolved for DNS management",
+    "donateModalTitle": "Θα θέλατε να κάνετε μια δωρεά;",
+    "donateModalDesc": "Υποστηρίξτε την ανάπτυξη του Oreon open source με μια εφάπαξ δωρεά.",
+    "donateModalYes": "Ναι",
+    "donateModalNo": "Όχι ευχαριστώ"
   }
 }

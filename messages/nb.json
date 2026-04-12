@@ -29,7 +29,8 @@
       "privacyTerms": "Personvern og vilkår",
       "support": "Støtte"
     },
-    "language": "Språk"
+    "language": "Språk",
+    "donate": "Gi en gave"
   },
   "home": {
     "hero": {
@@ -76,7 +77,8 @@
     "community": {
       "title": "Oreon er samfunnsdrevet.",
       "p": "Oreon er drevet av fellesskapet. Vi lover å publisere åpen kildekode og støtte oppstrømsmiljøer for å holde Oreon åpent for alle.",
-      "getInvolved": "Involver deg → Bli involvert"
+      "getInvolved": "Involver deg → Bli involvert",
+      "donate": "Doner → Doner"
     },
     "globalMapAlt": "Verdenskart som representerer global støtte"
   },
@@ -223,6 +225,10 @@
     "announcementChangelog6": "Added OEM configuration section in installer for pre-shipped repositories and packages",
     "announcementChangelog7": "Switched default filesystem from XFS to Btrfs with system rollback support (other fs options available during OS setup)",
     "announcementChangelog8": "Updated system branding and logos with cleaner, properly sized assets",
-    "announcementChangelog9": "Switched to systemd-resolved for DNS management"
+    "announcementChangelog9": "Switched to systemd-resolved for DNS management",
+    "donateModalTitle": "Ønsker du å donere?",
+    "donateModalDesc": "Støtt utviklingen av Oreon med åpen kildekode ved å gi en engangsdonasjon.",
+    "donateModalYes": "Ja",
+    "donateModalNo": "Nei takk"
   }
 }

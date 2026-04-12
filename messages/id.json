@@ -29,7 +29,8 @@
       "privacyTerms": "Privasi & Ketentuan",
       "support": "Dukungan"
     },
-    "language": "Bahasa"
+    "language": "Bahasa",
+    "donate": "Donasi"
   },
   "home": {
     "hero": {
@@ -76,7 +77,8 @@
     "community": {
       "title": "Oreon digerakkan oleh komunitas.",
       "p": "Oreon digerakkan oleh komunitas. Kami berjanji untuk mempublikasikan kode sumber terbuka dan mendukung komunitas hulu agar Oreon tetap terbuka untuk semua orang.",
-      "getInvolved": "Terlibat →"
+      "getInvolved": "Terlibat →",
+      "donate": "Donasi →"
     },
     "globalMapAlt": "Peta dunia yang mewakili dukungan global"
   },
@@ -223,6 +225,10 @@
     "announcementChangelog6": "Added OEM configuration section in installer for pre-shipped repositories and packages",
     "announcementChangelog7": "Switched default filesystem from XFS to Btrfs with system rollback support (other fs options available during OS setup)",
     "announcementChangelog8": "Updated system branding and logos with cleaner, properly sized assets",
-    "announcementChangelog9": "Switched to systemd-resolved for DNS management"
+    "announcementChangelog9": "Switched to systemd-resolved for DNS management",
+    "donateModalTitle": "Apakah Anda ingin menyumbang?",
+    "donateModalDesc": "Dukung pengembangan sumber terbuka Oreon dengan donasi satu kali.",
+    "donateModalYes": "Ya.",
+    "donateModalNo": "Tidak, terima kasih."
   }
 }

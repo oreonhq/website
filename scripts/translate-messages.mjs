@@ -23,33 +23,51 @@ config({ path: join(ROOT, '.env.local') })
 const MESSAGES_DIR = join(ROOT, 'messages')
 const SOURCE_FILE = join(MESSAGES_DIR, 'en_us.json')
 
+// All locales except en_us (source). DeepL target codes: https://www.deepl.com/docs-api/translate-text/
 const LOCALES = [
-  { code: 'en_gb', deepl: 'EN-GB' },
+  { code: 'ar', deepl: 'AR' },
+  { code: 'bg', deepl: 'BG' },
+  { code: 'cs', deepl: 'CS' },
+  { code: 'da', deepl: 'DA' },
   { code: 'de', deepl: 'DE' },
-  { code: 'fr', deepl: 'FR' },
+  { code: 'el', deepl: 'EL' },
+  { code: 'en_gb', deepl: 'EN-GB' },
   { code: 'es', deepl: 'ES' },
+  { code: 'et', deepl: 'ET' },
+  { code: 'fi', deepl: 'FI' },
+  { code: 'fr', deepl: 'FR' },
+  { code: 'hi', deepl: 'HI' },
+  { code: 'hu', deepl: 'HU' },
+  { code: 'id', deepl: 'ID' },
   { code: 'it', deepl: 'IT' },
   { code: 'ja', deepl: 'JA' },
-  { code: 'zh', deepl: 'ZH' },
   { code: 'ko', deepl: 'KO' },
-  { code: 'pt_br', deepl: 'PT-BR' },
-  { code: 'pt_pt', deepl: 'PT-PT' },
-  { code: 'ru', deepl: 'RU' },
-  { code: 'ar', deepl: 'AR' },
-  { code: 'hi', deepl: 'HI' },
+  { code: 'lt', deepl: 'LT' },
+  { code: 'lv', deepl: 'LV' },
+  { code: 'nb', deepl: 'NB' },
   { code: 'nl', deepl: 'NL' },
   { code: 'pl', deepl: 'PL' },
-  { code: 'tr', deepl: 'TR' },
+  { code: 'pt_br', deepl: 'PT-BR' },
+  { code: 'pt_pt', deepl: 'PT-PT' },
+  { code: 'ro', deepl: 'RO' },
+  { code: 'ru', deepl: 'RU' },
+  { code: 'sk', deepl: 'SK' },
+  { code: 'sl', deepl: 'SL' },
+  { code: 'sv', deepl: 'SV' },
   { code: 'th', deepl: 'TH' },
+  { code: 'tr', deepl: 'TR' },
+  { code: 'uk', deepl: 'UK' },
   { code: 'vi', deepl: 'VI' },
-  { code: 'id', deepl: 'ID' },
+  { code: 'zh', deepl: 'ZH' },
 ]
 
 const BATCH_SIZE = 50
 const BATCH_DELAY_MS = 400
-const DEEPL_API =
+const DEEPL_API_FREE = 'https://api-free.deepl.com/v2/translate'
+const DEEPL_API_PRO = 'https://api.deepl.com/v2/translate'
+let deeplApiUrl =
   process.env.DEEPL_API_URL ||
-  (process.env.DEEPL_PRO ? 'https://api.deepl.com/v2/translate' : 'https://api-free.deepl.com/v2/translate')
+  (process.env.DEEPL_PRO === '1' || process.env.DEEPL_PRO === 'true' ? DEEPL_API_PRO : DEEPL_API_FREE)
 const FORCE = process.env.FORCE_TRANSLATE === '1' || process.env.FORCE_TRANSLATE === 'true'
 
 // Keys whose values are brand names and must never be translated (Oreon, Oreon HQ, Oreon 10, Oreon Lime, etc.)
@@ -104,9 +122,9 @@ function setNested(obj, path, value) {
   cur[parts[parts.length - 1]] = value
 }
 
-async function translateBatch(texts, targetLang, authKey, retries = 2) {
+async function translateBatch(texts, targetLang, authKey, retries = 2, endpointFlipped = false) {
   for (let attempt = 0; attempt <= retries; attempt++) {
-    const res = await fetch(DEEPL_API, {
+    const res = await fetch(deeplApiUrl, {
       method: 'POST',
       headers: {
         'Authorization': `DeepL-Auth-Key ${authKey}`,
@@ -123,6 +141,15 @@ async function translateBatch(texts, targetLang, authKey, retries = 2) {
       return data.translations.map((t) => t.text)
     }
     const err = await res.text()
+    if (
+      res.status === 403 &&
+      !process.env.DEEPL_API_URL &&
+      !endpointFlipped &&
+      err.includes('Wrong endpoint')
+    ) {
+      deeplApiUrl = deeplApiUrl.includes('api-free') ? DEEPL_API_PRO : DEEPL_API_FREE
+      return translateBatch(texts, targetLang, authKey, retries, true)
+    }
     if (res.status === 429 && attempt < retries) {
       await new Promise((r) => setTimeout(r, 60000))
       continue

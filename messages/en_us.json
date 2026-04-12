@@ -3,6 +3,7 @@
     "siteName": "Oreon HQ",
     "getOreon": "Get Oreon",
     "downloadOreon": "Download Oreon",
+    "donate": "Donate",
     "nav": {
       "oreon": "Oreon",
       "oreon10": "Oreon 10",
@@ -76,7 +77,8 @@
     "community": {
       "title": "Oreon is community-driven.",
       "p": "Oreon is community-driven. We promise to publish open source code and support upstream communities to keep Oreon open for everyone.",
-      "getInvolved": "Get Involved →"
+      "getInvolved": "Get Involved →",
+      "donate": "Donate →"
     },
     "globalMapAlt": "World map representing global support"
   },
@@ -215,6 +217,10 @@
     "runCommandTerminal": "Run this command in your terminal:",
     "windowsPowerShell": "Windows PowerShell",
     "runCommandPowerShell": "Run this command in PowerShell:",
+    "donateModalTitle": "Would you like to donate?",
+    "donateModalDesc": "Support Oreon open source development with a one-time donation.",
+    "donateModalYes": "Yes",
+    "donateModalNo": "No thanks",
     "announcementChangelog1": "Replaced Anaconda with Centrio Installer (custom installer)",
     "announcementChangelog2": "Added NVIDIA driver detection and optional automatic installation during OS setup",
     "announcementChangelog3": "Added default web browser selection during installation with several web browser options",

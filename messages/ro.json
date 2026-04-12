@@ -29,7 +29,8 @@
       "privacyTerms": "Confidențialitate și termeni",
       "support": "Sprijin"
     },
-    "language": "Limba"
+    "language": "Limba",
+    "donate": "Donează"
   },
   "home": {
     "hero": {
@@ -76,7 +77,8 @@
     "community": {
       "title": "Oreon este condus de comunitate.",
       "p": "Oreon este condus de comunitate. Promitem să publicăm cod sursă deschis și să sprijinim comunitățile din amonte pentru a menține Oreon deschis pentru toată lumea.",
-      "getInvolved": "Implică-te →"
+      "getInvolved": "Implică-te →",
+      "donate": "Donează →"
     },
     "globalMapAlt": "Harta lumii reprezentând sprijinul global"
   },
@@ -223,6 +225,10 @@
     "announcementChangelog6": "Added OEM configuration section in installer for pre-shipped repositories and packages",
     "announcementChangelog7": "Switched default filesystem from XFS to Btrfs with system rollback support (other fs options available during OS setup)",
     "announcementChangelog8": "Updated system branding and logos with cleaner, properly sized assets",
-    "announcementChangelog9": "Switched to systemd-resolved for DNS management"
+    "announcementChangelog9": "Switched to systemd-resolved for DNS management",
+    "donateModalTitle": "Doriți să faceți o donație?",
+    "donateModalDesc": "Sprijiniți dezvoltarea Oreon cu sursă deschisă printr-o donație unică.",
+    "donateModalYes": "Da",
+    "donateModalNo": "Nu, mulțumesc"
   }
 }

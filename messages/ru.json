@@ -29,7 +29,8 @@
       "privacyTerms": "Конфиденциальность и условия",
       "support": "Поддержка"
     },
-    "language": "Язык"
+    "language": "Язык",
+    "donate": "Пожертвовать"
   },
   "home": {
     "hero": {
@@ -76,7 +77,8 @@
     "community": {
       "title": "Oreon ориентируется на сообщество.",
       "p": "Oreon ориентирован на сообщество. Мы обещаем публиковать открытый исходный код и поддерживать сообщества разработчиков, чтобы Oreon оставался открытым для всех.",
-      "getInvolved": "Примите участие →"
+      "getInvolved": "Примите участие →",
+      "donate": "Пожертвовать →"
     },
     "globalMapAlt": "Карта мира, отражающая глобальную поддержку"
   },
@@ -223,6 +225,10 @@
     "announcementChangelog6": "Added OEM configuration section in installer for pre-shipped repositories and packages",
     "announcementChangelog7": "Switched default filesystem from XFS to Btrfs with system rollback support (other fs options available during OS setup)",
     "announcementChangelog8": "Updated system branding and logos with cleaner, properly sized assets",
-    "announcementChangelog9": "Switched to systemd-resolved for DNS management"
+    "announcementChangelog9": "Switched to systemd-resolved for DNS management",
+    "donateModalTitle": "Хотите пожертвовать?",
+    "donateModalDesc": "Поддержите разработку Oreon с открытым исходным кодом, сделав единовременное пожертвование.",
+    "donateModalYes": "Да",
+    "donateModalNo": "Нет, спасибо"
   }
 }
