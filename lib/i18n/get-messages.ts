@@ -6,6 +6,31 @@ function getNested(obj: Record<string, unknown>, path: string): string | undefin
   return typeof value === 'string' ? value : undefined
 }
 
+/** Locale JSON overlays en_us. Missing keys (e.g. new copy) inherit from the default locale. */
+function mergeMessages(defaults: Record<string, unknown>, locale: Record<string, unknown>): Record<string, unknown> {
+  const out: Record<string, unknown> = {}
+  const keys = Array.from(new Set([...Object.keys(defaults), ...Object.keys(locale)]))
+  for (const key of keys) {
+    const defVal = defaults[key]
+    const locVal = locale[key]
+    if (locVal === undefined) {
+      out[key] = defVal
+    } else if (
+      defVal !== null &&
+      typeof defVal === 'object' &&
+      !Array.isArray(defVal) &&
+      locVal !== null &&
+      typeof locVal === 'object' &&
+      !Array.isArray(locVal)
+    ) {
+      out[key] = mergeMessages(defVal as Record<string, unknown>, locVal as Record<string, unknown>)
+    } else {
+      out[key] = locVal
+    }
+  }
+  return out
+}
+
 function escapeRegex(s: string): string {
   return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 }
@@ -38,7 +63,7 @@ export async function getMessages(locale: string): Promise<Record<string, unknow
   }
   try {
     const mod = await import(`@/messages/${safeLocale}.json`)
-    return mod.default as Record<string, unknown>
+    return mergeMessages(defaultMessages as Record<string, unknown>, mod.default as Record<string, unknown>)
   } catch {
     return defaultMessages as Record<string, unknown>
   }

@@ -80,7 +80,12 @@
       "getInvolved": "Get Involved →",
       "donate": "Donate →"
     },
-    "globalMapAlt": "World map representing global support"
+    "globalMapAlt": "World map representing global support",
+    "sponsors": {
+      "title": "Our Sponsors",
+      "boostyAlt": "BoostyConnect",
+      "cloudflareAlt": "Cloudflare"
+    }
   },
   "about": {
     "title": "Our Community",

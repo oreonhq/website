@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Image from 'next/image'
 import HeroVideo from '@/components/HeroVideo'
 import FeatureCarousel from '@/components/FeatureCarousel'
@@ -108,6 +107,30 @@ export default async function Home({
                 <p className="text-gray-500 font-light leading-relaxed mb-10">{t('home.privacy.p2')}</p>
                 <LocaleLink href="/legal" className="btn-link">{t('home.privacy.link')}</LocaleLink>
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="enterprise-section bg-gray-50 border-t border-black/5">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-center text-3xl font-bold text-gray-900 mb-12 tracking-tight">{t('home.sponsors.title')}</h2>
+            <div className="flex flex-wrap items-center justify-center gap-x-16 gap-y-10">
+              <a
+                href="https://boostyconnect.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative block h-14 w-48 sm:h-16 sm:w-56 shrink-0 transition-opacity hover:opacity-85 focus:opacity-85 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#007b56] focus-visible:ring-offset-2 rounded"
+              >
+                <Image src="/boostyconnect.png" alt={t('home.sponsors.boostyAlt')} fill className="object-contain object-center" sizes="224px" />
+              </a>
+              <a
+                href="https://cloudflare.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative block h-14 w-48 sm:h-16 sm:w-56 shrink-0 transition-opacity hover:opacity-85 focus:opacity-85 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#007b56] focus-visible:ring-offset-2 rounded"
+              >
+                <Image src="/cloudflare.png" alt={t('home.sponsors.cloudflareAlt')} fill className="object-contain object-center" sizes="224px" />
+              </a>
             </div>
           </div>
         </section>
