@@ -44,7 +44,44 @@ export default function Download() {
     setTimeout(() => setCopiedText(null), 2000)
   }
 
-  const editions = [
+  type Architecture = {
+    label: string
+    noteKey: string
+    hash?: string
+    link?: string
+    disabled?: boolean
+    disabledTextKey?: string
+  }
+
+  type Edition = {
+    nameKey: string
+    taglineKey: string
+    build: string
+    descKey: string
+    sourceLink: string
+    statusKey: string
+    color: string
+    image: string
+    warningKey?: string
+    architectures: Architecture[]
+  }
+
+  const editions: Edition[] = [
+    {
+      nameKey: 'Oreon 11 (Early Preview)',
+      taglineKey: 'download.earlyPreview',
+      build: 'Early Preview Build 2604',
+      descKey: 'download.oreon11Desc',
+      sourceLink: 'https://github.com/oreonhq/rpm-specfiles',
+      statusKey: 'download.earlyPreview',
+      color: 'text-amber-700',
+      image: '/or11epb.png',
+      warningKey: 'download.oreon11Warning',
+      architectures: [
+        { label: 'x86_64', noteKey: 'download.intelAmd', hash: '5cb8a455ea65c38cefaf33744f289ec61e358acb12a2880d4193cdceb3e89fb1', link: 'https://mirrors.oreonhq.com/Oreon-11-RP1-EPB2604-x86_64.iso' },
+        { label: 'aarch64', noteKey: 'download.arm64', disabled: true },
+      ],
+    },
     {
       nameKey: 'download.oreon10' as const,
       taglineKey: 'download.latestVersion' as const,
@@ -127,13 +164,24 @@ export default function Download() {
                     <div className="flex flex-wrap gap-6">
                       {edition.architectures.map((arch, archIdx) => (
                         <div key={archIdx} className="flex flex-col gap-3 w-[220px]">
-                          <button
-                            type="button"
-                            onClick={(e) => handleIsoClick(e, arch.link)}
-                            className="btn-oreon-gradient w-full justify-center flex items-center gap-2"
-                          >
-                            <DownloadIcon className="w-4 h-4" /> {t('download.download')} {arch.label}
-                          </button>
+                          {arch.disabled ? (
+                            <button
+                              type="button"
+                              disabled
+                              aria-disabled="true"
+                              className="w-full justify-center flex items-center gap-2 rounded-enterprise px-6 py-3 font-medium text-sm bg-gray-200 text-gray-500 cursor-not-allowed border border-gray-300"
+                            >
+                              <DownloadIcon className="w-4 h-4" /> {t('download.download')} {arch.label}
+                            </button>
+                          ) : (
+                            <button
+                              type="button"
+                              onClick={(e) => arch.link && handleIsoClick(e, arch.link)}
+                              className="btn-oreon-gradient w-full justify-center flex items-center gap-2"
+                            >
+                              <DownloadIcon className="w-4 h-4" /> {t('download.download')} {arch.label}
+                            </button>
+                          )}
                           <span className="text-xs text-gray-400 font-medium px-1 uppercase tracking-wider">{t(arch.noteKey)}</span>
                         </div>
                       ))}
@@ -149,6 +197,11 @@ export default function Download() {
                         <span className="text-xs text-gray-400 font-medium px-1 uppercase tracking-wider">{t('download.cOPR')}</span>
                       </div>
                     </div>
+                    {edition.warningKey && (
+                      <div className="mt-8 w-full max-w-3xl rounded-enterprise border border-red-300 bg-red-50 p-4">
+                        <p className="text-sm font-semibold text-red-800">{t(edition.warningKey)}</p>
+                      </div>
+                    )}
                   </div>
 
                   <div className="flex-1 w-full max-w-xl aspect-video relative rounded-xl overflow-hidden">
@@ -182,18 +235,22 @@ export default function Download() {
                           <div key={archIdx} className="bg-gray-50 p-4 rounded-xl border border-black/5">
                             <div className="flex items-center justify-between mb-2">
                               <span className="text-xs font-bold text-gray-900 uppercase tracking-wider">{arch.label}</span>
-                              <button
-                                onClick={() => copyToClipboard(arch.hash)}
-                                className="text-gray-400 hover:text-[#007b56] transition-colors"
-                              >
-                                {copiedText === arch.hash ? (
-                                  <Check className="w-3.5 h-3.5 text-[#007b56]" />
-                                ) : (
-                                  <Copy className="w-3.5 h-3.5" />
-                                )}
-                              </button>
+                              {arch.hash && arch.hash !== 'pending' ? (
+                                <button
+                                  onClick={() => copyToClipboard(arch.hash as string)}
+                                  className="text-gray-400 hover:text-[#007b56] transition-colors"
+                                >
+                                  {copiedText === arch.hash ? (
+                                    <Check className="w-3.5 h-3.5 text-[#007b56]" />
+                                  ) : (
+                                    <Copy className="w-3.5 h-3.5" />
+                                  )}
+                                </button>
+                              ) : null}
                             </div>
-                            <code className="text-[11px] font-mono text-gray-500 break-all block leading-relaxed">{arch.hash}</code>
+                            <code className="text-[11px] font-mono text-gray-500 break-all block leading-relaxed">
+                              {arch.hash === 'pending' ? t('download.checksumPending') : (arch.hash ?? t('download.notAvailable'))}
+                            </code>
                           </div>
                         ))}
                       </div>
