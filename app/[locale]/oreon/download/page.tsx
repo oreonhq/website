@@ -59,6 +59,8 @@ export default function Download() {
     build: string
     descKey: string
     sourceLink: string
+    /** i18n key shown under the source link button (default COPR) */
+    sourceLinkCaptionKey?: string
     statusKey: string
     color: string
     image: string
@@ -73,6 +75,7 @@ export default function Download() {
       build: 'Early Preview Build 2604',
       descKey: 'download.oreon11Desc',
       sourceLink: 'https://github.com/oreonhq/rpm-specfiles',
+      sourceLinkCaptionKey: 'download.github',
       statusKey: 'download.earlyPreview',
       color: 'text-amber-700',
       image: '/or11epb.png',
@@ -194,7 +197,9 @@ export default function Download() {
                         >
                           <ExternalLink className="w-4 h-4" /> {t('download.sourceCode')}
                         </a>
-                        <span className="text-xs text-gray-400 font-medium px-1 uppercase tracking-wider">{t('download.cOPR')}</span>
+                        <span className="text-xs text-gray-400 font-medium px-1 tracking-wider">
+                          {t(edition.sourceLinkCaptionKey ?? 'download.cOPR')}
+                        </span>
                       </div>
                     </div>
                     {edition.warningKey && (

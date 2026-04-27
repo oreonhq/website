@@ -210,6 +210,7 @@
     "oreon11Warning": "Critical note. Do not install Oreon 11 Early Preview on production hardware until the stable release is published.",
     "oreon10Desc": "The latest release of Oreon based on AlmaLinux 10. This is the recommended version for most users.",
     "sourceCode": "Source code",
+    "github": "GitHub",
     "cOPR": "COPR",
     "download": "Download",
     "intelAmd": "Intel & AMD",
