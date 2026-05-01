@@ -81,7 +81,7 @@ export default function Download() {
       image: '/or11epb.png',
       warningKey: 'download.oreon11Warning',
       architectures: [
-        { label: 'x86_64', noteKey: 'download.intelAmd', hash: 'N/A', link: 'https://mirrors.oreonhq.com/Oreon-11-RP1-EPB2604.5-x86_64.iso' },
+        { label: 'x86_64', noteKey: 'download.intelAmd', hash: 'd5bc6eb007f2f3d5f0dddf3fc77688325ba6c94f45dabfe331b11e8781679b8b', link: 'https://mirrors.oreonhq.com/Oreon-11-RP1-EPB2604.5-x86_64.iso' },
         { label: 'aarch64', noteKey: 'download.arm64', disabled: true },
       ],
     },
