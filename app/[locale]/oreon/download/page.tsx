@@ -72,7 +72,7 @@ export default function Download() {
     {
       nameKey: 'Oreon 11 (Early Preview)',
       taglineKey: 'download.earlyPreview',
-      build: 'Early Preview Build 2604.3',
+      build: 'Early Preview Build 2604.5',
       descKey: 'download.oreon11Desc',
       sourceLink: 'https://github.com/oreonhq/rpm-specfiles',
       sourceLinkCaptionKey: 'download.github',
@@ -81,7 +81,7 @@ export default function Download() {
       image: '/or11epb.png',
       warningKey: 'download.oreon11Warning',
       architectures: [
-        { label: 'x86_64', noteKey: 'download.intelAmd', hash: 'efbdf0452627b581a5522bd931c84c76e4c628c753488c0faa8eadd3f81d1eff', link: 'https://mirrors.oreonhq.com/Oreon-11-RP1-EPB2604.3-x86_64.iso' },
+        { label: 'x86_64', noteKey: 'download.intelAmd', hash: 'N/A', link: 'https://mirrors.oreonhq.com/Oreon-11-RP1-EPB2604.5-x86_64.iso' },
         { label: 'aarch64', noteKey: 'download.arm64', disabled: true },
       ],
     },
