@@ -4,7 +4,6 @@ import { Megaphone, Download as DownloadIcon, ShieldCheck, Copy, Check, External
 import Image from 'next/image'
 import { useState } from 'react'
 import { useTranslations } from '@/contexts/I18nContext'
-import LocaleLink from '@/components/LocaleLink'
 import { DONATE_URL } from '@/components/DonateButton'
 
 const SHOW_ANNOUNCEMENT_BANNER = false
@@ -88,28 +87,15 @@ export default function Download() {
     {
       nameKey: 'download.oreon10' as const,
       taglineKey: 'download.latestVersion' as const,
-      build: '2603.5',
+      build: '2603.6',
       descKey: 'download.oreon10Desc' as const,
       sourceLink: 'https://copr.fedorainfracloud.org/coprs/brandonlester/oreon-10/',
       statusKey: 'download.latestRelease' as const,
       color: 'text-[#007b56]',
       image: '/oreon10.png',
       architectures: [
-        { label: 'x86_64', noteKey: 'download.intelAmd' as const, hash: '1d5e1176a0150b1c2098d6271d3a8315041890fde7a6c69f198289825d7754f2', link: 'https://mirrors.oreonhq.com/Oreon-10-2603.5-x86_64.iso' },
+        { label: 'x86_64', noteKey: 'download.intelAmd' as const, hash: 'c52a0f24de3ded4690674b17449e43a3b643fb1c5d0e0952a79b5b7ce30c7613', link: 'https://mirrors.oreonhq.com/Oreon-10-2603.6-x86_64.iso' },
         { label: 'aarch64', noteKey: 'download.arm64' as const, hash: 'cb674363d83d55b9f20dd1e131774815a2db08fc28be247ad6c4fbf51e878d88', link: 'https://mirrors.oreonhq.com/Oreon-10-2603.4-aarch64.iso' },
-      ],
-    },
-    {
-      nameKey: 'download.oreonLimeR2' as const,
-      taglineKey: 'download.olderStable' as const,
-      build: '2504',
-      descKey: 'download.oreonLimeR2Desc' as const,
-      sourceLink: 'https://copr.fedorainfracloud.org/coprs/brandonlester/oreon-lime-r2/',
-      statusKey: 'download.olderStable' as const,
-      color: 'text-[#007b56]',
-      image: '/limer2.png',
-      architectures: [
-        { label: 'x86_64', noteKey: 'download.intelAmd' as const, hash: '78c698a2b3f4f6ebc31c3e30ea8ab9b9ba313a9d8f8a908a6796d0c9a6f60237', link: 'https://boostyconnect.com/download/2331/?tmstv=1745095104' },
       ],
     },
   ]
