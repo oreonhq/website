@@ -34,6 +34,7 @@ export default function Header() {
         { name: t('common.nav.helpSupport'), desc: t('common.nav.helpSupportDesc'), href: '/help' },
       ],
     },
+    { name: t('common.nav.joinTeam'), href: '/join' },
     { name: t('common.nav.about'), href: '/about' },
   ]
 

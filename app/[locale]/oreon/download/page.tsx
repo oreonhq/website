@@ -69,22 +69,6 @@ export default function Download() {
 
   const editions: Edition[] = [
     {
-      nameKey: 'Oreon 11 (Early Preview)',
-      taglineKey: 'download.earlyPreview',
-      build: 'Early Preview Build 2604.5',
-      descKey: 'download.oreon11Desc',
-      sourceLink: 'https://github.com/oreonhq/rpm-specfiles',
-      sourceLinkCaptionKey: 'download.github',
-      statusKey: 'download.earlyPreview',
-      color: 'text-amber-700',
-      image: '/or11epb.png',
-      warningKey: 'download.oreon11Warning',
-      architectures: [
-        { label: 'x86_64', noteKey: 'download.intelAmd', hash: 'd5bc6eb007f2f3d5f0dddf3fc77688325ba6c94f45dabfe331b11e8781679b8b', link: 'https://mirrors.oreonhq.com/Oreon-11-RP1-EPB2604.5-x86_64.iso' },
-        { label: 'aarch64', noteKey: 'download.arm64', disabled: true },
-      ],
-    },
-    {
       nameKey: 'download.oreon10' as const,
       taglineKey: 'download.latestVersion' as const,
       build: '2603.6',

@@ -14,7 +14,8 @@
       "legalCenterDesc": "Compliance & terms",
       "helpSupport": "Help & Support",
       "helpSupportDesc": "Direct assistance",
-      "about": "About"
+      "about": "About",
+      "joinTeam": "Join the Team"
     },
     "footer": {
       "tagline": "Globally Supported Linux, Built on Trusted Technology",
@@ -26,11 +27,19 @@
       "oreonGitHub": "Oreon HQ GitHub",
       "pressMedia": "Press & Media",
       "legalCenter": "Legal Center",
+      "joinTeam": "Join the Team",
       "copyright": "© {year} Oreon HQ. All rights reserved.",
       "privacyTerms": "Privacy & Terms",
       "support": "Support"
     },
-    "language": "Language"
+    "language": "Language",
+    "notice": {
+      "title": "Oreon needs contributors now",
+      "body": "After over a year, we are building our next major release and need contributors now. Join Development, Packaging, Security Research, Social Media, or Translation to help keep Oreon development moving forward.",
+      "joinCta": "Join the Team",
+      "notNow": "Not now",
+      "doNotShowAgain": "Do not show again"
+    }
   },
   "home": {
     "hero": {
@@ -85,6 +94,11 @@
       "title": "Our Sponsors",
       "boostyAlt": "BoostyConnect",
       "cloudflareAlt": "Cloudflare"
+    },
+    "recruit": {
+      "title": "We Need Contributors Right Now",
+      "p": "Oreon is growing fast, and we need more hands to ship faster, keep packaging healthy, improve security, and expand global support.",
+      "cta": "Join the Team"
     }
   },
   "about": {
@@ -201,6 +215,9 @@
     "announcementSubtitle": "This is a major feature update for Oreon 10.",
     "changelog": "Changelog:",
     "announcementFooter": "ISOs have been updated.",
+    "recruitTitle": "Help Us Ship Faster",
+    "recruitText": "We are actively recruiting contributors across development, packaging, security research, social media, and translation.",
+    "recruitCta": "See Open Teams",
     "oreon10": "Oreon 10",
     "oreon11": "Oreon 11 (Early Preview)",
     "earlyPreview": "Early Preview",
@@ -243,5 +260,32 @@
     "announcementChangelog7": "Switched default filesystem from XFS to Btrfs (other fs options available during OS setup)",
     "announcementChangelog8": "Updated system branding and logos with cleaner, properly sized assets",
     "announcementChangelog9": "Switched to systemd-resolved for DNS management"
+  },
+  "join": {
+    "title": "Join the Oreon Team",
+    "subtitle": "We are recruiting now. If you want to directly impact Oreon development, this is where to start.",
+    "urgentTitle": "Why this matters right now",
+    "urgentText": "Without enough active contributors, packaging and release throughput slow down. Your work here directly helps us ship faster and keep users secure.",
+    "whereTitle": "Where collaboration happens",
+    "whereText": "Discord has been our main collaboration hub for years, but we also have alternative discussion platforms such as Matrix and the Community Forum. Forum is available as a last-resort discussion option for slower long-form discussions.",
+    "joinDiscord": "Join on Discord",
+    "joinMatrix": "Join on Matrix",
+    "visitForum": "Visit Community Forum",
+    "teamTitle": "Open Teams",
+    "teamDesc": "Pick the team that fits your strengths. You can start with one team and change later.",
+    "devTitle": "Development Team",
+    "devText": "Develop features, write code, and review code. Give Oreon the features you want to see.",
+    "packagingTitle": "Packaging Team",
+    "packagingText": "Maintain Oreon packages and keep package updates on time.",
+    "securityTitle": "Security Research Team",
+    "securityText": "Monitor security vulnerabilities, report vulnerabilities via Oreon Watchdog, and help backport security fixes to our packages.",
+    "socialTitle": "Social Media Team",
+    "socialText": "Own and grow our YouTube presence by creating content for the community and Oreon.",
+    "translationTitle": "Translation Team",
+    "translationText": "Part of Development Team. Improve translation quality and help Oreon reach more users globally.",
+    "startHere": "Start Here",
+    "startTitle": "Fastest way to start",
+    "startP1": "Join Discord first and introduce yourself with the team you want to join.",
+    "startP2": "Ask for starter tasks. We will point you to high-impact work you can begin this week."
   }
 }

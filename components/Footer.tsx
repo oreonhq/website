@@ -11,6 +11,7 @@ export default function Footer() {
   const oreonLinks = [
     { name: t('common.footer.oreon'), href: '/oreon' },
     { name: t('common.footer.downloads'), href: '/oreon/download' },
+    { name: t('common.footer.joinTeam'), href: '/join' },
     { name: t('common.footer.aboutUs'), href: '/about' },
   ]
 

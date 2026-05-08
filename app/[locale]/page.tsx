@@ -135,6 +135,18 @@ export default async function Home({
           </div>
         </section>
 
+        <section className="enterprise-section bg-white border-t border-black/5">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-4xl mx-auto text-center">
+              <h2 className="text-4xl font-bold text-gray-900 mb-6 tracking-tight">{t('home.recruit.title')}</h2>
+              <p className="text-lg text-gray-600 font-light leading-relaxed mb-10">{t('home.recruit.p')}</p>
+              <LocaleLink href="/join" className="btn-oreon-gradient">
+                {t('home.recruit.cta')}
+              </LocaleLink>
+            </div>
+          </div>
+        </section>
+
         <section
           className="enterprise-section text-white overflow-hidden relative"
           style={{ background: 'linear-gradient(165deg, #afe400 0%, #007b56 30%, #001457 70%, #000000 100%)' }}
