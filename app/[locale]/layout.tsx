@@ -6,7 +6,6 @@ import { getMessages } from '@/lib/i18n/get-messages'
 import { I18nProvider } from '@/contexts/I18nContext'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import ContributorNotice from '@/components/ContributorNotice'
 import { SetLocaleAttr } from '@/components/SetLocaleAttr'
 
 export const metadata: Metadata = {
@@ -32,7 +31,6 @@ export default async function LocaleLayout({
     <I18nProvider locale={locale} messages={messages}>
       <SetLocaleAttr locale={locale} />
       <Header />
-      <ContributorNotice />
       {children}
       <Footer />
     </I18nProvider>

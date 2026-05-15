@@ -32,14 +32,7 @@
       "privacyTerms": "Privacy & Terms",
       "support": "Support"
     },
-    "language": "Language",
-    "notice": {
-      "title": "Oreon needs contributors now",
-      "body": "After over a year, we are building our next major release and need contributors now. Join Development, Packaging, Security Research, Social Media, or Translation to help keep Oreon development moving forward.",
-      "joinCta": "Join the Team",
-      "notNow": "Not now",
-      "doNotShowAgain": "Do not show again"
-    }
+    "language": "Language"
   },
   "home": {
     "hero": {
@@ -93,12 +86,8 @@
     "sponsors": {
       "title": "Our Sponsors",
       "boostyAlt": "BoostyConnect",
-      "cloudflareAlt": "Cloudflare"
-    },
-    "recruit": {
-      "title": "We Need Contributors Right Now",
-      "p": "Oreon is growing fast, and we need more hands to ship faster, keep packaging healthy, improve security, and expand global support.",
-      "cta": "Join the Team"
+      "cloudflareAlt": "Cloudflare",
+      "osuoslAlt": "OSU Open Source Lab"
     }
   },
   "about": {
@@ -215,9 +204,6 @@
     "announcementSubtitle": "This is a major feature update for Oreon 10.",
     "changelog": "Changelog:",
     "announcementFooter": "ISOs have been updated.",
-    "recruitTitle": "Help Us Ship Faster",
-    "recruitText": "We are actively recruiting contributors across development, packaging, security research, social media, and translation.",
-    "recruitCta": "See Open Teams",
     "oreon10": "Oreon 10",
     "oreon11": "Oreon 11 (Early Preview)",
     "earlyPreview": "Early Preview",

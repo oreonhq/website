@@ -131,18 +131,14 @@ export default async function Home({
               >
                 <Image src="/cloudflare.png" alt={t('home.sponsors.cloudflareAlt')} fill className="object-contain object-center" sizes="224px" />
               </a>
-            </div>
-          </div>
-        </section>
-
-        <section className="enterprise-section bg-white border-t border-black/5">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-4xl font-bold text-gray-900 mb-6 tracking-tight">{t('home.recruit.title')}</h2>
-              <p className="text-lg text-gray-600 font-light leading-relaxed mb-10">{t('home.recruit.p')}</p>
-              <LocaleLink href="/join" className="btn-oreon-gradient">
-                {t('home.recruit.cta')}
-              </LocaleLink>
+              <a
+                href="https://osuosl.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative block h-14 w-48 sm:h-16 sm:w-56 shrink-0 transition-opacity hover:opacity-85 focus:opacity-85 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#007b56] focus-visible:ring-offset-2 rounded"
+              >
+                <Image src="/osuosl-logo.png" alt={t('home.sponsors.osuoslAlt')} fill className="object-contain object-center" sizes="224px" />
+              </a>
             </div>
           </div>
         </section>
