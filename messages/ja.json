@@ -13,7 +13,8 @@
       "legalCenterDesc": "コンプライアンス",
       "helpSupport": "ヘルプ＆サポート",
       "helpSupportDesc": "直接支援",
-      "about": "について"
+      "about": "について",
+      "joinTeam": "チームに参加する"
     },
     "footer": {
       "tagline": "信頼されたテクノロジーで構築された、グローバルにサポートされるLinux",
@@ -27,7 +28,8 @@
       "legalCenter": "リーガルセンター",
       "copyright": "年OreonHQ.無断複写・転載を禁じます。",
       "privacyTerms": "プライバシーと規約",
-      "support": "サポート"
+      "support": "サポート",
+      "joinTeam": "チームに参加する"
     },
     "language": "言語",
     "donate": "寄付する"
@@ -80,7 +82,13 @@
       "getInvolved": "参加する",
       "donate": "寄付する"
     },
-    "globalMapAlt": "世界的な支持を表す世界地図"
+    "globalMapAlt": "世界的な支持を表す世界地図",
+    "sponsors": {
+      "title": "スポンサー",
+      "boostyAlt": "BoostyConnect",
+      "cloudflareAlt": "クラウドフレア",
+      "osuoslAlt": "OSUオープンソースラボ"
+    }
   },
   "about": {
     "title": "コミュニティ",
@@ -229,6 +237,43 @@
     "donateModalTitle": "寄付をご希望ですか？",
     "donateModalDesc": "Oreonのオープンソース開発を1回限りの寄付でサポートします。",
     "donateModalYes": "はい",
-    "donateModalNo": "遠慮する"
+    "donateModalNo": "遠慮する",
+    "metricsNotice": "私たちはこのページで匿名化されたダウンロード数を収集し、私たちのサーバーに対する需要の大きさを把握しています。詳しくは法律に関するページをご覧ください。",
+    "metricsNoticeLegal": "法的ページ",
+    "oreon11": "Oreon11（アーリープレビュー）",
+    "earlyPreview": "アーリープレビュー",
+    "oreon11Desc": "私たちの次のメジャーリリースは、現在、コントリビューターとテスター向けの初期プレビューテスト中です。",
+    "oreon11Warning": "重要なお知らせ安定版リリースが発表されるまで、Oreon 11 Early Previewを本番用ハードウェアにインストールしないでください。",
+    "github": "ギットハブ",
+    "comingSoon": "近日公開",
+    "checksumPending": "チェックサムは近日公開予定",
+    "notAvailable": "該当なし"
+  },
+  "join": {
+    "title": "Oreonチームに参加する",
+    "subtitle": "現在募集中です。Oreonの開発に直接影響を与えたいなら、ここから始めましょう。",
+    "urgentTitle": "なぜ今、これが重要なのか",
+    "urgentText": "十分な数のアクティブな貢献者がいないと、パッケージングとリリースの処理能力が低下します。ここでのあなたの仕事は、私たちがより速く出荷し、ユーザーを安全に保つのに直接役立ちます。",
+    "whereTitle": "コラボレーションが起こる場所",
+    "whereText": "Discordは何年もの間、私たちの主なコラボレーションのハブとなっていますが、Matrixやコミュニティフォーラムといった別のディスカッションプラットフォームもあります。フォーラムは、長時間のディスカッションのための最後の手段です。",
+    "joinDiscord": "ディスコードで参加する",
+    "joinMatrix": "マトリックスに参加",
+    "visitForum": "コミュニティ・フォーラムへ",
+    "teamTitle": "オープンチーム",
+    "teamDesc": "自分の強みに合ったチームを選ぶ。一つのチームから始めて、後で変更することもできる。",
+    "devTitle": "開発チーム",
+    "devText": "機能を開発し、コードを書き、コードをレビューする。あなたが望む機能をOreonに与えてください。",
+    "packagingTitle": "パッケージング・チーム",
+    "packagingText": "Oreonのパッケージを維持し、パッケージの更新を期限内に行う。",
+    "securityTitle": "セキュリティ・リサーチ・チーム",
+    "securityText": "セキュリティの脆弱性を監視し、Oreon Watchdogを通じて脆弱性を報告し、私たちのパッケージへのセキュリティ修正のバックポートに協力してください。",
+    "socialTitle": "ソーシャルメディアチーム",
+    "socialText": "コミュニティとOreonのためのコンテンツを作成することで、YouTubeの存在感を高める。",
+    "translationTitle": "翻訳チーム",
+    "translationText": "開発チームの一員。翻訳品質を向上させ、Oreonがより多くのユーザーにグローバルにリーチできるようサポートする。",
+    "startHere": "ここからスタート",
+    "startTitle": "最速のスタート方法",
+    "startP1": "まずDiscordに参加し、参加したいチームと自己紹介をしてください。",
+    "startP2": "スターター・タスクをリクエストしてください。今週から始められるインパクトの大きい仕事を紹介します。"
   }
 }

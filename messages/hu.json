@@ -13,7 +13,8 @@
       "legalCenterDesc": "Megfelelés és feltételek",
       "helpSupport": "Súgó és támogatás",
       "helpSupportDesc": "Közvetlen segítségnyújtás",
-      "about": "A  oldalról"
+      "about": "A  oldalról",
+      "joinTeam": "Csatlakozzon a csapathoz"
     },
     "footer": {
       "tagline": "Világszerte támogatott Linux, megbízható technológiára épülve",
@@ -27,7 +28,8 @@
       "legalCenter": "Jogi Központ",
       "copyright": "© {year} Oreon HQ. Minden jog fenntartva.",
       "privacyTerms": "Adatvédelem és feltételek",
-      "support": "Támogatás"
+      "support": "Támogatás",
+      "joinTeam": "Csatlakozzon a csapathoz"
     },
     "language": "Nyelv",
     "donate": "Adományozni"
@@ -80,7 +82,13 @@
       "getInvolved": "Vegyen részt →",
       "donate": "Adományozás →"
     },
-    "globalMapAlt": "A globális támogatást bemutató világtérkép"
+    "globalMapAlt": "A globális támogatást bemutató világtérkép",
+    "sponsors": {
+      "title": "Támogatóink",
+      "boostyAlt": "BoostyConnect",
+      "cloudflareAlt": "Cloudflare",
+      "osuoslAlt": "OSU Open Source Lab"
+    }
   },
   "about": {
     "title": "Közösségünk",
@@ -229,6 +237,43 @@
     "donateModalTitle": "Szeretne adományozni?",
     "donateModalDesc": "Támogassa az Oreon nyílt forráskódú fejlesztését egyszeri adománnyal.",
     "donateModalYes": "Igen",
-    "donateModalNo": "Nem, köszönöm."
+    "donateModalNo": "Nem, köszönöm.",
+    "metricsNotice": "Ezen az oldalon anonimizált letöltésszámokat gyűjtünk, hogy tudjuk, mekkora a kereslet a szervereink iránt. A részletekért lásd a jogi oldalunkat.",
+    "metricsNoticeLegal": "Jogi oldal",
+    "oreon11": "Oreon 11 (Korai előnézet)",
+    "earlyPreview": "Korai előnézet",
+    "oreon11Desc": "A következő nagy kiadásunk már a korai előzetes tesztelés alatt áll a közreműködők és tesztelők számára.",
+    "oreon11Warning": "Kritikai megjegyzés. Ne telepítse az Oreon 11 Early Preview-t a gyártó hardverre, amíg a stabil kiadás meg nem jelenik.",
+    "github": "GitHub",
+    "comingSoon": "Hamarosan",
+    "checksumPending": "Az ellenőrző összeg hamarosan közzétételre kerül",
+    "notAvailable": "N/A"
+  },
+  "join": {
+    "title": "Csatlakozzon az Oreon csapathoz",
+    "subtitle": "Most toborzunk munkatársakat. Ha szeretnéd közvetlenül befolyásolni az Oreon fejlesztését, itt kezdheted.",
+    "urgentTitle": "Miért fontos ez most",
+    "urgentText": "Elegendő aktív közreműködő nélkül a csomagolás és a kiadás sebessége lelassul. Az itt végzett munkád közvetlenül segít nekünk a gyorsabb szállításban és a felhasználók biztonságának megőrzésében.",
+    "whereTitle": "Ahol az együttműködés megtörténik",
+    "whereText": "A Discord évek óta a fő együttműködési központunk, de vannak alternatív vitafórumaink is, mint például a Matrix és a közösségi fórum. A Fórum utolsó mentsvárként áll rendelkezésre a lassúbb, hosszú formátumú vitákhoz.",
+    "joinDiscord": "Csatlakozz a Discordon",
+    "joinMatrix": "Csatlakozzon a Matrixhoz",
+    "visitForum": "Látogasson el a közösségi fórumra",
+    "teamTitle": "Nyílt csapatok",
+    "teamDesc": "Válassza ki az erősségeinek megfelelő csapatot. Kezdhetsz egy csapattal, és később válthatsz.",
+    "devTitle": "Fejlesztési csapat",
+    "devText": "Funkciók fejlesztése, kód írása és a kód felülvizsgálata. Adja meg az Oreonnak a kívánt funkciókat.",
+    "packagingTitle": "Csomagolási csapat",
+    "packagingText": "Az Oreon csomagok karbantartása és a csomagfrissítések időben történő elvégzése.",
+    "securityTitle": "Biztonsági kutatócsoport",
+    "securityText": "Figyelje a biztonsági réseket, jelentse a sebezhetőségeket az Oreon Watchdogon keresztül, és segítsen a biztonsági javítások backportolásában a csomagjainkba.",
+    "socialTitle": "Közösségi média csapat",
+    "socialText": "A közösség és az Oreon számára tartalmat létrehozva sajátítsa el és növelje YouTube-jelenlétünket.",
+    "translationTitle": "Fordítási csapat",
+    "translationText": "A fejlesztési csapat tagja. Javítsa a fordítás minőségét, és segítsen az Oreon-nak abban, hogy világszerte több felhasználóhoz jusson el.",
+    "startHere": "Kezdje itt",
+    "startTitle": "A leggyorsabb módja az indulásnak",
+    "startP1": "Először csatlakozz a Discordhoz, és mutatkozz be a csapattal, amelyhez csatlakozni szeretnél.",
+    "startP2": "Kérjen kezdő feladatokat. Megmutatjuk, hogy milyen nagy hatású munkát kezdhet el ezen a héten."
   }
 }

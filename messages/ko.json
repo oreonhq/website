@@ -13,7 +13,8 @@
       "legalCenterDesc": "규정 준수 및 약관",
       "helpSupport": "도움말 및 지원",
       "helpSupportDesc": "직접 지원",
-      "about": "정보"
+      "about": "정보",
+      "joinTeam": "팀에 참여하기"
     },
     "footer": {
       "tagline": "신뢰할 수 있는 기술을 기반으로 전 세계적으로 지원되는 Linux",
@@ -27,7 +28,8 @@
       "legalCenter": "법률 센터",
       "copyright": "© {년} Oreon HQ. 모든 권리 보유.",
       "privacyTerms": "개인정보 보호 및 약관",
-      "support": "지원"
+      "support": "지원",
+      "joinTeam": "팀에 참여하기"
     },
     "language": "언어",
     "donate": "기부하기"
@@ -80,7 +82,13 @@
       "getInvolved": "참여하기 →",
       "donate": "기부 →"
     },
-    "globalMapAlt": "글로벌 지원을 나타내는 세계 지도"
+    "globalMapAlt": "글로벌 지원을 나타내는 세계 지도",
+    "sponsors": {
+      "title": "스폰서",
+      "boostyAlt": "부스티커넥트",
+      "cloudflareAlt": "Cloudflare",
+      "osuoslAlt": "OSU 오픈 소스 랩"
+    }
   },
   "about": {
     "title": "커뮤니티",
@@ -229,6 +237,43 @@
     "donateModalTitle": "기부하시겠습니까?",
     "donateModalDesc": "일회성 기부로 Oreon 오픈 소스 개발을 지원하세요.",
     "donateModalYes": "예",
-    "donateModalNo": "아니요"
+    "donateModalNo": "아니요",
+    "metricsNotice": "이 페이지에서 익명으로 다운로드 횟수를 수집하여 서버에 대한 수요를 파악할 수 있습니다. 자세한 내용은 법률 페이지를 참조하세요.",
+    "metricsNoticeLegal": "법률 페이지",
+    "oreon11": "Oreon 11(미리 보기)",
+    "earlyPreview": "미리 보기",
+    "oreon11Desc": "다음 주요 릴리즈는 현재 기여자와 테스터를 대상으로 초기 프리뷰 테스트 중입니다.",
+    "oreon11Warning": "중요 참고 사항. 안정적인 릴리스가 게시될 때까지 프로덕션 하드웨어에 Oreon 11 얼리 프리뷰를 설치하지 마세요.",
+    "github": "GitHub",
+    "comingSoon": "곧 출시 예정",
+    "checksumPending": "체크섬은 곧 공개될 예정입니다.",
+    "notAvailable": "N/A"
+  },
+  "join": {
+    "title": "Oreon 팀에 합류하세요",
+    "subtitle": "지금 모집 중입니다. Oreon 개발에 직접적인 영향을 미치고 싶다면 여기에서 시작하세요.",
+    "urgentTitle": "지금 이것이 중요한 이유",
+    "urgentText": "활동적인 기여자가 충분하지 않으면 패키징 및 릴리스 처리 속도가 느려집니다. 여러분의 작업은 더 빠른 출시와 사용자 보안 유지에 직접적인 도움이 됩니다.",
+    "whereTitle": "협업이 이루어지는 곳",
+    "whereText": "Discord는 수년 동안 주요 협업 허브로 사용되어 왔지만 Matrix와 커뮤니티 포럼과 같은 대체 토론 플랫폼도 있습니다. 포럼은 느리고 긴 형식의 토론을 위한 최후의 토론 옵션으로 사용할 수 있습니다.",
+    "joinDiscord": "Discord에서 가입하기",
+    "joinMatrix": "매트릭스에서 가입하기",
+    "visitForum": "커뮤니티 포럼 방문하기",
+    "teamTitle": "팀 열기",
+    "teamDesc": "자신의 강점에 맞는 팀을 선택하세요. 한 팀으로 시작하여 나중에 변경할 수 있습니다.",
+    "devTitle": "개발 팀",
+    "devText": "기능을 개발하고, 코드를 작성하고, 코드를 검토하세요. 원하는 기능을 Oreon에 제공하세요.",
+    "packagingTitle": "패키징 팀",
+    "packagingText": "Oreon 패키지를 유지 관리하고 패키지 업데이트를 제때에 유지하세요.",
+    "securityTitle": "보안 연구팀",
+    "securityText": "보안 취약점을 모니터링하고, Oreon Watchdog을 통해 취약점을 보고하고, 패키지에 대한 보안 수정 사항을 백포트하는 데 도움을 주세요.",
+    "socialTitle": "소셜 미디어 팀",
+    "socialText": "커뮤니티와 Oreon을 위한 콘텐츠를 제작하여 YouTube의 입지를 확보하고 성장시키세요.",
+    "translationTitle": "번역 팀",
+    "translationText": "개발팀 소속. 번역 품질을 개선하고 Oreon이 전 세계 더 많은 사용자에게 다가갈 수 있도록 도와주세요.",
+    "startHere": "여기에서 시작",
+    "startTitle": "가장 빠르게 시작하는 방법",
+    "startP1": "먼저 Discord에 가입하고 가입하고 싶은 팀에 대해 소개하세요.",
+    "startP2": "시작 작업을 요청하세요. 이번 주에 시작할 수 있는 영향력 있는 작업을 안내해 드립니다."
   }
 }

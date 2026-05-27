@@ -13,7 +13,8 @@
       "legalCenterDesc": "Overholdelse og vilkår",
       "helpSupport": "Hjelp og støtte",
       "helpSupportDesc": "Direkte assistanse",
-      "about": "Om"
+      "about": "Om",
+      "joinTeam": "Bli med på laget"
     },
     "footer": {
       "tagline": "Globalt støttet Linux, bygget på pålitelig teknologi",
@@ -27,7 +28,8 @@
       "legalCenter": "Juridisk senter",
       "copyright": "© {år} Oreon HQ. Alle rettigheter forbeholdt.",
       "privacyTerms": "Personvern og vilkår",
-      "support": "Støtte"
+      "support": "Støtte",
+      "joinTeam": "Bli med på laget"
     },
     "language": "Språk",
     "donate": "Gi en gave"
@@ -80,7 +82,13 @@
       "getInvolved": "Involver deg → Bli involvert",
       "donate": "Doner → Doner"
     },
-    "globalMapAlt": "Verdenskart som representerer global støtte"
+    "globalMapAlt": "Verdenskart som representerer global støtte",
+    "sponsors": {
+      "title": "Våre sponsorer",
+      "boostyAlt": "BoostyConnect",
+      "cloudflareAlt": "Cloudflare",
+      "osuoslAlt": "OSU Open Source Lab"
+    }
   },
   "about": {
     "title": "Vårt fellesskap",
@@ -229,6 +237,43 @@
     "donateModalTitle": "Ønsker du å donere?",
     "donateModalDesc": "Støtt utviklingen av Oreon med åpen kildekode ved å gi en engangsdonasjon.",
     "donateModalYes": "Ja",
-    "donateModalNo": "Nei takk"
+    "donateModalNo": "Nei takk",
+    "metricsNotice": "Vi samler inn anonymiserte nedlastningstall på denne siden, slik at vi vet hvor stor etterspørsel det er etter serverne våre. Se vår juridiske side for mer informasjon.",
+    "metricsNoticeLegal": "Juridisk side",
+    "oreon11": "Oreon 11 (tidlig forhåndsvisning)",
+    "earlyPreview": "Tidlig forhåndsvisning",
+    "oreon11Desc": "Vår neste store versjon er nå i en tidlig forhåndsvisningstest for bidragsytere og testere.",
+    "oreon11Warning": "Kritisk merknad. Ikke installer Oreon 11 Early Preview på produksjonsmaskinvare før den stabile versjonen er publisert.",
+    "github": "GitHub",
+    "comingSoon": "Kommer snart",
+    "checksumPending": "Sjekksum vil bli publisert snart",
+    "notAvailable": "N/A"
+  },
+  "join": {
+    "title": "Bli en del av Oreon-teamet",
+    "subtitle": "Vi rekrutterer nå. Hvis du ønsker å påvirke utviklingen av Oreon direkte, er det her du skal begynne.",
+    "urgentTitle": "Hvorfor dette er viktig akkurat nå",
+    "urgentText": "Uten nok aktive bidragsytere vil pakking og utgivelser gå tregere. Ditt arbeid her hjelper oss direkte med å levere raskere og holde brukerne sikre.",
+    "whereTitle": "Der samarbeid skjer",
+    "whereText": "Discord har vært vårt viktigste samarbeidsnav i årevis, men vi har også alternative diskusjonsplattformer som Matrix og Community Forum. Forumet er tilgjengelig som en siste utvei for diskusjoner som tar lengre tid.",
+    "joinDiscord": "Bli med på Discord",
+    "joinMatrix": "Bli med på Matrix",
+    "visitForum": "Besøk Community Forum",
+    "teamTitle": "Åpne lag",
+    "teamDesc": "Velg det laget som passer til dine sterke sider. Du kan begynne med ett lag og bytte senere.",
+    "devTitle": "Utviklingsteam",
+    "devText": "Utvikle funksjoner, skriv kode og gå gjennom kode. Gi Oreon de funksjonene du ønsker å se.",
+    "packagingTitle": "Emballasjeteamet",
+    "packagingText": "Vedlikeholde Oreon-pakker og sørge for at pakkene oppdateres i tide.",
+    "securityTitle": "Team for sikkerhetsforskning",
+    "securityText": "Overvåk sikkerhetsproblemer, rapporter sårbarheter via Oreon Watchdog, og hjelp til med å tilbakeportere sikkerhetsrettelser til pakkene våre.",
+    "socialTitle": "Teamet for sosiale medier",
+    "socialText": "Eie og utvide vår tilstedeværelse på YouTube ved å skape innhold for fellesskapet og Oreon.",
+    "translationTitle": "Oversettelsesteamet",
+    "translationText": "En del av utviklingsteamet. Forbedre kvaliteten på oversettelsene og bidra til at Oreon når ut til flere brukere globalt.",
+    "startHere": "Start her",
+    "startTitle": "Raskeste måten å starte på",
+    "startP1": "Meld deg først inn i Discord og presenter deg med teamet du ønsker å bli med på.",
+    "startP2": "Be om startoppgaver. Vi viser deg til oppgaver med stor effekt som du kan begynne med allerede denne uken."
   }
 }

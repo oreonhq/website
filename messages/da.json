@@ -13,7 +13,8 @@
       "legalCenterDesc": "Overholdelse og vilkår",
       "helpSupport": "Hjælp og support",
       "helpSupportDesc": "Direkte hjælp",
-      "about": "Omkring"
+      "about": "Omkring",
+      "joinTeam": "Bliv en del af teamet"
     },
     "footer": {
       "tagline": "Globalt understøttet Linux, bygget på pålidelig teknologi",
@@ -27,7 +28,8 @@
       "legalCenter": "Juridisk center",
       "copyright": "© {år} Oreon HQ. Alle rettigheder forbeholdes.",
       "privacyTerms": "Fortrolighed og vilkår",
-      "support": "Støtte"
+      "support": "Støtte",
+      "joinTeam": "Bliv en del af teamet"
     },
     "language": "Sprog",
     "donate": "Doner"
@@ -80,7 +82,13 @@
       "getInvolved": "Bliv involveret →.",
       "donate": "Giv en donation →."
     },
-    "globalMapAlt": "Verdenskort, der repræsenterer global støtte"
+    "globalMapAlt": "Verdenskort, der repræsenterer global støtte",
+    "sponsors": {
+      "title": "Vores sponsorer",
+      "boostyAlt": "BoostyConnect",
+      "cloudflareAlt": "Cloudflare",
+      "osuoslAlt": "OSU Open Source Lab"
+    }
   },
   "about": {
     "title": "Vores samfund",
@@ -229,6 +237,43 @@
     "donateModalTitle": "Vil du gerne donere?",
     "donateModalDesc": "Støt udviklingen af Oreon open source med en engangsdonation.",
     "donateModalYes": "Ja",
-    "donateModalNo": "Nej tak"
+    "donateModalNo": "Nej tak",
+    "metricsNotice": "Vi indsamler anonymiserede download-tællinger på denne side, så vi ved, hvor stor efterspørgsel der er på vores servere. Se vores juridiske side for detaljer.",
+    "metricsNoticeLegal": "Juridisk side",
+    "oreon11": "Oreon 11 (tidlig forhåndsvisning)",
+    "earlyPreview": "Tidlig forhåndsvisning",
+    "oreon11Desc": "Vores næste store udgivelse er nu i en tidlig preview-test for bidragydere og testere.",
+    "oreon11Warning": "Kritisk bemærkning. Installer ikke Oreon 11 Early Preview på produktionshardware, før den stabile udgave er udgivet.",
+    "github": "GitHub",
+    "comingSoon": "Kommer snart",
+    "checksumPending": "Checksum vil snart blive offentliggjort",
+    "notAvailable": "N/A"
+  },
+  "join": {
+    "title": "Bliv en del af Oreon-teamet",
+    "subtitle": "Vi rekrutterer nu. Hvis du vil have direkte indflydelse på Oreons udvikling, er det her, du skal starte.",
+    "urgentTitle": "Hvorfor det er vigtigt lige nu",
+    "urgentText": "Uden nok aktive bidragydere bliver pakke- og udgivelsesprocessen langsommere. Dit arbejde her hjælper os direkte med at udgive hurtigere og holde brugerne sikre.",
+    "whereTitle": "Hvor samarbejde sker",
+    "whereText": "Discord har været vores vigtigste samarbejdscenter i årevis, men vi har også alternative diskussionsplatforme som Matrix og Community Forum. Forummet er tilgængeligt som en sidste udvej til langsommere diskussioner af længere varighed.",
+    "joinDiscord": "Deltag på Discord",
+    "joinMatrix": "Deltag på Matrix",
+    "visitForum": "Besøg Community Forum",
+    "teamTitle": "Åbne hold",
+    "teamDesc": "Vælg det hold, der passer til dine styrker. Du kan starte med ét hold og skifte senere.",
+    "devTitle": "Udviklingsteam",
+    "devText": "Udvikl funktioner, skriv kode og gennemgå kode. Giv Oreon de funktioner, du gerne vil se.",
+    "packagingTitle": "Emballage-team",
+    "packagingText": "Vedligehold Oreon-pakker og hold pakkeopdateringer til tiden.",
+    "securityTitle": "Sikkerhedsforskningsteam",
+    "securityText": "Overvåg sikkerhedssårbarheder, rapporter sårbarheder via Oreon Watchdog, og hjælp med at backporte sikkerhedsrettelser til vores pakker.",
+    "socialTitle": "Team for sociale medier",
+    "socialText": "Ejer og udvider vores YouTube-tilstedeværelse ved at skabe indhold til fællesskabet og Oreon.",
+    "translationTitle": "Oversættelseshold",
+    "translationText": "En del af udviklingsteamet. Forbedre oversættelseskvaliteten og hjælpe Oreon med at nå ud til flere brugere globalt.",
+    "startHere": "Start her",
+    "startTitle": "Hurtigste måde at starte på",
+    "startP1": "Gå først ind på Discord, og præsenter dig for det hold, du vil være med på.",
+    "startP2": "Bed om startopgaver. Vi vil henvise dig til arbejde med stor effekt, som du kan begynde på i denne uge."
   }
 }

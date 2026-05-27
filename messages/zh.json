@@ -13,7 +13,8 @@
       "legalCenterDesc": "合规与条款",
       "helpSupport": "帮助与支持",
       "helpSupportDesc": "直接援助",
-      "about": "关于"
+      "about": "关于",
+      "joinTeam": "加入团队"
     },
     "footer": {
       "tagline": "基于可信技术的全球支持 Linux",
@@ -27,7 +28,8 @@
       "legalCenter": "法律中心",
       "copyright": "©{年｝Oreon HQ。保留所有权利。",
       "privacyTerms": "隐私与条款",
-      "support": "支持"
+      "support": "支持",
+      "joinTeam": "加入团队"
     },
     "language": "语言",
     "donate": "捐赠"
@@ -80,7 +82,13 @@
       "getInvolved": "参与活动 →",
       "donate": "捐赠 →"
     },
-    "globalMapAlt": "代表全球支持的世界地图"
+    "globalMapAlt": "代表全球支持的世界地图",
+    "sponsors": {
+      "title": "我们的赞助商",
+      "boostyAlt": "BoostyConnect",
+      "cloudflareAlt": "Cloudflare",
+      "osuoslAlt": "OSU 开放源码实验室"
+    }
   },
   "about": {
     "title": "我们的社区",
@@ -229,6 +237,43 @@
     "donateModalTitle": "您愿意捐款吗？",
     "donateModalDesc": "通过一次性捐赠支持 Oreon 的开源开发。",
     "donateModalYes": "是",
-    "donateModalNo": "不，谢谢"
+    "donateModalNo": "不，谢谢",
+    "metricsNotice": "我们在本页收集匿名下载次数，以便了解对我们服务器的需求量。详情请查看我们的法律页面。",
+    "metricsNoticeLegal": "法律页面",
+    "oreon11": "Oreon 11（早期预览）",
+    "earlyPreview": "提前预览",
+    "oreon11Desc": "我们的下一个重要版本目前正在为贡献者和测试者进行早期预览测试。",
+    "oreon11Warning": "重要提示。在稳定版发布之前，请勿在生产硬件上安装 Oreon 11 早期预览版。",
+    "github": "GitHub",
+    "comingSoon": "即将推出",
+    "checksumPending": "即将公布校验和",
+    "notAvailable": "不适用"
+  },
+  "join": {
+    "title": "加入Oreon团队",
+    "subtitle": "我们正在招聘。如果您想直接影响 Oreon 的发展，就从这里开始吧。",
+    "urgentTitle": "为什么现在很重要",
+    "urgentText": "如果没有足够多的积极贡献者，打包和发布的速度就会减慢。您在这里的工作将直接帮助我们加快发布速度，确保用户安全。",
+    "whereTitle": "开展合作的地方",
+    "whereText": "Discord 多年来一直是我们的主要协作中心，但我们也有 Matrix 和社区论坛等其他讨论平台。论坛是进行慢速长篇讨论的最后选择。",
+    "joinDiscord": "在 Discord 上加入",
+    "joinMatrix": "加入矩阵",
+    "visitForum": "访问社区论坛",
+    "teamTitle": "开放团队",
+    "teamDesc": "选择适合自己特长的团队。您可以从一个团队开始，然后再更换。",
+    "devTitle": "开发团队",
+    "devText": "开发功能、编写代码、审核代码。为 Oreon 提供您希望看到的功能。",
+    "packagingTitle": "包装团队",
+    "packagingText": "维护 Oreon 软件包，及时更新软件包。",
+    "securityTitle": "安全研究团队",
+    "securityText": "监控安全漏洞，通过 Oreon Watchdog 报告漏洞，并帮助向我们的软件包回传安全修复程序。",
+    "socialTitle": "社交媒体团队",
+    "socialText": "通过为社区和 Oreon 创建内容，拥有并发展我们的 YouTube 影响力。",
+    "translationTitle": "翻译团队",
+    "translationText": "开发团队成员。提高翻译质量，帮助 Oreon 在全球获得更多用户。",
+    "startHere": "从这里开始",
+    "startTitle": "最快的启动方式",
+    "startP1": "先加入 Discord，然后在您想加入的团队中介绍自己。",
+    "startP2": "询问启动任务。我们将为您指出本周可以开始的高效工作。"
   }
 }

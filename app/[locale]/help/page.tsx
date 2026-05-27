@@ -47,9 +47,7 @@ export default async function Help({
                   <h2 className="text-xl font-bold text-black uppercase tracking-widest text-xs mb-6">{t('help.feedback')}</h2>
                   <div className="space-y-8">
                     <div>
-                      <a href="mailto:partnerships@oreonhq.com" className="text-lg font-bold text-black hover:text-[#007b56] transition-colors">
-                        team@oreonhq.com
-                      </a>
+                      <p className="text-lg font-bold text-black">{t('help.teamEmail')}</p>
                     </div>
                   </div>
                 </section>
@@ -58,12 +56,7 @@ export default async function Help({
                   <h2 className="text-xl font-bold text-black uppercase tracking-widest text-xs mb-6">{t('help.enterpriseSupport')}</h2>
                   <div className="space-y-8">
                     <div className="pt-4">
-                      <a
-                        href="mailto:enterprise-support@oreonhq.com"
-                        className="text-lg font-bold text-black hover:text-[#007b56] transition-colors"
-                      >
-                        {t('help.comingSoon')}
-                      </a>
+                      <p className="text-lg font-bold text-black">{t('help.comingSoon')}</p>
                     </div>
                   </div>
                 </section>

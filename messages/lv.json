@@ -13,7 +13,8 @@
       "legalCenterDesc": "Atbilstība un noteikumi",
       "helpSupport": "Palīdzība un atbalsts",
       "helpSupportDesc": "Tiešā palīdzība",
-      "about": "Par"
+      "about": "Par",
+      "joinTeam": "Pievienojieties komandai"
     },
     "footer": {
       "tagline": "Visā pasaulē atbalstīta Linux, kas balstīta uz uzticamu tehnoloģiju",
@@ -27,7 +28,8 @@
       "legalCenter": "Juridiskais centrs",
       "copyright": "© {gads} Oreon HQ. Visas tiesības aizsargātas.",
       "privacyTerms": "Konfidencialitāte un noteikumi",
-      "support": "Atbalsts"
+      "support": "Atbalsts",
+      "joinTeam": "Pievienojieties komandai"
     },
     "language": "Valoda",
     "donate": "Ziedot"
@@ -80,7 +82,13 @@
       "getInvolved": "Iesaistieties →",
       "donate": "Ziedot →"
     },
-    "globalMapAlt": "Pasaules karte, kurā attēlots globālais atbalsts"
+    "globalMapAlt": "Pasaules karte, kurā attēlots globālais atbalsts",
+    "sponsors": {
+      "title": "Mūsu sponsori",
+      "boostyAlt": "BoostyConnect",
+      "cloudflareAlt": "Cloudflare",
+      "osuoslAlt": "OSU atvērtā koda laboratorija"
+    }
   },
   "about": {
     "title": "Mūsu kopiena",
@@ -229,6 +237,43 @@
     "donateModalTitle": "Vai vēlaties ziedot?",
     "donateModalDesc": "Atbalstiet Oreon atvērtā pirmkoda izstrādi ar vienreizēju ziedojumu.",
     "donateModalYes": "Jā",
-    "donateModalNo": "Nē, paldies"
+    "donateModalNo": "Nē, paldies",
+    "metricsNotice": "Šajā lapā mēs apkopojam anonīmu lejupielādes skaitu, lai zinātu, cik liels ir pieprasījums pēc mūsu serveriem. Sīkāku informāciju skatiet mūsu juridiskajā lapā.",
+    "metricsNoticeLegal": "Juridiskā lapa",
+    "oreon11": "Oreon 11 (agrīna pirmizrāde)",
+    "earlyPreview": "Agrīnais priekšskatījums",
+    "oreon11Desc": "Mūsu nākamais lielais laidiens ir nodots agrīnai priekšskatījuma testēšanai, kurā piedalās autori un testētāji.",
+    "oreon11Warning": "Kritiska piezīme. Neinstalējiet Oreon 11 Early Preview uz ražošanas aparatūras, kamēr nav publicēts stabilais izdevums.",
+    "github": "GitHub",
+    "comingSoon": "Drīzumā gaidāms",
+    "checksumPending": "Pārbaudes summa tiks publicēta drīzumā",
+    "notAvailable": "NAV PIEMĒROJAMS"
+  },
+  "join": {
+    "title": "Pievienojieties Oreon komandai",
+    "subtitle": "Šobrīd notiek darbinieku pieņemšana darbā. Ja vēlaties tieši ietekmēt Oreon attīstību, sāciet tieši šeit.",
+    "urgentTitle": "Kāpēc tas ir svarīgi tieši tagad",
+    "urgentText": "Ja nav pietiekami daudz aktīvu dalībnieku, iepakojuma un izlaides caurlaides ātrums palēninās. Jūsu darbs šeit tieši palīdz mums ātrāk nosūtīt un nodrošināt lietotāju drošību.",
+    "whereTitle": "Kur notiek sadarbība",
+    "whereText": "Discord jau gadiem ilgi ir mūsu galvenais sadarbības centrs, taču mums ir arī alternatīvas diskusiju platformas, piemēram, Matrix un kopienas forums. Forums ir pieejams kā pēdējā iespēja lēnākām un ilgstošām diskusijām.",
+    "joinDiscord": "Pievienojies Discord",
+    "joinMatrix": "Pievienojies Matrix",
+    "visitForum": "Apmeklējiet Kopienas forumu",
+    "teamTitle": "Atvērtās komandas",
+    "teamDesc": "Izvēlieties komandu, kas atbilst jūsu stiprajām pusēm. Varat sākt ar vienu komandu un vēlāk mainīt.",
+    "devTitle": "Izstrādes komanda",
+    "devText": "Izstrādājiet funkcijas, rakstiet kodu un pārskatiet kodu. Sniedziet Oreon funkcijas, kuras vēlaties redzēt.",
+    "packagingTitle": "Iepakojuma komanda",
+    "packagingText": "Uzturēt Oreon paketes un savlaicīgi atjaunināt paketes.",
+    "securityTitle": "Drošības izpētes komanda",
+    "securityText": "Uzraudzīt drošības ievainojamības, ziņot par ievainojamībām, izmantojot Oreon Watchdog, un palīdzēt pārnest drošības labojumus uz mūsu paketēm.",
+    "socialTitle": "Sociālo plašsaziņas līdzekļu komanda",
+    "socialText": "Veidot un attīstīt mūsu klātbūtni YouTube, radot saturu kopienai un Oreon.",
+    "translationTitle": "Tulkošanas komanda",
+    "translationText": "Daļa no izstrādes komandas. Uzlabojiet tulkojumu kvalitāti un palīdziet Oreon sasniegt vairāk lietotāju visā pasaulē.",
+    "startHere": "Sākt šeit",
+    "startTitle": "Ātrākais veids, kā sākt",
+    "startP1": "Vispirms pievienojieties Discord un iepazīstiniet sevi ar komandu, kurai vēlaties pievienoties.",
+    "startP2": "Palūdziet sākuma uzdevumus. Mēs jums norādīsim, kādus darbus ar lielu ietekmi jūs varat sākt jau šonedēļ."
   }
 }

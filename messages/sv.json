@@ -13,7 +13,8 @@
       "legalCenterDesc": "Efterlevnad & villkor",
       "helpSupport": "Hjälp och support",
       "helpSupportDesc": "Direkt stöd",
-      "about": "Om"
+      "about": "Om",
+      "joinTeam": "Bli en del av teamet"
     },
     "footer": {
       "tagline": "Globalt stödd Linux, byggd på pålitlig teknik",
@@ -27,7 +28,8 @@
       "legalCenter": "Juridiskt centrum",
       "copyright": "© {år} Oreon huvudkontor. Alla rättigheter reserverade.",
       "privacyTerms": "Integritet & Villkor",
-      "support": "Stöd"
+      "support": "Stöd",
+      "joinTeam": "Bli en del av teamet"
     },
     "language": "Språk",
     "donate": "Donera"
@@ -80,7 +82,13 @@
       "getInvolved": "Engagera dig →.",
       "donate": "Donera → Donera"
     },
-    "globalMapAlt": "Världskarta som representerar globalt stöd"
+    "globalMapAlt": "Världskarta som representerar globalt stöd",
+    "sponsors": {
+      "title": "Våra sponsorer",
+      "boostyAlt": "BoostyConnect",
+      "cloudflareAlt": "Cloudflare",
+      "osuoslAlt": "OSU Open Source Lab"
+    }
   },
   "about": {
     "title": "Vår gemenskap",
@@ -229,6 +237,43 @@
     "donateModalTitle": "Vill du skänka pengar?",
     "donateModalDesc": "Stöd Oreons utveckling av öppen källkod med en engångsdonation.",
     "donateModalYes": "Ja",
-    "donateModalNo": "Nej tack"
+    "donateModalNo": "Nej tack",
+    "metricsNotice": "Vi samlar in anonymiserade nedladdningssiffror på den här sidan så att vi vet hur stor efterfrågan är på våra servrar. Se vår juridiska sida för mer information.",
+    "metricsNoticeLegal": "Juridisk sida",
+    "oreon11": "Oreon 11 (tidig förhandsvisning)",
+    "earlyPreview": "Tidig förhandsvisning",
+    "oreon11Desc": "Vår nästa stora release är nu i tidig förhandstestning för bidragsgivare och testare.",
+    "oreon11Warning": "Kritisk anmärkning. Installera inte Oreon 11 Early Preview på produktionshårdvara förrän den stabila versionen har publicerats.",
+    "github": "GitHub",
+    "comingSoon": "Kommer inom kort",
+    "checksumPending": "Kontrollsumma kommer att publiceras inom kort",
+    "notAvailable": "N/A"
+  },
+  "join": {
+    "title": "Bli en del av Oreon-teamet",
+    "subtitle": "Vi rekryterar nu. Om du vill ha en direkt inverkan på Oreons utveckling är det här du ska börja.",
+    "urgentTitle": "Varför detta är viktigt just nu",
+    "urgentText": "Utan tillräckligt många aktiva bidragsgivare går paketering och utgivning långsammare. Ditt arbete här hjälper oss direkt att leverera snabbare och hålla användarna säkra.",
+    "whereTitle": "Där samarbete sker",
+    "whereText": "Discord har varit vårt huvudsakliga samarbetsnav i flera år, men vi har också alternativa diskussionsplattformar som Matrix och Community Forum. Forum är tillgängligt som en sista utväg för långsammare diskussioner i långformat.",
+    "joinDiscord": "Gå med på Discord",
+    "joinMatrix": "Gå med i Matrix",
+    "visitForum": "Besök Community Forum",
+    "teamTitle": "Öppna team",
+    "teamDesc": "Välj det team som passar dina styrkor. Du kan börja med ett team och byta senare.",
+    "devTitle": "Utvecklingsteam",
+    "devText": "Utveckla funktioner, skriv kod och granska kod. Ge Oreon de funktioner du vill se.",
+    "packagingTitle": "Förpackningsteam",
+    "packagingText": "Underhålla Oreon-paket och hålla paketuppdateringar i tid.",
+    "securityTitle": "Team för säkerhetsforskning",
+    "securityText": "Övervaka säkerhetsproblem, rapportera säkerhetsproblem via Oreon Watchdog och hjälpa till att bakåtportera säkerhetsfixar till våra paket.",
+    "socialTitle": "Team för sociala medier",
+    "socialText": "Äga och utveckla vår YouTube-närvaro genom att skapa innehåll för samhället och Oreon.",
+    "translationTitle": "Översättningsteam",
+    "translationText": "Del av utvecklingsteam. Förbättra översättningskvaliteten och hjälp Oreon att nå fler användare globalt.",
+    "startHere": "Börja här",
+    "startTitle": "Snabbaste sättet att starta",
+    "startP1": "Gå först med i Discord och presentera dig för det team du vill gå med i.",
+    "startP2": "Be om startuppgifter. Vi kommer att peka ut ett arbete med stor effekt som du kan påbörja den här veckan."
   }
 }

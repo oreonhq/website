@@ -13,7 +13,8 @@
       "legalCenterDesc": "Vastavus ja tingimused",
       "helpSupport": "Abi ja tugi",
       "helpSupportDesc": "Otsene abi",
-      "about": "kohta"
+      "about": "kohta",
+      "joinTeam": "Liitu meeskonnaga"
     },
     "footer": {
       "tagline": "Ülemaailmselt toetatud Linux, mis põhineb usaldusväärsel tehnoloogial",
@@ -27,7 +28,8 @@
       "legalCenter": "Õiguskeskus",
       "copyright": "© {year} Oreon HQ. Kõik õigused kaitstud.",
       "privacyTerms": "Privaatsus ja tingimused",
-      "support": "Toetus"
+      "support": "Toetus",
+      "joinTeam": "Liitu meeskonnaga"
     },
     "language": "Keel",
     "donate": "Annetada"
@@ -80,7 +82,13 @@
       "getInvolved": "Osale →",
       "donate": "Annetada →"
     },
-    "globalMapAlt": "Ülemaailmne kaart, mis näitab ülemaailmset toetust"
+    "globalMapAlt": "Ülemaailmne kaart, mis näitab ülemaailmset toetust",
+    "sponsors": {
+      "title": "Meie sponsorid",
+      "boostyAlt": "BoostyConnect",
+      "cloudflareAlt": "Cloudflare",
+      "osuoslAlt": "OSU avatud lähtekoodiga labor"
+    }
   },
   "about": {
     "title": "Meie kogukond",
@@ -229,6 +237,43 @@
     "donateModalTitle": "Kas soovite annetada?",
     "donateModalDesc": "Toetage Oreoni avatud lähtekoodiga arendamist ühekordse annetusega.",
     "donateModalYes": "Jah",
-    "donateModalNo": "Ei aitäh"
+    "donateModalNo": "Ei aitäh",
+    "metricsNotice": "Me kogume sellel lehel anonüümseid allalaadimisi, et me teaksime, kui suur on nõudlus meie serverite järele. Vaata meie juriidilist lehekülge üksikasjade kohta.",
+    "metricsNoticeLegal": "Õiguslik lehekülg",
+    "oreon11": "Oreon 11 (varajane eelvaade)",
+    "earlyPreview": "Varajane eelvaade",
+    "oreon11Desc": "Meie järgmine suurversioon on nüüd varajases eelkatsetuses, mis on mõeldud kaastöötajatele ja testijatele.",
+    "oreon11Warning": "Kriitiline märkus. Ärge installige Oreon 11 Early Preview'i tootmisriistvarale, kuni stabiilne versioon on avaldatud.",
+    "github": "GitHub",
+    "comingSoon": "Tulevad varsti",
+    "checksumPending": "Kontrollimine avaldatakse peagi",
+    "notAvailable": "EI KOHALDATA"
+  },
+  "join": {
+    "title": "Liitu Oreoni meeskonnaga",
+    "subtitle": "Me värbame praegu töötajaid. Kui soovite otseselt mõjutada Oreoni arengut, siis on see koht, kust alustada.",
+    "urgentTitle": "Miks see on praegu oluline",
+    "urgentText": "Ilma piisava hulga aktiivsete toetajateta aeglustub pakendamise ja vabastamise läbilaskevõime. Teie töö siin aitab meil kiiremini tarnida ja hoida kasutajate turvalisust.",
+    "whereTitle": "Kus toimub koostöö",
+    "whereText": "Discord on aastaid olnud meie peamine koostöökeskus, kuid meil on ka alternatiivseid aruteluplatvorme, nagu Matrix ja ühenduse foorum. Foorum on saadaval viimase abinõuna aeglasemate pikemaajaliste arutelude jaoks.",
+    "joinDiscord": "Liitu Discordiga",
+    "joinMatrix": "Liitu Matrixiga",
+    "visitForum": "Külasta ühenduse foorumit",
+    "teamTitle": "Avatud meeskonnad",
+    "teamDesc": "Valige meeskond, mis vastab teie tugevustele. Võite alustada ühe meeskonnaga ja hiljem vahetada.",
+    "devTitle": "Arendusmeeskond",
+    "devText": "Funktsioonide arendamine, koodi kirjutamine ja koodi läbivaatamine. Andke Oreonile funktsioone, mida soovite näha.",
+    "packagingTitle": "Pakendimeeskond",
+    "packagingText": "Oreoni pakettide haldamine ja pakettide õigeaegne ajakohastamine.",
+    "securityTitle": "Turvalisuse uurimisrühm",
+    "securityText": "Jälgige turvaauke, teatage haavatavustest Oreon Watchdogi kaudu ja aidake meie pakettide turvaparandusi tagasi transportida.",
+    "socialTitle": "Sotsiaalmeedia meeskond",
+    "socialText": "Omandada ja kasvatada meie YouTube'i kohalolekut, luues sisu kogukonnale ja Oreonile.",
+    "translationTitle": "Tõlkemeeskond",
+    "translationText": "Osa arendusmeeskonnast. Parandage tõlkekvaliteeti ja aidake Oreonil jõuda rohkemate kasutajateni kogu maailmas.",
+    "startHere": "Alusta siit",
+    "startTitle": "Kiireim viis alustada",
+    "startP1": "Liitu esmalt Discordiga ja tutvusta ennast meeskonnaga, millega sa tahad liituda.",
+    "startP2": "Küsige stardiülesandeid. Osutame teile suure mõjuga tööd, mida saate alustada juba sel nädalal."
   }
 }

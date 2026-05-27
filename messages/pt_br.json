@@ -13,7 +13,8 @@
       "legalCenterDesc": "Conformidade e termos",
       "helpSupport": "Ajuda e suporte",
       "helpSupportDesc": "Assistência direta",
-      "about": "Sobre"
+      "about": "Sobre",
+      "joinTeam": "Faça parte da equipe"
     },
     "footer": {
       "tagline": "Linux com suporte global, desenvolvido com tecnologia confiável",
@@ -27,7 +28,8 @@
       "legalCenter": "Centro Jurídico",
       "copyright": "© {year} Oreon HQ. Todos os direitos reservados.",
       "privacyTerms": "Privacidade e termos",
-      "support": "Suporte"
+      "support": "Suporte",
+      "joinTeam": "Faça parte da equipe"
     },
     "language": "Idioma",
     "donate": "Doação"
@@ -80,7 +82,13 @@
       "getInvolved": "Envolva-se →",
       "donate": "Doação →"
     },
-    "globalMapAlt": "Mapa do mundo representando o suporte global"
+    "globalMapAlt": "Mapa do mundo representando o suporte global",
+    "sponsors": {
+      "title": "Nossos patrocinadores",
+      "boostyAlt": "BoostyConnect",
+      "cloudflareAlt": "Cloudflare",
+      "osuoslAlt": "Laboratório de código aberto da OSU"
+    }
   },
   "about": {
     "title": "Nossa comunidade",
@@ -229,6 +237,43 @@
     "donateModalTitle": "Você gostaria de fazer uma doação?",
     "donateModalDesc": "Apoie o desenvolvimento de código aberto do Oreon com uma doação única.",
     "donateModalYes": "Sim",
-    "donateModalNo": "Não, obrigado"
+    "donateModalNo": "Não, obrigado",
+    "metricsNotice": "Coletamos contagens anônimas de downloads nesta página para sabermos qual é a demanda por nossos servidores. Consulte nossa página jurídica para obter detalhes.",
+    "metricsNoticeLegal": "Página jurídica",
+    "oreon11": "Oreon 11 (Prévia antecipada)",
+    "earlyPreview": "Prévia antecipada",
+    "oreon11Desc": "Nossa próxima versão principal está agora em fase de teste prévio para colaboradores e testadores.",
+    "oreon11Warning": "Nota crítica. Não instale o Oreon 11 Early Preview em hardware de produção até que a versão estável seja publicada.",
+    "github": "GitHub",
+    "comingSoon": "Em breve",
+    "checksumPending": "A soma de verificação será publicada em breve",
+    "notAvailable": "N/A"
+  },
+  "join": {
+    "title": "Faça parte da equipe da Oreon",
+    "subtitle": "Estamos recrutando agora. Se você deseja influenciar diretamente o desenvolvimento do Oreon, é aqui que você deve começar.",
+    "urgentTitle": "Por que isso é importante neste momento",
+    "urgentText": "Sem um número suficiente de colaboradores ativos, o empacotamento e o rendimento do lançamento ficam mais lentos. Seu trabalho aqui nos ajuda diretamente a lançar mais rapidamente e a manter os usuários seguros.",
+    "whereTitle": "Onde a colaboração acontece",
+    "whereText": "O Discord tem sido nosso principal centro de colaboração há anos, mas também temos plataformas de discussão alternativas, como o Matrix e o Fórum da comunidade. O Fórum está disponível como uma opção de discussão de último recurso para discussões mais lentas e longas.",
+    "joinDiscord": "Registre-se no Discord",
+    "joinMatrix": "Participe da Matrix",
+    "visitForum": "Visite o Fórum da Comunidade",
+    "teamTitle": "Equipes abertas",
+    "teamDesc": "Escolha a equipe que melhor se adapta aos seus pontos fortes. Você pode começar com uma equipe e mudar depois.",
+    "devTitle": "Equipe de desenvolvimento",
+    "devText": "Desenvolva recursos, escreva códigos e revise códigos. Forneça ao Oreon os recursos que você deseja ver.",
+    "packagingTitle": "Equipe de embalagem",
+    "packagingText": "Manter os pacotes Oreon e as atualizações de pacotes dentro do prazo.",
+    "securityTitle": "Equipe de pesquisa de segurança",
+    "securityText": "Monitore as vulnerabilidades de segurança, informe as vulnerabilidades por meio do Oreon Watchdog e ajude a fazer o backport das correções de segurança para os nossos pacotes.",
+    "socialTitle": "Equipe de mídia social",
+    "socialText": "Possuir e aumentar nossa presença no YouTube, criando conteúdo para a comunidade e para a Oreon.",
+    "translationTitle": "Equipe de tradução",
+    "translationText": "Parte da equipe de desenvolvimento. Melhore a qualidade da tradução e ajude a Oreon a alcançar mais usuários em todo o mundo.",
+    "startHere": "Comece aqui",
+    "startTitle": "A maneira mais rápida de começar",
+    "startP1": "Entre no Discord primeiro e apresente-se com a equipe da qual deseja fazer parte.",
+    "startP2": "Peça tarefas para iniciantes. Nós o indicaremos trabalhos de alto impacto que você pode iniciar nesta semana."
   }
 }

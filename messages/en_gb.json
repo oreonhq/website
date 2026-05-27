@@ -13,7 +13,8 @@
       "legalCenterDesc": "Compliance & terms",
       "helpSupport": "Help & Support",
       "helpSupportDesc": "Direct assistance",
-      "about": "About"
+      "about": "About",
+      "joinTeam": "Join the Team"
     },
     "footer": {
       "tagline": "Globally Supported Linux, Built on Trusted Technology",
@@ -27,7 +28,8 @@
       "legalCenter": "Legal Center",
       "copyright": "© {year} Oreon HQ. All rights reserved.",
       "privacyTerms": "Privacy & Terms",
-      "support": "Support"
+      "support": "Support",
+      "joinTeam": "Join the Team"
     },
     "language": "Language",
     "donate": "Donate"
@@ -80,7 +82,13 @@
       "getInvolved": "Get Involved →",
       "donate": "Donate →"
     },
-    "globalMapAlt": "World map representing global support"
+    "globalMapAlt": "World map representing global support",
+    "sponsors": {
+      "title": "Our Sponsors",
+      "boostyAlt": "BoostyConnect",
+      "cloudflareAlt": "Cloudflare",
+      "osuoslAlt": "OSU Open Source Lab"
+    }
   },
   "about": {
     "title": "Our Community",
@@ -229,6 +237,43 @@
     "donateModalTitle": "Would you like to donate?",
     "donateModalDesc": "Support Oreon open source development with a one-time donation.",
     "donateModalYes": "Yes",
-    "donateModalNo": "No thanks"
+    "donateModalNo": "No thanks",
+    "metricsNotice": "We collect anonymized download counts on this page so we know how much demand there is for our servers. See our legal page for details.",
+    "metricsNoticeLegal": "Legal page",
+    "oreon11": "Oreon 11 (Early Preview)",
+    "earlyPreview": "Early Preview",
+    "oreon11Desc": "Our next major release is now in early preview testing for contributors and testers.",
+    "oreon11Warning": "Critical note. Do not install Oreon 11 Early Preview on production hardware until the stable release is published.",
+    "github": "GitHub",
+    "comingSoon": "Coming soon",
+    "checksumPending": "Checksum will be published soon",
+    "notAvailable": "N/A"
+  },
+  "join": {
+    "title": "Join the Oreon Team",
+    "subtitle": "We are recruiting now. If you want to directly impact Oreon development, this is where to start.",
+    "urgentTitle": "Why this matters right now",
+    "urgentText": "Without enough active contributors, packaging and release throughput slow down. Your work here directly helps us ship faster and keep users secure.",
+    "whereTitle": "Where collaboration happens",
+    "whereText": "Discord has been our main collaboration hub for years, but we also have alternative discussion platforms such as Matrix and the Community Forum. Forum is available as a last-resort discussion option for slower long-form discussions.",
+    "joinDiscord": "Join on Discord",
+    "joinMatrix": "Join on Matrix",
+    "visitForum": "Visit Community Forum",
+    "teamTitle": "Open Teams",
+    "teamDesc": "Pick the team that fits your strengths. You can start with one team and change later.",
+    "devTitle": "Development Team",
+    "devText": "Develop features, write code, and review code. Give Oreon the features you want to see.",
+    "packagingTitle": "Packaging Team",
+    "packagingText": "Maintain Oreon packages and keep package updates on time.",
+    "securityTitle": "Security Research Team",
+    "securityText": "Monitor security vulnerabilities, report vulnerabilities via Oreon Watchdog, and help backport security fixes to our packages.",
+    "socialTitle": "Social Media Team",
+    "socialText": "Own and grow our YouTube presence by creating content for the community and Oreon.",
+    "translationTitle": "Translation Team",
+    "translationText": "Part of Development Team. Improve translation quality and help Oreon reach more users globally.",
+    "startHere": "Start Here",
+    "startTitle": "Fastest way to start",
+    "startP1": "Join Discord first and introduce yourself with the team you want to join.",
+    "startP2": "Ask for starter tasks. We will point you to high-impact work you can begin this week."
   }
 }

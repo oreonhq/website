@@ -4,6 +4,7 @@ import { Megaphone, Download as DownloadIcon, ShieldCheck, Copy, Check, External
 import Image from 'next/image'
 import { useState } from 'react'
 import { useTranslations } from '@/contexts/I18nContext'
+import LocaleLink from '@/components/LocaleLink'
 import { DONATE_URL } from '@/components/DonateButton'
 
 const SHOW_ANNOUNCEMENT_BANNER = false
@@ -91,6 +92,12 @@ export default function Download() {
           <div className="max-w-3xl animate-enterprise">
             <h1 className="hero-heading text-black mb-6">{t('download.title')}</h1>
             <p className="text-xl text-gray-500 leading-relaxed font-light">{t('download.subtitle')}</p>
+            <p className="mt-6 text-sm text-gray-500 leading-relaxed">
+              {t('download.metricsNotice')}{' '}
+              <LocaleLink href="/legal" className="text-[#007b56] underline hover:text-[#005a40]">
+                {t('download.metricsNoticeLegal')}
+              </LocaleLink>
+            </p>
           </div>
         </div>
       </section>

@@ -90,23 +90,23 @@ export default function Footer() {
         </div>
 
         <p className="mt-16 text-white/40 text-sm font-light max-w-2xl">
-          Translations are machine-assisted and community-reviewed. Help improve Oreon in your language.
+          Translations are machine-assisted and community-reviewed.
         </p>
         <div className="mt-24 pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
-          <p className="text-white/40 text-xs font-bold uppercase tracking-[0.2em]">
+          <p className="text-white/40 text-sm font-normal">
             {t('common.footer.copyright', { year: new Date().getFullYear() })}
           </p>
-          <div className="flex flex-wrap items-center justify-center md:justify-end gap-6 md:gap-12">
+          <div className="flex flex-wrap items-center justify-center md:justify-end gap-6 md:gap-8">
             <DonateButton variant="footer" />
             <LocaleLink
               href="/legal"
-              className="text-white/40 hover:text-white text-xs font-bold uppercase tracking-[0.2em] transition-colors"
+              className="text-white/40 hover:text-white text-sm font-normal transition-colors"
             >
               {t('common.footer.privacyTerms')}
             </LocaleLink>
             <LocaleLink
               href="/help"
-              className="text-white/40 hover:text-white text-xs font-bold uppercase tracking-[0.2em] transition-colors"
+              className="text-white/40 hover:text-white text-sm font-normal transition-colors"
             >
               {t('common.footer.support')}
             </LocaleLink>

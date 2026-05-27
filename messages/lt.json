@@ -13,7 +13,8 @@
       "legalCenterDesc": "Atitiktis ir sąlygos",
       "helpSupport": "Pagalba ir parama",
       "helpSupportDesc": "Tiesioginė pagalba",
-      "about": "Apie"
+      "about": "Apie",
+      "joinTeam": "Prisijunkite prie komandos"
     },
     "footer": {
       "tagline": "Visame pasaulyje palaikoma \"Linux\", sukurta remiantis patikima technologija",
@@ -27,7 +28,8 @@
       "legalCenter": "Teisės centras",
       "copyright": "© {metai} Oreon HQ. Visos teisės saugomos.",
       "privacyTerms": "Privatumas ir sąlygos",
-      "support": "Parama"
+      "support": "Parama",
+      "joinTeam": "Prisijunkite prie komandos"
     },
     "language": "Kalba",
     "donate": "Paaukoti"
@@ -80,7 +82,13 @@
       "getInvolved": "Dalyvaukite →",
       "donate": "Paaukoti →"
     },
-    "globalMapAlt": "Pasaulinis žemėlapis, atspindintis pasaulinę paramą"
+    "globalMapAlt": "Pasaulinis žemėlapis, atspindintis pasaulinę paramą",
+    "sponsors": {
+      "title": "Mūsų rėmėjai",
+      "boostyAlt": "\"BoostyConnect\"",
+      "cloudflareAlt": "\"Cloudflare\"",
+      "osuoslAlt": "OSU atvirojo kodo laboratorija"
+    }
   },
   "about": {
     "title": "Mūsų bendruomenė",
@@ -229,6 +237,43 @@
     "donateModalTitle": "Ar norėtumėte paaukoti?",
     "donateModalDesc": "Vienkartine auka paremkite \"Oreon\" atvirojo kodo plėtrą.",
     "donateModalYes": "Taip",
-    "donateModalNo": "Ne, ačiū"
+    "donateModalNo": "Ne, ačiū",
+    "metricsNotice": "Šiame puslapyje renkame anoniminį atsisiuntimų skaičių, kad žinotume, kokia yra mūsų serverių paklausa. Išsamesnės informacijos rasite mūsų teisiniame puslapyje.",
+    "metricsNoticeLegal": "Teisinis puslapis",
+    "oreon11": "\"Oreon 11\" (išankstinė peržiūra)",
+    "earlyPreview": "Ankstyvoji peržiūra",
+    "oreon11Desc": "Dabar mūsų kitas pagrindinis leidinys yra ankstyvosios peržiūros bandymų, skirtų bendradarbiams ir testuotojams, stadijoje.",
+    "oreon11Warning": "Kritinė pastaba. Neįdiekite \"Oreon 11 Early Preview\" į gamybinę įrangą, kol nebus paskelbta stabili versija.",
+    "github": "\"GitHub\"",
+    "comingSoon": "Netrukus",
+    "checksumPending": "Kontrolinė suma bus paskelbta netrukus",
+    "notAvailable": "NETAIKOMA"
+  },
+  "join": {
+    "title": "Prisijunkite prie \"Oreon\" komandos",
+    "subtitle": "Šiuo metu vykdome darbuotojų atranką. Jei norite daryti tiesioginę įtaką \"Oreon\" plėtrai, pradėkite nuo šios vietos.",
+    "urgentTitle": "Kodėl tai svarbu dabar",
+    "urgentText": "Jei nėra pakankamai aktyvių dalyvių, pakuotės ir išleidimo našumas sulėtėja. Jūsų darbas čia tiesiogiai padeda mums greičiau išleisti leidinius ir užtikrinti naudotojų saugumą.",
+    "whereTitle": "Kur vyksta bendradarbiavimas",
+    "whereText": "\"Discord\" jau daugelį metų yra pagrindinis mūsų bendradarbiavimo centras, tačiau taip pat turime alternatyvių diskusijų platformų, pavyzdžiui, \"Matrix\" ir bendruomenės forumą. Forumas yra paskutinė diskusijų galimybė, skirta lėtesnėms ilgoms diskusijoms.",
+    "joinDiscord": "Prisijunkite prie Discord",
+    "joinMatrix": "Prisijunkite prie Matrix",
+    "visitForum": "Apsilankykite bendruomenės forume",
+    "teamTitle": "Atviros komandos",
+    "teamDesc": "Pasirinkite komandą, kuri atitinka jūsų stipriąsias puses. Galite pradėti nuo vienos komandos, o vėliau ją pakeisti.",
+    "devTitle": "Kūrimo komanda",
+    "devText": "Kurkite funkcijas, rašykite kodą ir jį peržiūrėkite. Suteikite \"Oreon\" funkcijas, kurias norite matyti.",
+    "packagingTitle": "Pakavimo komanda",
+    "packagingText": "Prižiūrėkite \"Oreon\" paketus ir laiku atnaujinkite paketus.",
+    "securityTitle": "Saugumo tyrimų grupė",
+    "securityText": "Stebėkite saugumo pažeidžiamumus, praneškite apie pažeidžiamumus per \"Oreon Watchdog\" ir padėkite perkelti saugumo pataisas į mūsų paketus.",
+    "socialTitle": "Socialinės žiniasklaidos komanda",
+    "socialText": "Turėkite ir plėtokite mūsų \"YouTube\" buvimą kurdami turinį bendruomenei ir \"Oreon\".",
+    "translationTitle": "Vertimo komanda",
+    "translationText": "Kūrimo komandos dalis. Pagerinkite vertimo kokybę ir padėkite \"Oreon\" pasiekti daugiau naudotojų visame pasaulyje.",
+    "startHere": "Pradėkite čia",
+    "startTitle": "Greičiausias būdas pradėti",
+    "startP1": "Pirmiausia prisijunkite prie \"Discord\" ir prisistatykite su komanda, prie kurios norite prisijungti.",
+    "startP2": "Paprašykite pradinių užduočių. Mes nurodysime, kokius didelio poveikio darbus galite pradėti šią savaitę."
   }
 }

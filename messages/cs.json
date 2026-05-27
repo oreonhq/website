@@ -13,7 +13,8 @@
       "legalCenterDesc": "Dodržování předpisů a podmínky",
       "helpSupport": "Nápověda a podpora",
       "helpSupportDesc": "Přímá pomoc",
-      "about": "O stránkách"
+      "about": "O stránkách",
+      "joinTeam": "Připojte se k týmu"
     },
     "footer": {
       "tagline": "Celosvětově podporovaný systém Linux postavený na důvěryhodné technologii",
@@ -27,7 +28,8 @@
       "legalCenter": "Právní centrum",
       "copyright": "© {rok} Oreon HQ. Všechna práva vyhrazena.",
       "privacyTerms": "Ochrana osobních údajů a podmínky",
-      "support": "Podpora"
+      "support": "Podpora",
+      "joinTeam": "Připojte se k týmu"
     },
     "language": "Jazyk",
     "donate": "Darovat"
@@ -80,7 +82,13 @@
       "getInvolved": "Zapojte se →",
       "donate": "Darovat →"
     },
-    "globalMapAlt": "Mapa světa představující globální podporu"
+    "globalMapAlt": "Mapa světa představující globální podporu",
+    "sponsors": {
+      "title": "Naši sponzoři",
+      "boostyAlt": "BoostyConnect",
+      "cloudflareAlt": "Cloudflare",
+      "osuoslAlt": "OSU Open Source Lab"
+    }
   },
   "about": {
     "title": "Naše komunita",
@@ -229,6 +237,43 @@
     "donateModalTitle": "Chcete přispět?",
     "donateModalDesc": "Podpořte vývoj open source systému Oreon jednorázovým darem.",
     "donateModalYes": "Ano",
-    "donateModalNo": "Ne, děkuji"
+    "donateModalNo": "Ne, děkuji",
+    "metricsNotice": "Na této stránce shromažďujeme anonymizované počty stažení, abychom věděli, jak velký je zájem o naše servery. Podrobnosti naleznete na naší právní stránce.",
+    "metricsNoticeLegal": "Právní stránka",
+    "oreon11": "Oreon 11 (Early Preview)",
+    "earlyPreview": "Předběžný náhled",
+    "oreon11Desc": "Naše další hlavní verze je nyní ve fázi předběžného testování pro přispěvatele a testery.",
+    "oreon11Warning": "Kritická poznámka. Neinstalujte Oreon 11 Early Preview na produkční hardware, dokud nebude zveřejněna stabilní verze.",
+    "github": "GitHub",
+    "comingSoon": "Již brzy",
+    "checksumPending": "Kontrolní součet bude brzy zveřejněn",
+    "notAvailable": "NEUPLATŇUJE SE"
+  },
+  "join": {
+    "title": "Připojte se k týmu Oreon",
+    "subtitle": "Právě nabíráme nové zaměstnance. Pokud chcete přímo ovlivnit vývoj systému Oreon, můžete začít právě zde.",
+    "urgentTitle": "Proč je to důležité právě teď",
+    "urgentText": "Bez dostatečného počtu aktivních přispěvatelů dochází ke zpomalení rychlosti balení a uvolňování. Vaše práce zde nám přímo pomáhá zrychlit vydávání a zajistit bezpečnost uživatelů.",
+    "whereTitle": "Kde probíhá spolupráce",
+    "whereText": "Discord je již několik let naším hlavním centrem spolupráce, ale máme také alternativní diskusní platformy, jako je Matrix a komunitní fórum. Fórum je k dispozici jako poslední možnost diskuse pro pomalejší dlouhé diskuse.",
+    "joinDiscord": "Připojte se na Discordu",
+    "joinMatrix": "Připojte se k Matrix",
+    "visitForum": "Navštivte fórum komunity",
+    "teamTitle": "Otevřené týmy",
+    "teamDesc": "Vyberte si tým, který odpovídá vašim silným stránkám. Můžete začít s jedním týmem a později ho změnit.",
+    "devTitle": "Vývojový tým",
+    "devText": "Vývoj funkcí, psaní kódu a jeho kontrola. Předejte společnosti Oreon funkce, které chcete vidět.",
+    "packagingTitle": "Balicí tým",
+    "packagingText": "Údržba balíčků Oreon a včasné aktualizace balíčků.",
+    "securityTitle": "Tým pro výzkum zabezpečení",
+    "securityText": "Sledujte zranitelnosti zabezpečení, oznamujte zranitelnosti prostřednictvím služby Oreon Watchdog a pomáhejte zpětně odesílat opravy zabezpečení do našich balíčků.",
+    "socialTitle": "Tým sociálních médií",
+    "socialText": "Vytvářením obsahu pro komunitu a společnost Oreon si udržujte a rozšiřujte naši přítomnost na YouTube.",
+    "translationTitle": "Překladatelský tým",
+    "translationText": "Součást vývojového týmu. Zlepšete kvalitu překladu a pomozte společnosti Oreon oslovit více uživatelů po celém světě.",
+    "startHere": "Začněte zde",
+    "startTitle": "Nejrychlejší způsob spuštění",
+    "startP1": "Nejprve se připojte k Discordu a představte se s týmem, ke kterému se chcete připojit.",
+    "startP2": "Požádejte o startovní úkoly. Ukážeme vám, jakou práci s vysokým dopadem můžete začít tento týden."
   }
 }

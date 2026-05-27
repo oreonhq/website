@@ -13,7 +13,8 @@
       "legalCenterDesc": "Skladnost in pogoji",
       "helpSupport": "Pomoč in podpora",
       "helpSupportDesc": "Neposredna pomoč",
-      "about": "O"
+      "about": "O",
+      "joinTeam": "Pridružite se ekipi"
     },
     "footer": {
       "tagline": "Globalno podprt Linux, zgrajen na zaupanja vredni tehnologiji",
@@ -27,7 +28,8 @@
       "legalCenter": "Pravni center",
       "copyright": "© {leto} Oreon HQ. Vse pravice pridržane.",
       "privacyTerms": "Zasebnost in pogoji",
-      "support": "Podpora"
+      "support": "Podpora",
+      "joinTeam": "Pridružite se ekipi"
     },
     "language": "Jezik",
     "donate": "Podarite"
@@ -80,7 +82,13 @@
       "getInvolved": "Vključite se →",
       "donate": "Podarite →"
     },
-    "globalMapAlt": "Zemljevid sveta, ki predstavlja globalno podporo"
+    "globalMapAlt": "Zemljevid sveta, ki predstavlja globalno podporo",
+    "sponsors": {
+      "title": "Naši sponzorji",
+      "boostyAlt": "BoostyConnect",
+      "cloudflareAlt": "Cloudflare",
+      "osuoslAlt": "OSU Open Source Lab"
+    }
   },
   "about": {
     "title": "Naša skupnost",
@@ -229,6 +237,43 @@
     "donateModalTitle": "Želite darovati?",
     "donateModalDesc": "Podprite razvoj odprte kode Oreon z enkratno donacijo.",
     "donateModalYes": "Da",
-    "donateModalNo": "Ne, hvala."
+    "donateModalNo": "Ne, hvala.",
+    "metricsNotice": "Na tej strani zbiramo anonimno število prenosov, da vemo, kakšno je povpraševanje po naših strežnikih. Za podrobnosti glejte našo pravno stran.",
+    "metricsNoticeLegal": "Pravna stran",
+    "oreon11": "Oreon 11 (zgodnji predogled)",
+    "earlyPreview": "Zgodnji predogled",
+    "oreon11Desc": "Naša naslednja večja izdaja je zdaj v zgodnjem predoglednem testiranju za sodelavce in preizkuševalce.",
+    "oreon11Warning": "Kritična opomba. Dokler ne bo objavljena stabilna izdaja, Oreona 11 Early Preview ne nameščajte na produkcijsko strojno opremo.",
+    "github": "GitHub",
+    "comingSoon": "Kmalu bo na voljo",
+    "checksumPending": "Kontrolna vsota bo kmalu objavljena",
+    "notAvailable": "NI RELEVANTNO"
+  },
+  "join": {
+    "title": "Pridružite se ekipi Oreon",
+    "subtitle": "Trenutno zaposlujemo. Če želite neposredno vplivati na razvoj Oreona, lahko začnete tukaj.",
+    "urgentTitle": "Zakaj je to zdaj pomembno",
+    "urgentText": "Brez dovolj aktivnih sodelavcev se upočasnijo postopki pakiranja in izdaje. Vaše delo na tem mestu nam neposredno pomaga pri hitrejšem pošiljanju in zagotavljanju varnosti uporabnikov.",
+    "whereTitle": "Kje poteka sodelovanje",
+    "whereText": "Discord je že več let naše glavno središče za sodelovanje, vendar imamo tudi druge platforme za razpravo, kot sta Matrix in forum skupnosti. Forum je na voljo kot zadnja možnost za počasnejše dolgotrajne razprave.",
+    "joinDiscord": "Pridružite se na Discordu",
+    "joinMatrix": "Pridružite se Matrici",
+    "visitForum": "Obiščite forum skupnosti",
+    "teamTitle": "Odprte ekipe",
+    "teamDesc": "Izberite ekipo, ki ustreza vašim prednostim. Lahko začnete z eno ekipo in jo pozneje zamenjate.",
+    "devTitle": "Razvojna ekipa",
+    "devText": "Razvijanje funkcij, pisanje kode in pregledovanje kode. Omogočite Oreonu funkcije, ki jih želite videti.",
+    "packagingTitle": "Ekipa za pakiranje",
+    "packagingText": "Vzdrževanje paketov Oreon in pravočasno posodabljanje paketov.",
+    "securityTitle": "Skupina za varnostne raziskave",
+    "securityText": "Spremljajte varnostne ranljivosti, poročajte o njih prek programa Oreon Watchdog in pomagajte pri prenosu varnostnih popravkov v naše pakete.",
+    "socialTitle": "Ekipa za družbene medije",
+    "socialText": "Z ustvarjanjem vsebin za skupnost in Oreon skrbite za našo prisotnost na YouTubu in jo razvijte.",
+    "translationTitle": "Prevajalska ekipa",
+    "translationText": "Del razvojne ekipe. Izboljšajte kakovost prevodov in pomagajte Oreonu doseči več uporabnikov po vsem svetu.",
+    "startHere": "Začnite tukaj",
+    "startTitle": "Najhitrejši način za začetek",
+    "startP1": "Najprej se pridružite Discordu in se predstavite ekipi, ki se ji želite pridružiti.",
+    "startP2": "Prosite za začetne naloge. Navedli vam bomo naloge z velikim učinkom, ki jih lahko začnete opravljati že ta teden."
   }
 }

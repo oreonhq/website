@@ -13,7 +13,8 @@
       "legalCenterDesc": "Uyumluluk ve şartlar",
       "helpSupport": "Yardım ve Destek",
       "helpSupportDesc": "Doğrudan yardım",
-      "about": "Hakkında"
+      "about": "Hakkında",
+      "joinTeam": "Ekibe Katılın"
     },
     "footer": {
       "tagline": "Güvenilir Teknoloji Üzerine İnşa Edilmiş, Dünya Çapında Desteklenen Linux",
@@ -27,7 +28,8 @@
       "legalCenter": "Hukuk Merkezi",
       "copyright": "© {yıl} Oreon HQ. Tüm hakları saklıdır.",
       "privacyTerms": "Gizlilik ve Şartlar",
-      "support": "Destek"
+      "support": "Destek",
+      "joinTeam": "Ekibe Katılın"
     },
     "language": "Dil",
     "donate": "Bağış Yapın"
@@ -80,7 +82,13 @@
       "getInvolved": "Katılın →",
       "donate": "Bağış →"
     },
-    "globalMapAlt": "Küresel desteği temsil eden dünya haritası"
+    "globalMapAlt": "Küresel desteği temsil eden dünya haritası",
+    "sponsors": {
+      "title": "Sponsorlarımız",
+      "boostyAlt": "BoostyConnect",
+      "cloudflareAlt": "Cloudflare",
+      "osuoslAlt": "OSU Açık Kaynak Laboratuvarı"
+    }
   },
   "about": {
     "title": "Toplumumuz",
@@ -229,6 +237,43 @@
     "donateModalTitle": "Bağış yapmak ister misiniz?",
     "donateModalDesc": "Tek seferlik bir bağışla Oreon açık kaynak gelişimini destekleyin.",
     "donateModalYes": "Evet",
-    "donateModalNo": "Hayır, teşekkürler."
+    "donateModalNo": "Hayır, teşekkürler.",
+    "metricsNotice": "Bu sayfada anonimleştirilmiş indirme sayılarını topluyoruz, böylece sunucularımıza ne kadar talep olduğunu biliyoruz. Ayrıntılar için yasal sayfamıza bakın.",
+    "metricsNoticeLegal": "Yasal sayfa",
+    "oreon11": "Oreon 11 (Erken Önizleme)",
+    "earlyPreview": "Erken Önizleme",
+    "oreon11Desc": "Bir sonraki büyük sürümümüz şu anda katkıda bulunanlar ve test edenler için erken önizleme testinde.",
+    "oreon11Warning": "Kritik not. Kararlı sürüm yayınlanana kadar Oreon 11 Erken Önizleme sürümünü üretim donanımına yüklemeyin.",
+    "github": "GitHub",
+    "comingSoon": "Çok yakında",
+    "checksumPending": "Checksum yakında yayınlanacaktır",
+    "notAvailable": "N/A"
+  },
+  "join": {
+    "title": "Oreon Ekibine Katılın",
+    "subtitle": "Şu anda işe alım yapıyoruz. Oreon'un gelişimini doğrudan etkilemek istiyorsanız, buradan başlayabilirsiniz.",
+    "urgentTitle": "Bu neden şu anda önemli?",
+    "urgentText": "Yeterli sayıda aktif katılımcı olmazsa, paketleme ve yayınlama hızı yavaşlar. Buradaki çalışmalarınız doğrudan daha hızlı gönderim yapmamıza ve kullanıcıları güvende tutmamıza yardımcı olur.",
+    "whereTitle": "İşbirliğinin gerçekleştiği yer",
+    "whereText": "Discord yıllardır ana işbirliği merkezimiz oldu, ancak Matrix ve Topluluk Forumu gibi alternatif tartışma platformlarımız da var. Forum, daha yavaş uzun biçimli tartışmalar için son çare tartışma seçeneği olarak mevcuttur.",
+    "joinDiscord": "Discord'da Katıl",
+    "joinMatrix": "Matrix'e katılın",
+    "visitForum": "Topluluk Forumunu Ziyaret Edin",
+    "teamTitle": "Açık Takımlar",
+    "teamDesc": "Güçlü yönlerinize uyan takımı seçin. Bir takımla başlayıp daha sonra değiştirebilirsiniz.",
+    "devTitle": "Geliştirme Ekibi",
+    "devText": "Özellikler geliştirin, kod yazın ve kodu gözden geçirin. Oreon'a görmek istediğiniz özellikleri verin.",
+    "packagingTitle": "Paketleme Ekibi",
+    "packagingText": "Oreon paketlerini koruyun ve paket güncellemelerini zamanında yapın.",
+    "securityTitle": "Güvenlik Araştırma Ekibi",
+    "securityText": "Güvenlik açıklarını izleyin, Oreon Watchdog aracılığıyla güvenlik açıklarını bildirin ve güvenlik düzeltmelerinin paketlerimize geri aktarılmasına yardımcı olun.",
+    "socialTitle": "Sosyal Medya Ekibi",
+    "socialText": "Topluluk ve Oreon için içerik oluşturarak YouTube varlığımızı sahiplenin ve büyütün.",
+    "translationTitle": "Çeviri Ekibi",
+    "translationText": "Geliştirme Ekibinin bir parçası. Çeviri kalitesini artırın ve Oreon'un küresel olarak daha fazla kullanıcıya ulaşmasına yardımcı olun.",
+    "startHere": "Buradan Başlayın",
+    "startTitle": "Başlamak için en hızlı yol",
+    "startP1": "Önce Discord'a katılın ve katılmak istediğiniz takımla kendinizi tanıtın.",
+    "startP2": "Başlangıç görevlerini isteyin. Sizi bu hafta başlayabileceğiniz yüksek etkili çalışmalara yönlendireceğiz."
   }
 }

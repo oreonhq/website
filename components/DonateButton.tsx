@@ -17,7 +17,7 @@ export default function DonateButton({
   const base = 'inline-flex items-center gap-1.5 font-medium transition-colors'
   const styles = {
     default: 'px-3 py-2 rounded-lg text-white/70 hover:text-white hover:bg-white/5 text-sm',
-    footer: 'text-white/40 hover:text-white text-xs font-bold uppercase tracking-[0.2em]',
+    footer: 'text-white/40 hover:text-white text-sm font-normal',
     mobile: 'w-full justify-center py-3 px-4 rounded-lg text-white/80 hover:bg-white/5 text-sm',
   }
 

@@ -13,7 +13,8 @@
       "legalCenterDesc": "Kepatuhan & ketentuan",
       "helpSupport": "Bantuan & Dukungan",
       "helpSupportDesc": "Bantuan langsung",
-      "about": "Tentang"
+      "about": "Tentang",
+      "joinTeam": "Bergabunglah dengan Tim"
     },
     "footer": {
       "tagline": "Linux yang Didukung Secara Global, Dibangun di atas Teknologi Tepercaya",
@@ -27,7 +28,8 @@
       "legalCenter": "Pusat Hukum",
       "copyright": "© {tahun} Oreon HQ. Semua hak dilindungi undang-undang.",
       "privacyTerms": "Privasi & Ketentuan",
-      "support": "Dukungan"
+      "support": "Dukungan",
+      "joinTeam": "Bergabunglah dengan Tim"
     },
     "language": "Bahasa",
     "donate": "Donasi"
@@ -80,7 +82,13 @@
       "getInvolved": "Terlibat →",
       "donate": "Donasi →"
     },
-    "globalMapAlt": "Peta dunia yang mewakili dukungan global"
+    "globalMapAlt": "Peta dunia yang mewakili dukungan global",
+    "sponsors": {
+      "title": "Sponsor Kami",
+      "boostyAlt": "BoostyConnect",
+      "cloudflareAlt": "Cloudflare",
+      "osuoslAlt": "Lab Sumber Terbuka OSU"
+    }
   },
   "about": {
     "title": "Komunitas Kami",
@@ -229,6 +237,43 @@
     "donateModalTitle": "Apakah Anda ingin menyumbang?",
     "donateModalDesc": "Dukung pengembangan sumber terbuka Oreon dengan donasi satu kali.",
     "donateModalYes": "Ya.",
-    "donateModalNo": "Tidak, terima kasih."
+    "donateModalNo": "Tidak, terima kasih.",
+    "metricsNotice": "Kami mengumpulkan jumlah unduhan yang dianonimkan di halaman ini sehingga kami tahu berapa banyak permintaan untuk server kami. Lihat halaman hukum kami untuk detailnya.",
+    "metricsNoticeLegal": "Halaman hukum",
+    "oreon11": "Oreon 11 (Pratinjau Awal)",
+    "earlyPreview": "Pratinjau Awal",
+    "oreon11Desc": "Rilis besar kami berikutnya sekarang dalam pengujian pratinjau awal untuk kontributor dan penguji.",
+    "oreon11Warning": "Catatan penting. Jangan menginstal Oreon 11 Pratinjau Awal pada perangkat keras produksi sampai rilis stabil diterbitkan.",
+    "github": "GitHub",
+    "comingSoon": "Segera hadir",
+    "checksumPending": "Checksum akan segera dipublikasikan",
+    "notAvailable": "N/A"
+  },
+  "join": {
+    "title": "Bergabunglah dengan Tim Oreon",
+    "subtitle": "Kami sedang merekrut sekarang. Jika Anda ingin memberikan dampak langsung pada pengembangan Oreon, di sinilah tempatnya.",
+    "urgentTitle": "Mengapa hal ini penting saat ini",
+    "urgentText": "Tanpa kontributor aktif yang cukup, proses pengemasan dan rilis akan melambat. Pekerjaan Anda di sini secara langsung membantu kami mengirimkan produk lebih cepat dan menjaga keamanan pengguna.",
+    "whereTitle": "Di mana kolaborasi terjadi",
+    "whereText": "Discord telah menjadi pusat kolaborasi utama kami selama bertahun-tahun, tetapi kami juga memiliki platform diskusi alternatif seperti Matrix dan Forum Komunitas. Forum tersedia sebagai opsi diskusi pilihan terakhir untuk diskusi yang lebih lambat.",
+    "joinDiscord": "Bergabunglah di Discord",
+    "joinMatrix": "Bergabunglah di Matrix",
+    "visitForum": "Kunjungi Forum Komunitas",
+    "teamTitle": "Tim Terbuka",
+    "teamDesc": "Pilihlah tim yang sesuai dengan kekuatan Anda. Anda dapat memulai dengan satu tim dan mengubahnya nanti.",
+    "devTitle": "Tim Pengembangan",
+    "devText": "Kembangkan fitur, tulis kode, dan tinjau kode. Berikan Oreon fitur yang ingin Anda lihat.",
+    "packagingTitle": "Tim Pengemasan",
+    "packagingText": "Menjaga paket Oreon dan menjaga pembaruan paket tepat waktu.",
+    "securityTitle": "Tim Riset Keamanan",
+    "securityText": "Pantau kerentanan keamanan, laporkan kerentanan melalui Oreon Watchdog, dan bantu dukung perbaikan keamanan pada paket kami.",
+    "socialTitle": "Tim Media Sosial",
+    "socialText": "Miliki dan kembangkan kehadiran YouTube kami dengan membuat konten untuk komunitas dan Oreon.",
+    "translationTitle": "Tim Penerjemah",
+    "translationText": "Bagian dari Tim Pengembangan. Meningkatkan kualitas terjemahan dan membantu Oreon menjangkau lebih banyak pengguna secara global.",
+    "startHere": "Mulai di sini",
+    "startTitle": "Cara tercepat untuk memulai",
+    "startP1": "Bergabunglah dengan Discord terlebih dahulu dan perkenalkan diri Anda dengan tim yang ingin Anda ikuti.",
+    "startP2": "Mintalah tugas-tugas awal. Kami akan menunjukkan kepada Anda pekerjaan yang berdampak besar yang dapat Anda mulai minggu ini."
   }
 }

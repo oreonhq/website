@@ -13,7 +13,8 @@
       "legalCenterDesc": "Vaatimustenmukaisuus ja ehdot",
       "helpSupport": "Apua & tukea",
       "helpSupportDesc": "Suora apu",
-      "about": "Tietoja"
+      "about": "Tietoja",
+      "joinTeam": "Liity tiimiin"
     },
     "footer": {
       "tagline": "Maailmanlaajuisesti tuettu Linux, joka perustuu luotettuun teknologiaan",
@@ -27,7 +28,8 @@
       "legalCenter": "Oikeuskeskus",
       "copyright": "© {year} Oreon HQ. Kaikki oikeudet pidätetään.",
       "privacyTerms": "Yksityisyys & ehdot",
-      "support": "Tuki"
+      "support": "Tuki",
+      "joinTeam": "Liity tiimiin"
     },
     "language": "Kieli",
     "donate": "Lahjoita"
@@ -80,7 +82,13 @@
       "getInvolved": "Osallistu →",
       "donate": "Lahjoita →"
     },
-    "globalMapAlt": "Maailmankartta, joka edustaa maailmanlaajuista tukea"
+    "globalMapAlt": "Maailmankartta, joka edustaa maailmanlaajuista tukea",
+    "sponsors": {
+      "title": "Sponsorimme",
+      "boostyAlt": "BoostyConnect",
+      "cloudflareAlt": "Cloudflare",
+      "osuoslAlt": "OSU Open Source Lab"
+    }
   },
   "about": {
     "title": "Yhteisömme",
@@ -229,6 +237,43 @@
     "donateModalTitle": "Haluaisitko lahjoittaa?",
     "donateModalDesc": "Tue Oreonin avoimen lähdekoodin kehitystä kertalahjoituksella.",
     "donateModalYes": "Kyllä",
-    "donateModalNo": "Ei kiitos"
+    "donateModalNo": "Ei kiitos",
+    "metricsNotice": "Keräämme tälle sivulle nimettömiä latauslukuja, jotta tiedämme, kuinka paljon palvelimillemme on kysyntää. Katso lisätietoja oikeudellisesta sivusta.",
+    "metricsNoticeLegal": "Oikeudellinen sivu",
+    "oreon11": "Oreon 11 (Varhainen ennakkoarvio)",
+    "earlyPreview": "Varhainen esikatselu",
+    "oreon11Desc": "Seuraava suuri julkaisumme on nyt varhaisessa esikatselutestauksessa avustajille ja testaajille.",
+    "oreon11Warning": "Kriittinen huomautus. Älä asenna Oreon 11 Early Preview -versiota tuotantolaitteistoon, ennen kuin vakaa julkaisu on julkaistu.",
+    "github": "GitHub",
+    "comingSoon": "Tulossa pian",
+    "checksumPending": "Tarkistussumma julkaistaan pian",
+    "notAvailable": "N/A"
+  },
+  "join": {
+    "title": "Liity Oreon-tiimiin",
+    "subtitle": "Rekrytoimme nyt. Jos haluat vaikuttaa suoraan Oreonin kehitykseen, voit aloittaa tästä.",
+    "urgentTitle": "Miksi tällä on merkitystä juuri nyt",
+    "urgentText": "Jos aktiivisia osallistujia ei ole tarpeeksi, pakkaaminen ja julkaisutoiminta hidastuvat. Työskentelysi täällä auttaa meitä toimittamaan tuotteita nopeammin ja pitämään käyttäjät turvassa.",
+    "whereTitle": "Missä yhteistyötä tehdään",
+    "whereText": "Discord on ollut tärkein yhteistyökeskuksemme jo vuosia, mutta meillä on myös vaihtoehtoisia keskustelualustoja, kuten Matrix ja yhteisön foorumi. Foorumi on käytettävissä viimeisenä keinona hitaampiin, pitkäkestoisiin keskusteluihin.",
+    "joinDiscord": "Liity Discordiin",
+    "joinMatrix": "Liity Matrixiin",
+    "visitForum": "Käy yhteisön foorumilla",
+    "teamTitle": "Avoimet joukkueet",
+    "teamDesc": "Valitse joukkue, joka sopii vahvuuksiisi. Voit aloittaa yhdellä joukkueella ja vaihtaa myöhemmin.",
+    "devTitle": "Kehitystiimi",
+    "devText": "Kehitä ominaisuuksia, kirjoita koodia ja tarkista koodia. Anna Oreonille haluamasi ominaisuudet.",
+    "packagingTitle": "Pakkausryhmä",
+    "packagingText": "Ylläpidä Oreon-paketteja ja pidä pakettipäivitykset ajallaan.",
+    "securityTitle": "Turvallisuustutkimusryhmä",
+    "securityText": "Seuraa tietoturva-aukkoja, raportoi haavoittuvuuksista Oreon Watchdogin kautta ja auta backporttaamaan tietoturvakorjauksia paketteihimme.",
+    "socialTitle": "Sosiaalisen median tiimi",
+    "socialText": "Omistat ja kasvatat YouTube-esiintymistämme luomalla sisältöä yhteisölle ja Oreonille.",
+    "translationTitle": "Käännösryhmä",
+    "translationText": "Osa kehitysryhmää. Paranna käännöksen laatua ja auta Oreonia saavuttamaan enemmän käyttäjiä maailmanlaajuisesti.",
+    "startHere": "Aloita tästä",
+    "startTitle": "Nopein tapa aloittaa",
+    "startP1": "Liity ensin Discordiin ja esittäydy tiimin kanssa, johon haluat liittyä.",
+    "startP2": "Pyydä aloitustehtäviä. Osoitamme sinulle vaikuttavia tehtäviä, jotka voit aloittaa tällä viikolla."
   }
 }

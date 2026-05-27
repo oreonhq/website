@@ -13,7 +13,8 @@
       "legalCenterDesc": "Naleving & voorwaarden",
       "helpSupport": "Hulp en ondersteuning",
       "helpSupportDesc": "Directe hulp",
-      "about": "Over"
+      "about": "Over",
+      "joinTeam": "Word lid van het team"
     },
     "footer": {
       "tagline": "Wereldwijd ondersteunde Linux, gebouwd op betrouwbare technologie",
@@ -27,7 +28,8 @@
       "legalCenter": "Juridisch Centrum",
       "copyright": "© {jaar} Oreon HQ. Alle rechten voorbehouden.",
       "privacyTerms": "Privacy & voorwaarden",
-      "support": "Ondersteuning"
+      "support": "Ondersteuning",
+      "joinTeam": "Word lid van het team"
     },
     "language": "Taal",
     "donate": "Doneer"
@@ -80,7 +82,13 @@
       "getInvolved": "Betrokken →",
       "donate": "Schenk →"
     },
-    "globalMapAlt": "Wereldkaart die wereldwijde ondersteuning weergeeft"
+    "globalMapAlt": "Wereldkaart die wereldwijde ondersteuning weergeeft",
+    "sponsors": {
+      "title": "Onze sponsors",
+      "boostyAlt": "BoostyConnect",
+      "cloudflareAlt": "Cloudflare",
+      "osuoslAlt": "OSU Open Source Lab"
+    }
   },
   "about": {
     "title": "Onze gemeenschap",
@@ -229,6 +237,43 @@
     "donateModalTitle": "Wil je doneren?",
     "donateModalDesc": "Steun Oreon open source ontwikkeling met een eenmalige donatie.",
     "donateModalYes": "Ja",
-    "donateModalNo": "Geen dank"
+    "donateModalNo": "Geen dank",
+    "metricsNotice": "We verzamelen geanonimiseerde downloadtellingen op deze pagina zodat we weten hoeveel vraag er is naar onze servers. Zie onze juridische pagina voor meer informatie.",
+    "metricsNoticeLegal": "Wettelijke pagina",
+    "oreon11": "Oreon 11 (vroeg voorproefje)",
+    "earlyPreview": "Vroege voorbeschouwing",
+    "oreon11Desc": "Onze volgende grote release is nu in een vroeg teststadium voor bijdragers en testers.",
+    "oreon11Warning": "Kritische opmerking. Installeer Oreon 11 Early Preview niet op productiehardware totdat de stabiele release is gepubliceerd.",
+    "github": "GitHub",
+    "comingSoon": "Binnenkort beschikbaar",
+    "checksumPending": "Checksum wordt binnenkort gepubliceerd",
+    "notAvailable": "N.V.T."
+  },
+  "join": {
+    "title": "Word lid van het Oreon Team",
+    "subtitle": "We zijn nu aan het werven. Als je direct invloed wilt hebben op de ontwikkeling van Oreon, dan is dit de plek om te beginnen.",
+    "urgentTitle": "Waarom dit nu belangrijk is",
+    "urgentText": "Zonder genoeg actieve bijdragers vertragen het verpakken en de release. Uw werk hier helpt ons om sneller te verzenden en gebruikers veilig te houden.",
+    "whereTitle": "Waar samenwerking plaatsvindt",
+    "whereText": "Discord is al jaren onze belangrijkste hub voor samenwerking, maar we hebben ook alternatieve discussieplatforms zoals Matrix en het Community Forum. Forum is beschikbaar als laatste optie voor langzamere discussies.",
+    "joinDiscord": "Word lid op Discord",
+    "joinMatrix": "Doe mee op Matrix",
+    "visitForum": "Bezoek het forum van de gemeenschap",
+    "teamTitle": "Open Teams",
+    "teamDesc": "Kies het team dat bij je past. Je kunt met één team beginnen en later veranderen.",
+    "devTitle": "Ontwikkelingsteam",
+    "devText": "Ontwikkel functies, schrijf code en review code. Geef Oreon de functies die je wilt zien.",
+    "packagingTitle": "Team Verpakkingen",
+    "packagingText": "Onderhoud Oreon-pakketten en zorg dat pakketupdates op tijd komen.",
+    "securityTitle": "Team Beveiligingsonderzoek",
+    "securityText": "Controleer beveiligingsproblemen, rapporteer beveiligingsproblemen via Oreon Watchdog en help bij het backporteren van beveiligingsfixes naar onze pakketten.",
+    "socialTitle": "Sociaal mediateam",
+    "socialText": "Eigenaar zijn van onze YouTube-aanwezigheid en deze laten groeien door content te creëren voor de community en Oreon.",
+    "translationTitle": "Team Vertalingen",
+    "translationText": "Onderdeel van ontwikkelingsteam. Verbeter de vertaalkwaliteit en help Oreon wereldwijd meer gebruikers te bereiken.",
+    "startHere": "Begin hier",
+    "startTitle": "Snelste manier om te beginnen",
+    "startP1": "Ga eerst naar Discord en stel jezelf voor aan het team waar je lid van wilt worden.",
+    "startP2": "Vraag naar starterstaken. We zullen je wijzen op werk met een grote impact waarmee je deze week kunt beginnen."
   }
 }
