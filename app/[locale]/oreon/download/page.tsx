@@ -6,7 +6,7 @@ import { useState } from 'react'
 import { useTranslations } from '@/contexts/I18nContext'
 import { DONATE_URL } from '@/components/DonateButton'
 
-const SHOW_ANNOUNCEMENT_BANNER = false
+const SHOW_ANNOUNCEMENT_BANNER = true
 
 export default function Download() {
   const { t } = useTranslations()
@@ -71,15 +71,15 @@ export default function Download() {
     {
       nameKey: 'download.oreon10' as const,
       taglineKey: 'download.latestVersion' as const,
-      build: '2603.7',
+      build: '2606',
       descKey: 'download.oreon10Desc' as const,
       sourceLink: 'https://copr.fedorainfracloud.org/coprs/brandonlester/oreon-10/',
       statusKey: 'download.latestRelease' as const,
       color: 'text-[#007b56]',
       image: '/oreon10.png',
       architectures: [
-        { label: 'x86_64', noteKey: 'download.intelAmd' as const, hash: 'f8e99ba1bd9353cdb9315d03f6bd85e66b9e29f784b58e1318893ea7aa40a9c6', link: 'https://mirrors.oreonhq.com/Oreon-10-2603.7-x86_64.iso' },
-        { label: 'aarch64', noteKey: 'download.arm64' as const, hash: 'cb674363d83d55b9f20dd1e131774815a2db08fc28be247ad6c4fbf51e878d88', link: 'https://mirrors.oreonhq.com/Oreon-10-2603.4-aarch64.iso' },
+        { label: 'x86_64', noteKey: 'download.intelAmd' as const, hash: '11e6943f4387861d58e196818043d8b9efe006b9290327ab17086db807ba4a77', link: 'https://mirrors.oreonhq.com/Oreon-10-2606-x86_64.iso' },
+        { label: 'aarch64', noteKey: 'download.arm64' as const, hash: 'N/A', link: 'https://mirrors.oreonhq.com/Oreon-10-2606-aarch64.iso' },
       ],
     },
   ]
