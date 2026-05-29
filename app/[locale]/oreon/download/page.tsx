@@ -79,7 +79,7 @@ export default function Download() {
       image: '/oreon10.png',
       architectures: [
         { label: 'x86_64', noteKey: 'download.intelAmd' as const, hash: '11e6943f4387861d58e196818043d8b9efe006b9290327ab17086db807ba4a77', link: 'https://mirrors.oreonhq.com/Oreon-10-2606-x86_64.iso' },
-        { label: 'aarch64', noteKey: 'download.arm64' as const, hash: 'N/A', link: 'https://mirrors.oreonhq.com/Oreon-10-2606-aarch64.iso' },
+        { label: 'aarch64', noteKey: 'download.arm64' as const, hash: 'c0629d741b3ac0c72667ea5dac9e4a38648047c854716302edee394b18600ec8', link: 'https://mirrors.oreonhq.com/Oreon-10-2606-aarch64.iso' },
       ],
     },
   ]
