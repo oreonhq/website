@@ -4,9 +4,12 @@ import { Megaphone, Download as DownloadIcon, ShieldCheck, Copy, Check, External
 import Image from 'next/image'
 import { useState } from 'react'
 import { useTranslations } from '@/contexts/I18nContext'
+import { getT } from '@/lib/i18n/get-messages'
+import enMessages from '@/messages/en_us.json'
 import { DONATE_URL } from '@/components/DonateButton'
 
-const SHOW_ANNOUNCEMENT_BANNER = true
+const SHOW_ANNOUNCEMENT_BANNER = false
+const tAnnouncement = getT(enMessages as Record<string, unknown>)
 
 export default function Download() {
   const { t } = useTranslations()
@@ -96,22 +99,22 @@ export default function Download() {
       </section>
 
       {SHOW_ANNOUNCEMENT_BANNER && (
-        <section className="bg-[#007b56] text-white border-b border-black/10 py-10">
+        <section lang="en" className="bg-[#007b56] text-white border-b border-black/10 py-10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-start gap-4">
               <Megaphone className="w-8 h-8 shrink-0 mt-0.5 text-white/90" />
               <div className="min-w-0">
-                <h2 className="text-2xl font-bold mb-2">{t('download.announcementTitle')}</h2>
-                <p className="text-white/90 text-lg mb-4">{t('download.announcementSubtitle')}</p>
-                <p className="text-base font-medium mb-2">{t('download.changelog')}</p>
+                <h2 className="text-2xl font-bold mb-2">{tAnnouncement('download.announcementTitle')}</h2>
+                <p className="text-white/90 text-lg mb-4">{tAnnouncement('download.announcementSubtitle')}</p>
+                <p className="text-base font-medium mb-2">{tAnnouncement('download.changelog')}</p>
                 <ul className="list-disc list-inside text-base text-white/90 space-y-1 mb-4">
                   {([1, 2, 3, 4, 5, 6, 7, 8, 9] as const).map((n) => {
                     const key = `download.announcementChangelog${n}` as const
-                    const text = t(key)
+                    const text = tAnnouncement(key)
                     return text === key ? null : <li key={n}>{text}</li>
                   })}
                 </ul>
-                <p className="text-base font-semibold text-white/95">{t('download.announcementFooter')}</p>
+                <p className="text-base font-semibold text-white/95">{tAnnouncement('download.announcementFooter')}</p>
               </div>
             </div>
           </div>
