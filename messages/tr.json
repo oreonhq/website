@@ -40,7 +40,7 @@
       "titleSub": "Güvenilir Teknoloji Üzerine İnşa Edilmiştir",
       "subtitle": "Her bölge ve dil için geliştirilmiş güvenilir bir küresel Linux işletim sistemi.",
       "getOreon": "Oreon'u Alın",
-      "seeWhatsOffered": "Oreon 10'da neler sunulduğunu görün"
+      "seeWhatsOffered": "Oreon 11'de neler olacağını görün"
     },
     "builtForYou": {
       "title": "Sizin için tasarlandı.",
@@ -297,6 +297,8 @@
     "betaDownloadX86": "x86_64'ü indir",
     "betaDownloadAarch64": "aarch64'ü indir",
     "getOreon11": "Oreon 11 yakında piyasaya çıkacak",
-    "getOreon11Desc": "Oreon 11, 5 Ekim 2026'da piyasaya çıkacak. O zamana kadar, Oreon 10, bugün indirip deneyebileceğiniz en güncel kararlı sürümdür."
+    "getOreon11Desc": "Oreon 11, 5 Ekim 2026'da piyasaya çıkacak. O zamana kadar, Oreon 10, bugün indirip deneyebileceğiniz en güncel kararlı sürümdür.",
+    "ogTitle": "Oreon 11",
+    "ogDescription": "Oreon 11, 5 Ekim 2026'da piyasaya çıkacak. KDE Plasma masaüstü ortamı, Oreon Sistem Yöneticisi, Oreon Defense, sürekli güncellenen ve LTS ISO'ları, sürücü algılama özelliğine sahip Centrio yükleyici ve daha pek çok özellik yakında kullanıma sunulacak."
   }
 }

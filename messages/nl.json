@@ -40,7 +40,7 @@
       "titleSub": "Gebouwd op betrouwbare technologie",
       "subtitle": "Een betrouwbaar wereldwijd Linux besturingssysteem voor elke regio en taal.",
       "getOreon": "Oreon krijgen",
-      "seeWhatsOffered": "Bekijk het aanbod in Oreon 10"
+      "seeWhatsOffered": "Ontdek wat er in Oreon 11 te verwachten valt"
     },
     "builtForYou": {
       "title": "Gemaakt voor jou.",
@@ -297,6 +297,8 @@
     "betaDownloadX86": "x86_64 downloaden",
     "betaDownloadAarch64": "Download aarch64",
     "getOreon11": "Oreon 11 komt binnenkort uit",
-    "getOreon11Desc": "Oreon 11 komt op 5 oktober 2026 uit. Tot die tijd is Oreon 10 de nieuwste stabiele versie die je vandaag kunt downloaden en uitproberen."
+    "getOreon11Desc": "Oreon 11 komt op 5 oktober 2026 uit. Tot die tijd is Oreon 10 de nieuwste stabiele versie die je vandaag kunt downloaden en uitproberen.",
+    "ogTitle": "Oreon 11",
+    "ogDescription": "Oreon 11 wordt op 5 oktober 2026 gelanceerd. KDE Plasma-bureaublad, Oreon System Manager, Oreon Defense, ISO’s voor de ‘stable-rolling’- en LTS-versies, het Centrio-installatieprogramma met stuurprogramma-herkenning, en er komt nog meer aan."
   }
 }

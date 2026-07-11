@@ -40,7 +40,7 @@
       "titleSub": "Sukurta remiantis patikima technologija",
       "subtitle": "Patikima pasaulinė \"Linux\" operacinė sistema, sukurta kiekvienam regionui ir kalbai.",
       "getOreon": "Gaukite \"Oreon",
-      "seeWhatsOffered": "Peržiūrėkite, kas siūloma \"Oreon 10"
+      "seeWhatsOffered": "Sužinokite, kas naujo laukia „Oreon 11“ versijoje"
     },
     "builtForYou": {
       "title": "Sukurta jums.",
@@ -297,6 +297,8 @@
     "betaDownloadX86": "Atsisiųsti x86_64",
     "betaDownloadAarch64": "Atsisiųsti aarch64",
     "getOreon11": "„Oreon 11“ netrukus pasirodys",
-    "getOreon11Desc": "„Oreon 11“ pasirodys 2026 m. spalio 5 d. Iki tol „Oreon 10“ yra naujausia stabili versija, kurią galite atsisiųsti ir išbandyti jau šiandien."
+    "getOreon11Desc": "„Oreon 11“ pasirodys 2026 m. spalio 5 d. Iki tol „Oreon 10“ yra naujausia stabili versija, kurią galite atsisiųsti ir išbandyti jau šiandien.",
+    "ogTitle": "Oreon 11",
+    "ogDescription": "„Oreon 11“ pasirodys 2026 m. spalio 5 d. „KDE Plasma“ darbalaukis, „Oreon System Manager“, „Oreon Defense“, „stable-rolling“ ir LTS ISO vaizdai, „Centrio“ diegimo programa su tvarkyklių aptikimu ir dar daugiau naujovių, kurios bus pristatytos vėliau."
   }
 }

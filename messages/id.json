@@ -40,7 +40,7 @@
       "titleSub": "Dibangun di atas Teknologi Terpercaya",
       "subtitle": "OS Linux global yang andal yang dibuat untuk setiap wilayah dan bahasa.",
       "getOreon": "Dapatkan Oreon",
-      "seeWhatsOffered": "Lihat apa yang ditawarkan di Oreon 10"
+      "seeWhatsOffered": "Lihat apa saja yang akan hadir di Oreon 11"
     },
     "builtForYou": {
       "title": "Dibuat untuk Anda.",
@@ -297,6 +297,8 @@
     "betaDownloadX86": "Unduh x86_64",
     "betaDownloadAarch64": "Unduh aarch64",
     "getOreon11": "Oreon 11 akan segera dirilis",
-    "getOreon11Desc": "Oreon 11 akan dirilis pada 5 Oktober 2026. Sampai saat itu, Oreon 10 adalah rilis stabil terbaru yang bisa Anda unduh dan coba hari ini."
+    "getOreon11Desc": "Oreon 11 akan dirilis pada 5 Oktober 2026. Sampai saat itu, Oreon 10 adalah rilis stabil terbaru yang bisa Anda unduh dan coba hari ini.",
+    "ogTitle": "Oreon 11",
+    "ogDescription": "Oreon 11 akan diluncurkan pada 5 Oktober 2026. Dilengkapi dengan desktop KDE Plasma, Oreon System Manager, Oreon Defense, ISO versi stable-rolling dan LTS, penginstal Centrio dengan fitur pendeteksian driver, serta masih banyak lagi yang akan datang."
   }
 }

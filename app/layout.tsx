@@ -9,8 +9,9 @@ const redHatDisplay = Red_Hat_Display({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://oreonhq.com'),
   title: 'Oreon HQ',
-  description: 'Software built for what comes next.',
+  description: 'Globally Supported Linux, Built on Trusted Technology',
   icons: {
     icon: '/icon.png',
   },

@@ -10,7 +10,7 @@ import { SetLocaleAttr } from '@/components/SetLocaleAttr'
 
 export const metadata: Metadata = {
   title: 'Oreon HQ',
-  description: 'Software built for what comes next.',
+  description: 'Globally Supported Linux, Built on Trusted Technology',
 }
 
 export async function generateStaticParams() {

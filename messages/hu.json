@@ -40,7 +40,7 @@
       "titleSub": "Megbízható technológiára épül",
       "subtitle": "Megbízható, globális Linux operációs rendszer minden régióra és nyelvre.",
       "getOreon": "Get Oreon",
-      "seeWhatsOffered": "Nézze meg, mit kínál az Oreon 10"
+      "seeWhatsOffered": "Nézd meg, mi várható az Oreon 11-ben"
     },
     "builtForYou": {
       "title": "Önnek készült.",
@@ -297,6 +297,8 @@
     "betaDownloadX86": "x86_64 letöltése",
     "betaDownloadAarch64": "aarch64 letöltése",
     "getOreon11": "Az Oreon 11 hamarosan megjelenik",
-    "getOreon11Desc": "Az Oreon 11 2026. október 5-én jelenik meg. Addig az Oreon 10 a legújabb stabil verzió, amelyet már ma letölthetsz és kipróbálhatsz."
+    "getOreon11Desc": "Az Oreon 11 2026. október 5-én jelenik meg. Addig az Oreon 10 a legújabb stabil verzió, amelyet már ma letölthetsz és kipróbálhatsz.",
+    "ogTitle": "Oreon 11",
+    "ogDescription": "Az Oreon 11 2026. október 5-én jelenik meg. KDE Plasma asztali környezet, Oreon System Manager, Oreon Defense, „stable-rolling” és LTS ISO-k, illesztőprogram-felismeréssel ellátott Centrio telepítő, és még sok más is várható."
   }
 }

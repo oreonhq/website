@@ -40,7 +40,7 @@
       "titleSub": "Ehitatud usaldusväärse tehnoloogia alusel",
       "subtitle": "Usaldusväärne ülemaailmne Linux OS, mis on loodud igale piirkonnale ja igale keelele.",
       "getOreon": "Hangi Oreon",
-      "seeWhatsOffered": "Vaata, mida pakub Oreon 10"
+      "seeWhatsOffered": "Vaata, mida toob kaasa Oreon 11"
     },
     "builtForYou": {
       "title": "Ehitatud teie jaoks.",
@@ -297,6 +297,8 @@
     "betaDownloadX86": "Lae alla x86_64",
     "betaDownloadAarch64": "Lae alla aarch64",
     "getOreon11": "Oreon 11 ilmub peagi",
-    "getOreon11Desc": "Oreon 11 ilmub 5. oktoobril 2026. Seni on Oreon 10 uusim stabiilne versioon, mida saate juba täna alla laadida ja proovida."
+    "getOreon11Desc": "Oreon 11 ilmub 5. oktoobril 2026. Seni on Oreon 10 uusim stabiilne versioon, mida saate juba täna alla laadida ja proovida.",
+    "ogTitle": "Oreon 11",
+    "ogDescription": "Oreon 11 ilmub 5. oktoobril 2026. KDE Plasma töölaua keskkond, Oreon System Manager, Oreon Defense, stabiilsed ja pidevalt uuenevad (stable-rolling) ning pikaajalise toega (LTS) ISO-failid, Centrio paigaldusprogramm koos draiverite tuvastamisega ning veel palju muud on tulemas."
   }
 }

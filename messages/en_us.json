@@ -218,7 +218,9 @@
     "betaDownloadX86": "Download x86_64",
     "betaDownloadAarch64": "Download aarch64",
     "getOreon11": "Oreon 11 releases soon",
-    "getOreon11Desc": "Oreon 11 arrives October 5, 2026. Until then, Oreon 10 is the latest stable release you can download and try today."
+    "getOreon11Desc": "Oreon 11 arrives October 5, 2026. Until then, Oreon 10 is the latest stable release you can download and try today.",
+    "ogTitle": "Oreon 11",
+    "ogDescription": "Oreon 11 launches October 5, 2026. KDE Plasma desktop, Oreon System Manager, Oreon Defense, stable-rolling and LTS ISOs, Centrio installer with driver detection, and more still to come."
   },
   "download": {
     "title": "Choose your Edition.",

@@ -40,7 +40,7 @@
       "titleSub": "신뢰할 수 있는 기술을 기반으로 구축",
       "subtitle": "모든 지역과 언어에 맞게 구축된 안정적인 글로벌 Linux OS입니다.",
       "getOreon": "Oreon 받기",
-      "seeWhatsOffered": "Oreon 10에서 제공되는 기능 보기"
+      "seeWhatsOffered": "Oreon 11의 새로운 기능을 확인해 보세요"
     },
     "builtForYou": {
       "title": "사용자를 위해 만들어졌습니다.",
@@ -297,6 +297,8 @@
     "betaDownloadX86": "x86_64 다운로드",
     "betaDownloadAarch64": "aarch64 다운로드",
     "getOreon11": "Oreon 11이 곧 출시됩니다",
-    "getOreon11Desc": "Oreon 11은 2026년 10월 5일에 출시됩니다. 그때까지 Oreon 10이 바로 지금 다운로드하여 사용해 볼 수 있는 최신 안정화 버전입니다."
+    "getOreon11Desc": "Oreon 11은 2026년 10월 5일에 출시됩니다. 그때까지 Oreon 10이 바로 지금 다운로드하여 사용해 볼 수 있는 최신 안정화 버전입니다.",
+    "ogTitle": "Oreon 11",
+    "ogDescription": "Oreon 11은 2026년 10월 5일에 출시됩니다. KDE Plasma 데스크톱, Oreon 시스템 관리자, Oreon Defense, 안정형 롤링 릴리스 및 LTS ISO, 드라이버 자동 감지 기능을 갖춘 Centrio 설치 프로그램 등이 제공되며, 앞으로 더 많은 기능이 추가될 예정입니다."
   }
 }

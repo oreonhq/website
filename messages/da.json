@@ -40,7 +40,7 @@
       "titleSub": "Bygget på pålidelig teknologi",
       "subtitle": "Et pålideligt globalt Linux OS bygget til alle regioner og sprog.",
       "getOreon": "Få Oreon",
-      "seeWhatsOffered": "Se, hvad der tilbydes i Oreon 10"
+      "seeWhatsOffered": "Se, hvad der er på vej i Oreon 11"
     },
     "builtForYou": {
       "title": "Bygget til dig.",
@@ -297,6 +297,8 @@
     "betaDownloadX86": "Download x86_64",
     "betaDownloadAarch64": "Download aarch64",
     "getOreon11": "Oreon 11 udkommer snart",
-    "getOreon11Desc": "Oreon 11 udkommer den 5. oktober 2026. Indtil da er Oreon 10 den nyeste stabile version, som du kan downloade og afprøve allerede i dag."
+    "getOreon11Desc": "Oreon 11 udkommer den 5. oktober 2026. Indtil da er Oreon 10 den nyeste stabile version, som du kan downloade og afprøve allerede i dag.",
+    "ogTitle": "Oreon 11",
+    "ogDescription": "Oreon 11 udkommer den 5. oktober 2026. KDE Plasma-skrivebord, Oreon System Manager, Oreon Defense, ISO-filer med »stable-rolling« og LTS, Centrio-installationsprogram med drivergenkendelse og meget mere på vej."
   }
 }

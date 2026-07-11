@@ -40,7 +40,7 @@
       "titleSub": "Zgrajena na zaupanja vredni tehnologiji",
       "subtitle": "Zanesljiv globalni operacijski sistem Linux, narejen za vse regije in jezike.",
       "getOreon": "Pridobite Oreon",
-      "seeWhatsOffered": "Oglejte si, kaj je na voljo v Oreonu 10"
+      "seeWhatsOffered": "Oglejte si, kaj prinaša Oreon 11"
     },
     "builtForYou": {
       "title": "Ustvarjeno za vas.",
@@ -297,6 +297,8 @@
     "betaDownloadX86": "Prenesi x86_64",
     "betaDownloadAarch64": "Prenesi aarch64",
     "getOreon11": "Oreon 11 bo kmalu na voljo",
-    "getOreon11Desc": "Oreon 11 bo na voljo 5. oktobra 2026. Do takrat je Oreon 10 najnovejša stabilna različica, ki jo lahko prenesete in preizkusite že danes."
+    "getOreon11Desc": "Oreon 11 bo na voljo 5. oktobra 2026. Do takrat je Oreon 10 najnovejša stabilna različica, ki jo lahko prenesete in preizkusite že danes.",
+    "ogTitle": "Oreon 11",
+    "ogDescription": "Oreon 11 bo izšel 5. oktobra 2026. Namizje KDE Plasma, Oreon System Manager, Oreon Defense, ISO-datoteke s stabilno-postopno posodobitvijo in LTS, namestitveni program Centrio z zaznavanjem gonilnikov ter še več novosti, ki bodo sledile."
   }
 }

@@ -40,7 +40,7 @@
       "titleSub": "基于可信赖的技术",
       "subtitle": "可靠的全球 Linux 操作系统，适用于所有地区和语言。",
       "getOreon": "获取 Oreon",
-      "seeWhatsOffered": "查看 Oreon 10 提供的功能"
+      "seeWhatsOffered": "了解 Oreon 11 的新功能"
     },
     "builtForYou": {
       "title": "专为您打造",
@@ -297,6 +297,8 @@
     "betaDownloadX86": "下载 x86_64",
     "betaDownloadAarch64": "下载 aarch64",
     "getOreon11": "Oreon 11 即将发布",
-    "getOreon11Desc": "Oreon 11 将于 2026 年 10 月 5 日发布。在此之前，Oreon 10 是您今天可以下载并试用的最新稳定版。"
+    "getOreon11Desc": "Oreon 11 将于 2026 年 10 月 5 日发布。在此之前，Oreon 10 是您今天可以下载并试用的最新稳定版。",
+    "ogTitle": "Oreon 11",
+    "ogDescription": "Oreon 11 将于 2026 年 10 月 5 日发布。该版本包含 KDE Plasma 桌面环境、Oreon 系统管理器、Oreon Defense、稳定滚动版和 LTS 版 ISO 镜像，以及具备驱动程序检测功能的 Centrio 安装程序，更多功能即将推出。"
   }
 }

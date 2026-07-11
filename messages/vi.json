@@ -40,7 +40,7 @@
       "titleSub": "Dựa trên công nghệ đáng tin cậy",
       "subtitle": "Một hệ điều hành Linux toàn cầu đáng tin cậy, được thiết kế dành cho mọi khu vực và ngôn ngữ.",
       "getOreon": "Nhận Oreon",
-      "seeWhatsOffered": "Xem những gì được cung cấp trong Oreon 10"
+      "seeWhatsOffered": "Khám phá những tính năng mới trong Oreon 11"
     },
     "builtForYou": {
       "title": "Được thiết kế dành riêng cho bạn.",
@@ -297,6 +297,8 @@
     "betaDownloadX86": "Tải xuống phiên bản x86_64",
     "betaDownloadAarch64": "Tải xuống aarch64",
     "getOreon11": "Oreon 11 sẽ sớm ra mắt",
-    "getOreon11Desc": "Oreon 11 sẽ ra mắt vào ngày 5 tháng 10 năm 2026. Cho đến lúc đó, Oreon 10 là phiên bản ổn định mới nhất mà bạn có thể tải xuống và dùng thử ngay hôm nay."
+    "getOreon11Desc": "Oreon 11 sẽ ra mắt vào ngày 5 tháng 10 năm 2026. Cho đến lúc đó, Oreon 10 là phiên bản ổn định mới nhất mà bạn có thể tải xuống và dùng thử ngay hôm nay.",
+    "ogTitle": "Oreon 11",
+    "ogDescription": "Oreon 11 sẽ ra mắt vào ngày 5 tháng 10 năm 2026. Giao diện người dùng KDE Plasma, Trình quản lý hệ thống Oreon, Oreon Defense, các bản ISO theo mô hình cập nhật liên tục (stable-rolling) và LTS, trình cài đặt Centrio với tính năng tự động phát hiện trình điều khiển, cùng nhiều tính năng khác sẽ được ra mắt trong thời gian tới."
   }
 }

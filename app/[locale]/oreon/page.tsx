@@ -1,8 +1,44 @@
+import type { Metadata } from 'next'
 import Image from 'next/image'
 import { Download } from 'lucide-react'
 import { getMessages, getT } from '@/lib/i18n/get-messages'
 import LocaleLink from '@/components/LocaleLink'
 import Oreon11Countdown from '@/components/Oreon11Countdown'
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }> | { locale: string }
+}): Promise<Metadata> {
+  const resolved = params instanceof Promise ? await params : params
+  const messages = await getMessages(resolved.locale)
+  const t = getT(messages)
+  const title = t('oreon.ogTitle')
+  const description = t('oreon.ogDescription')
+  const image = {
+    url: '/oreon11.png',
+    width: 1920,
+    height: 1080,
+    alt: t('oreon.screenshotAlt'),
+  }
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      type: 'website',
+      images: [image],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [image.url],
+    },
+  }
+}
 
 export default async function Oreon({
   params,

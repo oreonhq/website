@@ -40,7 +40,7 @@
       "titleSub": "Construído com tecnologia fiável",
       "subtitle": "Um sistema operativo Linux global fiável, concebido para todas as regiões e idiomas.",
       "getOreon": "Obter Oreon",
-      "seeWhatsOffered": "Ver o que é oferecido no Oreon 10"
+      "seeWhatsOffered": "Veja as novidades do Oreon 11"
     },
     "builtForYou": {
       "title": "Construído para si.",
@@ -297,6 +297,8 @@
     "betaDownloadX86": "Descarregar x86_64",
     "betaDownloadAarch64": "Descarregar aarch64",
     "getOreon11": "O Oreon 11 será lançado em breve",
-    "getOreon11Desc": "O Oreon 11 será lançado a 5 de outubro de 2026. Até lá, o Oreon 10 é a versão estável mais recente que pode descarregar e experimentar hoje mesmo."
+    "getOreon11Desc": "O Oreon 11 será lançado a 5 de outubro de 2026. Até lá, o Oreon 10 é a versão estável mais recente que pode descarregar e experimentar hoje mesmo.",
+    "ogTitle": "Oreon 11",
+    "ogDescription": "O Oreon 11 será lançado a 5 de outubro de 2026. Ambiente de trabalho KDE Plasma, Gestor de Sistema Oreon, Oreon Defense, ISOs «stable-rolling» e LTS, programa de instalação Centrio com deteção de controladores e muito mais por vir."
   }
 }

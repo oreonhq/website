@@ -40,7 +40,7 @@
       "titleSub": "Izstrādāts, izmantojot uzticamu tehnoloģiju",
       "subtitle": "Uzticama globāla Linux operētājsistēma, kas piemērota visiem reģioniem un valodām.",
       "getOreon": "Iegūt Oreon",
-      "seeWhatsOffered": "Skatiet, kas tiek piedāvāts Oreon 10"
+      "seeWhatsOffered": "Uzziniet, kas gaidāms Oreon 11 versijā"
     },
     "builtForYou": {
       "title": "Izgatavots jums.",
@@ -297,6 +297,8 @@
     "betaDownloadX86": "Lejupielādēt x86_64",
     "betaDownloadAarch64": "Lejupielādēt aarch64",
     "getOreon11": "„Oreon 11“ drīzumā tiks izlaists",
-    "getOreon11Desc": "Oreon 11 tiks izlaists 2026. gada 5. oktobrī. Līdz tam brīdim Oreon 10 ir jaunākā stabilā versija, ko varat lejupielādēt un izmēģināt jau šodien."
+    "getOreon11Desc": "Oreon 11 tiks izlaists 2026. gada 5. oktobrī. Līdz tam brīdim Oreon 10 ir jaunākā stabilā versija, ko varat lejupielādēt un izmēģināt jau šodien.",
+    "ogTitle": "Oreon 11",
+    "ogDescription": "Oreon 11 tiks izlaists 2026. gada 5. oktobrī. KDE Plasma darbvirsma, Oreon System Manager, Oreon Defense, „stable-rolling“ un LTS ISO attēli, Centrio instalētājs ar draiveru atpazīšanu, kā arī citas funkcijas, kas vēl tiks pievienotas."
   }
 }
