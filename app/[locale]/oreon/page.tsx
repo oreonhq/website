@@ -134,7 +134,7 @@ export default async function Oreon({
             <p className="text-gray-500 text-sm font-light leading-relaxed max-w-3xl mb-8">{t('oreon.betaWarning')}</p>
             <div className="flex flex-wrap gap-4">
               <a
-                href="https://mirrors.oreonhq.com/Oreon-11-RP1-BB2607-x86_64.iso"
+                href="https://mirrors.oreonhq.com/Oreon-11-RP1-BB2607.1-x86_64.iso"
                 className="btn-oreon-gradient inline-flex items-center justify-center gap-2"
               >
                 <Download className="w-4 h-4" />
