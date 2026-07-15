@@ -87,7 +87,8 @@
       "title": "Наши спонсоры",
       "boostyAlt": "BoostyConnect",
       "cloudflareAlt": "Cloudflare",
-      "osuoslAlt": "Лаборатория открытого кода OSU"
+      "osuoslAlt": "Лаборатория открытого кода OSU",
+      "melonslabAlt": "Melonslab"
     }
   },
   "about": {

@@ -139,6 +139,14 @@ export default async function Home({
               >
                 <Image src="/osuosl-logo.png" alt={t('home.sponsors.osuoslAlt')} fill className="object-contain object-center" sizes="224px" />
               </a>
+              <a
+                href="https://www.melonslab.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative block h-14 w-48 sm:h-16 sm:w-56 shrink-0 transition-opacity hover:opacity-85 focus:opacity-85 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#007b56] focus-visible:ring-offset-2 rounded"
+              >
+                <Image src="/melonslab-logo.avif" alt={t('home.sponsors.melonslabAlt')} fill className="object-contain object-center" sizes="224px" />
+              </a>
             </div>
           </div>
         </section>
