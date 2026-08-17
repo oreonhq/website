@@ -258,12 +258,6 @@
     "heroTitle": "Oreon 11",
     "heroSlogan": "Conçu pour presque tout le monde. Puissant sous le capot.",
     "heroSubtitle": "Oreon 11 s'adresse aussi bien aux débutants absolus qu'aux utilisateurs expérimentés. Un bureau KDE Plasma, des fonctionnalités avancées intégrées, des optimisations universelles et une infrastructure performante : voilà ce qui rend tout cela possible.",
-    "launchLabel": "Sortie prévue le 5 octobre 2026",
-    "launchAvailable": "Oreon 11 est disponible.",
-    "countdownDays": "jours",
-    "countdownHours": "heures",
-    "countdownMinutes": "min",
-    "countdownSeconds": "secs",
     "downloadPage": "Page de téléchargement",
     "downloadOreon10": "Télécharger Oreon 10",
     "wallpaperAlt": "Fond d'écran Oreon 11",
@@ -297,9 +291,10 @@
     "betaWarning": "Les versions bêta ne sont pas encore finalisées. Toutes les fonctionnalités annoncées n'y figurent pas encore ; certaines sont encore en cours de développement. Ne les installez pas sur du matériel de production.",
     "betaDownloadX86": "Télécharger x86_64",
     "betaDownloadAarch64": "Télécharger aarch64",
-    "getOreon11": "Oreon 11 sortira bientôt",
-    "getOreon11Desc": "Oreon 11 sortira le 5 octobre 2026. D'ici là, Oreon 10 est la dernière version stable que vous pouvez télécharger et essayer dès aujourd'hui.",
     "ogTitle": "Oreon 11",
-    "ogDescription": "Oreon 11 sortira le 5 octobre 2026. Il proposera le bureau KDE Plasma, Oreon System Manager, Oreon Defense, des images ISO « stable-rolling » et LTS, le programme d'installation Centrio avec détection des pilotes, et bien d'autres fonctionnalités à venir."
+    "launchLabel": "À venir en 2027",
+    "getOreon11": "Oreon 11 sortira en 2027",
+    "getOreon11Desc": "Oreon 11 sortira en 2027. D'ici là, Oreon 10 est la dernière version stable que vous pouvez télécharger et essayer dès aujourd'hui.",
+    "ogDescription": "Oreon 11 sortira en 2027. Il proposera le bureau KDE Plasma, Oreon System Manager, Oreon Defense, des images ISO « stable-rolling » et LTS, un programme d'installation Centrio avec détection des pilotes, et bien d'autres fonctionnalités à venir."
   }
 }

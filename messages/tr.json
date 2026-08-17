@@ -258,12 +258,6 @@
     "heroTitle": "Oreon 11",
     "heroSlogan": "Hemen hemen herkes için tasarlandı. Altta yatan güçlü bir yapı.",
     "heroSubtitle": "Oreon 11, hem yeni başlayanlar hem de ileri düzey kullanıcılar için tasarlanmıştır. KDE Plasma masaüstü ortamı, yerleşik gelişmiş özellikler, evrensel optimizasyonlar ve tüm bunları mümkün kılan güçlü altyapı.",
-    "launchLabel": "5 Ekim 2026'da vizyona girecek",
-    "launchAvailable": "Oreon 11 çıktı.",
-    "countdownDays": "gün",
-    "countdownHours": "saat",
-    "countdownMinutes": "dakika",
-    "countdownSeconds": "saniye",
     "downloadPage": "İndirme Sayfası",
     "downloadOreon10": "Oreon 10'u indirin",
     "wallpaperAlt": "Oreon 11 duvar kağıdı arka planı",
@@ -297,9 +291,10 @@
     "betaWarning": "Beta sürümleri henüz tamamlanmamıştır. Duyurulan tüm özellikler henüz dahil edilmemiştir; bazıları hâlâ geliştirme aşamasındadır. Üretim ortamındaki donanımlara yüklemeyin.",
     "betaDownloadX86": "x86_64'ü indir",
     "betaDownloadAarch64": "aarch64'ü indir",
-    "getOreon11": "Oreon 11 yakında piyasaya çıkacak",
-    "getOreon11Desc": "Oreon 11, 5 Ekim 2026'da piyasaya çıkacak. O zamana kadar, Oreon 10, bugün indirip deneyebileceğiniz en güncel kararlı sürümdür.",
     "ogTitle": "Oreon 11",
-    "ogDescription": "Oreon 11, 5 Ekim 2026'da piyasaya çıkacak. KDE Plasma masaüstü ortamı, Oreon Sistem Yöneticisi, Oreon Defense, sürekli güncellenen ve LTS ISO'ları, sürücü algılama özelliğine sahip Centrio yükleyici ve daha pek çok özellik yakında kullanıma sunulacak."
+    "launchLabel": "2027'de piyasaya çıkacak",
+    "getOreon11": "Oreon 11, 2027'de piyasaya çıkacak",
+    "getOreon11Desc": "Oreon 11, 2027'de çıkacak. O zamana kadar, Oreon 10, bugün indirip deneyebileceğiniz en güncel kararlı sürümdür.",
+    "ogDescription": "Oreon 11, 2027'de piyasaya çıkacak. KDE Plasma masaüstü ortamı, Oreon Sistem Yöneticisi, Oreon Defense, sürekli güncellenen ve LTS ISO'ları, sürücü algılama özelliğine sahip Centrio yükleyici ve daha pek çok özellik yakında kullanıma sunulacak."
   }
 }

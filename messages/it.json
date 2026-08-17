@@ -258,12 +258,6 @@
     "heroTitle": "Oreon 11",
     "heroSlogan": "Progettato per quasi tutti. Potente sotto il cofano.",
     "heroSubtitle": "Oreon 11 è pensato sia per i principianti assoluti che per gli utenti esperti. Un desktop KDE Plasma, funzionalità avanzate integrate, ottimizzazioni universali e un'infrastruttura potente rendono tutto questo possibile.",
-    "launchLabel": "In uscita il 5 ottobre 2026",
-    "launchAvailable": "Oreon 11 è arrivato.",
-    "countdownDays": "giorni",
-    "countdownHours": "ore",
-    "countdownMinutes": "minuti",
-    "countdownSeconds": "secondi",
     "downloadPage": "Pagina di download",
     "downloadOreon10": "Scarica Oreon 10",
     "wallpaperAlt": "Sfondo per Oreon 11",
@@ -297,9 +291,10 @@
     "betaWarning": "Le versioni beta sono incomplete. Non tutte le funzionalità annunciate sono ancora incluse; alcune sono ancora in fase di sviluppo. Non installarle su hardware di produzione.",
     "betaDownloadX86": "Scarica x86_64",
     "betaDownloadAarch64": "Scarica aarch64",
-    "getOreon11": "Oreon 11 sarà presto disponibile",
-    "getOreon11Desc": "Oreon 11 sarà disponibile dal 5 ottobre 2026. Fino ad allora, Oreon 10 è l'ultima versione stabile che puoi scaricare e provare oggi stesso.",
     "ogTitle": "Oreon 11",
-    "ogDescription": "Oreon 11 verrà lanciato il 5 ottobre 2026. Desktop KDE Plasma, Oreon System Manager, Oreon Defense, immagini ISO in versione stable-rolling e LTS, programma di installazione Centrio con rilevamento dei driver e altre novità in arrivo."
+    "launchLabel": "In arrivo nel 2027",
+    "getOreon11": "Oreon 11 arriverà nel 2027",
+    "getOreon11Desc": "Oreon 11 uscirà nel 2027. Fino ad allora, Oreon 10 è l'ultima versione stabile che puoi scaricare e provare oggi stesso.",
+    "ogDescription": "Oreon 11 arriverà nel 2027. Desktop KDE Plasma, Oreon System Manager, Oreon Defense, ISO in versione stable-rolling e LTS, programma di installazione Centrio con rilevamento dei driver e altre novità in arrivo."
   }
 }

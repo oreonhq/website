@@ -258,12 +258,6 @@
     "heroTitle": "Oreon 11",
     "heroSlogan": "Szinte mindenki számára készült. Erőteljes teljesítmény.",
     "heroSubtitle": "Az Oreon 11-et úgy fejlesztették ki, hogy a teljesen kezdők és a haladó felhasználók egyaránt jól érezzék magukat vele. A KDE Plasma asztali környezet, a beépített professzionális funkciók, az általános optimalizálások és a hatékony infrastruktúra teszik mindezt lehetővé.",
-    "launchLabel": "Megjelenés: 2026. október 5.",
-    "launchAvailable": "Megérkezett az Oreon 11.",
-    "countdownDays": "napok",
-    "countdownHours": "órák",
-    "countdownMinutes": "perc",
-    "countdownSeconds": "másodperc",
     "downloadPage": "Letöltési oldal",
     "downloadOreon10": "Az Oreon 10 letöltése",
     "wallpaperAlt": "Oreon 11 háttérkép",
@@ -297,9 +291,10 @@
     "betaWarning": "A béta verziók még nem véglegesek. Nem minden bejelentett funkció szerepel bennük, egyesek még fejlesztés alatt állnak. Ne telepítsd őket éles környezetben használt hardverre.",
     "betaDownloadX86": "x86_64 letöltése",
     "betaDownloadAarch64": "aarch64 letöltése",
-    "getOreon11": "Az Oreon 11 hamarosan megjelenik",
-    "getOreon11Desc": "Az Oreon 11 2026. október 5-én jelenik meg. Addig az Oreon 10 a legújabb stabil verzió, amelyet már ma letölthetsz és kipróbálhatsz.",
     "ogTitle": "Oreon 11",
-    "ogDescription": "Az Oreon 11 2026. október 5-én jelenik meg. KDE Plasma asztali környezet, Oreon System Manager, Oreon Defense, „stable-rolling” és LTS ISO-k, illesztőprogram-felismeréssel ellátott Centrio telepítő, és még sok más is várható."
+    "launchLabel": "2027-ben jelenik meg",
+    "getOreon11": "Az Oreon 11 2027-ben jelenik meg",
+    "getOreon11Desc": "Az Oreon 11 2027-ben jelenik meg. Addig is az Oreon 10 a legújabb stabil verzió, amelyet már ma letölthetsz és kipróbálhatsz.",
+    "ogDescription": "Az Oreon 11 2027-ben jelenik meg. KDE Plasma asztali környezet, Oreon System Manager, Oreon Defense, „stable-rolling” és LTS ISO-k, illesztőprogram-felismeréssel ellátott Centrio telepítő, és még sok más is várható."
   }
 }

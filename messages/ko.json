@@ -258,12 +258,6 @@
     "heroTitle": "Oreon 11",
     "heroSlogan": "거의 모든 사람을 위해 만들어졌습니다. 내면은 강력합니다.",
     "heroSubtitle": "Oreon 11은 완전 초보자부터 숙련된 사용자까지 모두를 위해 설계되었습니다. KDE Plasma 데스크톱, 내장된 다양한 기능, 범용적인 최적화, 그리고 이를 모두 가능하게 하는 강력한 인프라가 그 기반이 됩니다.",
-    "launchLabel": "2026년 10월 5일 개봉",
-    "launchAvailable": "Oreon 11이 출시되었습니다.",
-    "countdownDays": "일",
-    "countdownHours": "시간",
-    "countdownMinutes": "분",
-    "countdownSeconds": "초",
     "downloadPage": "다운로드 페이지",
     "downloadOreon10": "Oreon 10 다운로드",
     "wallpaperAlt": "Oreon 11 배경화면",
@@ -297,9 +291,10 @@
     "betaWarning": "베타 빌드는 아직 완성되지 않았습니다. 발표된 모든 기능이 포함된 것은 아니며, 일부 기능은 아직 개발 중입니다. 실제 운영 환경의 하드웨어에는 설치하지 마십시오.",
     "betaDownloadX86": "x86_64 다운로드",
     "betaDownloadAarch64": "aarch64 다운로드",
-    "getOreon11": "Oreon 11이 곧 출시됩니다",
-    "getOreon11Desc": "Oreon 11은 2026년 10월 5일에 출시됩니다. 그때까지 Oreon 10이 바로 지금 다운로드하여 사용해 볼 수 있는 최신 안정화 버전입니다.",
     "ogTitle": "Oreon 11",
-    "ogDescription": "Oreon 11은 2026년 10월 5일에 출시됩니다. KDE Plasma 데스크톱, Oreon 시스템 관리자, Oreon Defense, 안정형 롤링 릴리스 및 LTS ISO, 드라이버 자동 감지 기능을 갖춘 Centrio 설치 프로그램 등이 제공되며, 앞으로 더 많은 기능이 추가될 예정입니다."
+    "launchLabel": "2027년 출시 예정",
+    "getOreon11": "Oreon 11은 2027년에 출시될 예정입니다.",
+    "getOreon11Desc": "Oreon 11은 2027년에 출시될 예정입니다. 그때까지 Oreon 10이 현재 다운로드하여 사용해 볼 수 있는 최신 안정화 버전입니다.",
+    "ogDescription": "Oreon 11은 2027년에 출시될 예정입니다. KDE Plasma 데스크톱, Oreon 시스템 관리자, Oreon Defense, 안정형 롤링 릴리스 및 LTS ISO, 드라이버 자동 감지 기능을 갖춘 Centrio 설치 프로그램 등이 포함되며, 그 밖에도 더 많은 기능이 추가될 예정입니다."
   }
 }

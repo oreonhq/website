@@ -258,12 +258,6 @@
     "heroTitle": "Oreon 11",
     "heroSlogan": "Sobib peaaegu kõigile. Võimas sisemine jõud.",
     "heroSubtitle": "Oreon 11 on loodud nii täielikele algajatele kui ka kogenud kasutajatele. KDE Plasma töölaua keskkond, sisseehitatud tõsised funktsioonid, universaalsed optimeerimised ja võimas infrastruktuur teevad selle kõik võimalikuks.",
-    "launchLabel": "Ilmub 5. oktoobril 2026",
-    "launchAvailable": "Oreon 11 on siin.",
-    "countdownDays": "päeva",
-    "countdownHours": "tundi",
-    "countdownMinutes": "minutit",
-    "countdownSeconds": "sekundit",
     "downloadPage": "Allalaadimisleht",
     "downloadOreon10": "Lae alla Oreon 10",
     "wallpaperAlt": "Oreon 11 taustapilt",
@@ -297,9 +291,10 @@
     "betaWarning": "Beetaversioonid on poolikud. Kõiki välja kuulutatud funktsioone pole veel lisatud, mõned on alles arendamisel. Ärge paigaldage neid tootmiskeskkonnas kasutatavale riistvarale.",
     "betaDownloadX86": "Lae alla x86_64",
     "betaDownloadAarch64": "Lae alla aarch64",
-    "getOreon11": "Oreon 11 ilmub peagi",
-    "getOreon11Desc": "Oreon 11 ilmub 5. oktoobril 2026. Seni on Oreon 10 uusim stabiilne versioon, mida saate juba täna alla laadida ja proovida.",
     "ogTitle": "Oreon 11",
-    "ogDescription": "Oreon 11 ilmub 5. oktoobril 2026. KDE Plasma töölaua keskkond, Oreon System Manager, Oreon Defense, stabiilsed ja pidevalt uuenevad (stable-rolling) ning pikaajalise toega (LTS) ISO-failid, Centrio paigaldusprogramm koos draiverite tuvastamisega ning veel palju muud on tulemas."
+    "launchLabel": "Ilmub 2027. aastal",
+    "getOreon11": "Oreon 11 tuleb turule 2027. aastal",
+    "getOreon11Desc": "Oreon 11 ilmub 2027. aastal. Seni on Oreon 10 uusim stabiilne versioon, mida saate juba täna alla laadida ja proovida.",
+    "ogDescription": "Oreon 11 ilmub 2027. aastal. KDE Plasma töölaua keskkond, Oreon System Manager, Oreon Defense, stabiilsed ja pidevalt uuenevad (stable-rolling) ning pikaajalise toega (LTS) ISO-failid, Centrio paigaldusprogramm koos draiverite tuvastamisega ning veel palju muud on tulemas."
   }
 }

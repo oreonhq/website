@@ -258,12 +258,6 @@
     "heroTitle": "Oreon 11",
     "heroSlogan": "Vytvorené takmer pre každého. S výkonným základom.",
     "heroSubtitle": "Oreon 11 je určený rovnako pre úplných začiatočníkov, ako aj pre pokročilých používateľov. Všetko to umožňuje pracovná plocha KDE Plasma, integrované pokročilé funkcie, univerzálne optimalizácie a výkonná infraštruktúra.",
-    "launchLabel": "Premiéra 5. októbra 2026",
-    "launchAvailable": "Oreon 11 je tu.",
-    "countdownDays": "dni",
-    "countdownHours": "hodiny",
-    "countdownMinutes": "minút",
-    "countdownSeconds": "sekúnd",
     "downloadPage": "Stránka na stiahnutie",
     "downloadOreon10": "Stiahnuť Oreon 10",
     "wallpaperAlt": "Pozadie s motívom Oreon 11",
@@ -297,9 +291,10 @@
     "betaWarning": "Beta verzie sú nedokončené. Nie všetky ohlásené funkcie sú v nich zatiaľ zahrnuté, na niektorých sa stále pracuje. Neinštalujte ich na produkčný hardvér.",
     "betaDownloadX86": "Stiahnuť x86_64",
     "betaDownloadAarch64": "Stiahnuť aarch64",
-    "getOreon11": "Oreon 11 vyjde čoskoro",
-    "getOreon11Desc": "Oreon 11 vyjde 5. októbra 2026. Do tej doby je Oreon 10 najnovšou stabilnou verziou, ktorú si môžete stiahnuť a vyskúšať už dnes.",
     "ogTitle": "Oreon 11",
-    "ogDescription": "Oreon 11 bude uvedený na trh 5. októbra 2026. Pracovná plocha KDE Plasma, správca systému Oreon, Oreon Defense, ISO obrazy so stabilným priebežným aktualizovaním a s dlhodobou podporou (LTS), inštalačný program Centrio s detekciou ovládačov a ďalšie novinky, ktoré ešte len prídu."
+    "launchLabel": "Príde v roku 2027",
+    "getOreon11": "Oreon 11 príde v roku 2027",
+    "getOreon11Desc": "Oreon 11 vyjde v roku 2027. Do tej doby je Oreon 10 najnovšou stabilnou verziou, ktorú si môžete stiahnuť a vyskúšať už dnes.",
+    "ogDescription": "Oreon 11 sa objaví v roku 2027. Pracovná plocha KDE Plasma, Oreon System Manager, Oreon Defense, ISO verzie so stabilným priebežným aktualizovaním a s dlhodobou podporou (LTS), inštalačný program Centrio s detekciou ovládačov a ďalšie novinky, ktoré ešte len prídu."
   }
 }

@@ -258,12 +258,6 @@
     "heroTitle": "Oreon 11",
     "heroSlogan": "Dirancang untuk hampir semua orang. Performa yang tangguh di baliknya.",
     "heroSubtitle": "Oreon 11 dirancang untuk pemula mutlak maupun pengguna tingkat lanjut. Desktop KDE Plasma, fitur-fitur canggih yang sudah terintegrasi, pengoptimalan universal, dan infrastruktur yang tangguh menjadikan semua itu mungkin.",
-    "launchLabel": "Tayang pada 5 Oktober 2026",
-    "launchAvailable": "Oreon 11 sudah hadir.",
-    "countdownDays": "hari",
-    "countdownHours": "jam",
-    "countdownMinutes": "menit",
-    "countdownSeconds": "detik",
     "downloadPage": "Halaman Unduh",
     "downloadOreon10": "Unduh Oreon 10",
     "wallpaperAlt": "Latar belakang wallpaper Oreon 11",
@@ -297,9 +291,10 @@
     "betaWarning": "Versi beta masih dalam tahap pengembangan. Tidak semua fitur yang telah diumumkan sudah disertakan; beberapa di antaranya masih dalam proses pengembangan. Jangan menginstalnya pada perangkat produksi.",
     "betaDownloadX86": "Unduh x86_64",
     "betaDownloadAarch64": "Unduh aarch64",
-    "getOreon11": "Oreon 11 akan segera dirilis",
-    "getOreon11Desc": "Oreon 11 akan dirilis pada 5 Oktober 2026. Sampai saat itu, Oreon 10 adalah rilis stabil terbaru yang bisa Anda unduh dan coba hari ini.",
     "ogTitle": "Oreon 11",
-    "ogDescription": "Oreon 11 akan diluncurkan pada 5 Oktober 2026. Dilengkapi dengan desktop KDE Plasma, Oreon System Manager, Oreon Defense, ISO versi stable-rolling dan LTS, penginstal Centrio dengan fitur pendeteksian driver, serta masih banyak lagi yang akan datang."
+    "launchLabel": "Akan hadir pada tahun 2027",
+    "getOreon11": "Oreon 11 akan diluncurkan pada tahun 2027",
+    "getOreon11Desc": "Oreon 11 akan dirilis pada tahun 2027. Sampai saat itu, Oreon 10 adalah rilis stabil terbaru yang bisa Anda unduh dan coba hari ini.",
+    "ogDescription": "Oreon 11 akan dirilis pada tahun 2027. Dilengkapi dengan desktop KDE Plasma, Oreon System Manager, Oreon Defense, ISO versi stable-rolling dan LTS, penginstal Centrio dengan fitur deteksi driver, serta masih banyak lagi yang akan datang."
   }
 }

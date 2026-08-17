@@ -258,12 +258,6 @@
     "heroTitle": "Oreon 11",
     "heroSlogan": "Radīts gandrīz ikvienam. Spēcīgs no iekšpuses.",
     "heroSubtitle": "„Oreon 11“ ir izstrādāts gan absolūtiem iesācējiem, gan pieredzējušiem lietotājiem. To visu nodrošina KDE Plasma darbvirsma, iebūvētas nopietnas funkcijas, universālas optimizācijas un jaudīga infrastruktūra.",
-    "launchLabel": "Izlaišanas datums: 2026. gada 5. oktobris",
-    "launchAvailable": "Oreon 11 ir klāt.",
-    "countdownDays": "dienas",
-    "countdownHours": "stundas",
-    "countdownMinutes": "minūtes",
-    "countdownSeconds": "sekundes",
     "downloadPage": "Lejupielādes lapa",
     "downloadOreon10": "Lejupielādēt Oreon 10",
     "wallpaperAlt": "Oreon 11 fona attēls",
@@ -297,9 +291,10 @@
     "betaWarning": "Beta versijas ir nepabeigtas. Tās vēl neietver visas paziņotās funkcijas; daži elementi vēl tiek izstrādāti. Nelietojiet tās ražošanas vidē.",
     "betaDownloadX86": "Lejupielādēt x86_64",
     "betaDownloadAarch64": "Lejupielādēt aarch64",
-    "getOreon11": "„Oreon 11“ drīzumā tiks izlaists",
-    "getOreon11Desc": "Oreon 11 tiks izlaists 2026. gada 5. oktobrī. Līdz tam brīdim Oreon 10 ir jaunākā stabilā versija, ko varat lejupielādēt un izmēģināt jau šodien.",
     "ogTitle": "Oreon 11",
-    "ogDescription": "Oreon 11 tiks izlaists 2026. gada 5. oktobrī. KDE Plasma darbvirsma, Oreon System Manager, Oreon Defense, „stable-rolling“ un LTS ISO attēli, Centrio instalētājs ar draiveru atpazīšanu, kā arī citas funkcijas, kas vēl tiks pievienotas."
+    "launchLabel": "Paredzēts 2027. gadā",
+    "getOreon11": "„Oreon 11“ tiks izlaists 2027. gadā",
+    "getOreon11Desc": "Oreon 11 tiks izlaists 2027. gadā. Līdz tam brīdim Oreon 10 ir jaunākā stabilā versija, ko varat lejupielādēt un izmēģināt jau šodien.",
+    "ogDescription": "Oreon 11 tiks izlaists 2027. gadā. Tajā būs iekļauts KDE Plasma darbvirsma, Oreon System Manager, Oreon Defense, stabilās un pastāvīgi atjaunināmās (stable-rolling) versijas, kā arī LTS ISO attēli, Centrio instalētājs ar draiveru atpazīšanu un vēl daudzas citas funkcijas, kas tiks pievienotas vēlāk."
   }
 }

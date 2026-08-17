@@ -258,12 +258,6 @@
     "heroTitle": "Oreon 11",
     "heroSlogan": "Narejen za skoraj vsakogar. Znotraj pa je zmogljiv.",
     "heroSubtitle": "Oreon 11 je namenjen tako popolnim začetnikom kot tudi izkušenim uporabnikom. To omogočajo namizje KDE Plasma, vgrajene napredne funkcije, splošne optimizacije in zmogljiva infrastruktura.",
-    "launchLabel": "Izide 5. oktobra 2026",
-    "launchAvailable": "Oreon 11 je tu.",
-    "countdownDays": "dni",
-    "countdownHours": "ure",
-    "countdownMinutes": "minut",
-    "countdownSeconds": "sekund",
     "downloadPage": "Stran za prenos",
     "downloadOreon10": "Prenesi Oreon 10",
     "wallpaperAlt": "Oreon 11 ozadje",
@@ -297,9 +291,10 @@
     "betaWarning": "Beta različice so nedokončane. Vse napovedane funkcije še niso vključene, nekatere so še v razvoju. Ne nameščajte jih na produkcijsko opremo.",
     "betaDownloadX86": "Prenesi x86_64",
     "betaDownloadAarch64": "Prenesi aarch64",
-    "getOreon11": "Oreon 11 bo kmalu na voljo",
-    "getOreon11Desc": "Oreon 11 bo na voljo 5. oktobra 2026. Do takrat je Oreon 10 najnovejša stabilna različica, ki jo lahko prenesete in preizkusite že danes.",
     "ogTitle": "Oreon 11",
-    "ogDescription": "Oreon 11 bo izšel 5. oktobra 2026. Namizje KDE Plasma, Oreon System Manager, Oreon Defense, ISO-datoteke s stabilno-postopno posodobitvijo in LTS, namestitveni program Centrio z zaznavanjem gonilnikov ter še več novosti, ki bodo sledile."
+    "launchLabel": "Prihaja leta 2027",
+    "getOreon11": "Oreon 11 bo na voljo leta 2027",
+    "getOreon11Desc": "Oreon 11 bo na voljo leta 2027. Do takrat je Oreon 10 najnovejša stabilna različica, ki jo lahko prenesete in preizkusite že danes.",
+    "ogDescription": "Oreon 11 bo izšel leta 2027. Namizje KDE Plasma, Oreon System Manager, Oreon Defense, ISO-datoteke s stabilno-postopno posodobitvijo in LTS, namestitveni program Centrio z zaznavanjem gonilnikov ter še več novosti, ki bodo sledile."
   }
 }

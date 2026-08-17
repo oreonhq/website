@@ -258,12 +258,6 @@
     "heroTitle": "Oreon 11",
     "heroSlogan": "Diseñado para casi todo el mundo. Potente por dentro.",
     "heroSubtitle": "Oreon 11 está diseñado tanto para principiantes absolutos como para usuarios avanzados. Un escritorio KDE Plasma, funciones avanzadas integradas, optimizaciones universales y una potente infraestructura hacen que todo esto sea posible.",
-    "launchLabel": "Estreno: 5 de octubre de 2026",
-    "launchAvailable": "Ya está aquí Oreon 11.",
-    "countdownDays": "días",
-    "countdownHours": "horas",
-    "countdownMinutes": "minutos",
-    "countdownSeconds": "segundos",
     "downloadPage": "Página de descargas",
     "downloadOreon10": "Descargar Oreon 10",
     "wallpaperAlt": "Fondo de pantalla de Oreon 11",
@@ -297,9 +291,10 @@
     "betaWarning": "Las versiones beta están en fase de desarrollo. Todavía no se incluyen todas las funciones anunciadas; algunas aún se están desarrollando. No las instales en equipos de producción.",
     "betaDownloadX86": "Descargar x86_64",
     "betaDownloadAarch64": "Descargar aarch64",
-    "getOreon11": "Oreon 11 saldrá pronto",
-    "getOreon11Desc": "Oreon 11 saldrá el 5 de octubre de 2026. Hasta entonces, Oreon 10 es la última versión estable que puedes descargar y probar hoy mismo.",
     "ogTitle": "Oreon 11",
-    "ogDescription": "Oreon 11 se lanzará el 5 de octubre de 2026. Incluirá el escritorio KDE Plasma, Oreon System Manager, Oreon Defense, imágenes ISO de versión estable y LTS, el instalador Centrio con detección de controladores y muchas más novedades por venir."
+    "launchLabel": "Próximamente en 2027",
+    "getOreon11": "Oreon 11 llegará en 2027",
+    "getOreon11Desc": "Oreon 11 saldrá en 2027. Hasta entonces, Oreon 10 es la última versión estable que puedes descargar y probar hoy mismo.",
+    "ogDescription": "Oreon 11 llegará en 2027. Escritorio KDE Plasma, Oreon System Manager, Oreon Defense, imágenes ISO de versión estable y LTS, instalador Centrio con detección de controladores y muchas más novedades por venir."
   }
 }

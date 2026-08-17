@@ -258,12 +258,6 @@
     "heroTitle": "Oreon 11",
     "heroSlogan": "Sukurtas beveik visiems. Galingas iš vidaus.",
     "heroSubtitle": "„Oreon 11“ sukurta tiek visiškai pradedantiesiems, tiek patyrusiems vartotojams. Tai įmanoma dėl „KDE Plasma“ darbalaukio, įdiegtų pažangių funkcijų, visuotinių optimizacijų ir galingos infrastruktūros.",
-    "launchLabel": "Pasirodys 2026 m. spalio 5 d.",
-    "launchAvailable": "„Oreon 11“ jau čia.",
-    "countdownDays": "dienos",
-    "countdownHours": "valandos",
-    "countdownMinutes": "min.",
-    "countdownSeconds": "sek.",
     "downloadPage": "Atsisiuntimo puslapis",
     "downloadOreon10": "Atsisiųskite „Oreon 10“",
     "wallpaperAlt": "„Oreon 11“ ekrano užsklanda",
@@ -297,9 +291,10 @@
     "betaWarning": "Beta versijos yra nebaigtos. Dar ne visos paskelbtos funkcijos yra įtrauktos, kai kurios vis dar kuriamos. Neįdiekite jų į gamybinę įrangą.",
     "betaDownloadX86": "Atsisiųsti x86_64",
     "betaDownloadAarch64": "Atsisiųsti aarch64",
-    "getOreon11": "„Oreon 11“ netrukus pasirodys",
-    "getOreon11Desc": "„Oreon 11“ pasirodys 2026 m. spalio 5 d. Iki tol „Oreon 10“ yra naujausia stabili versija, kurią galite atsisiųsti ir išbandyti jau šiandien.",
     "ogTitle": "Oreon 11",
-    "ogDescription": "„Oreon 11“ pasirodys 2026 m. spalio 5 d. „KDE Plasma“ darbalaukis, „Oreon System Manager“, „Oreon Defense“, „stable-rolling“ ir LTS ISO vaizdai, „Centrio“ diegimo programa su tvarkyklių aptikimu ir dar daugiau naujovių, kurios bus pristatytos vėliau."
+    "launchLabel": "Pasirodys 2027 m.",
+    "getOreon11": "„Oreon 11“ pasirodys 2027 m.",
+    "getOreon11Desc": "„Oreon 11“ pasirodys 2027 m. Iki tol „Oreon 10“ yra naujausia stabili versija, kurią galite atsisiųsti ir išbandyti jau šiandien.",
+    "ogDescription": "„Oreon 11“ pasirodys 2027 m. „KDE Plasma“ darbalaukis, „Oreon System Manager“, „Oreon Defense“, „stable-rolling“ ir LTS ISO vaizdai, „Centrio“ diegimo programa su tvarkyklių aptikimu ir dar daugiau naujovių, kurios bus pristatytos vėliau."
   }
 }

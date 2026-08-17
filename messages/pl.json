@@ -258,12 +258,6 @@
     "heroTitle": "Oreon 11",
     "heroSlogan": "Stworzony niemal dla każdego. Potężny pod maską.",
     "heroSubtitle": "Oreon 11 jest przeznaczony zarówno dla osób zupełnie początkujących, jak i zaawansowanych użytkowników. Pulpit KDE Plasma, zaawansowane wbudowane funkcje, uniwersalne optymalizacje oraz potężna infrastruktura sprawiają, że wszystko to jest możliwe.",
-    "launchLabel": "Premiera 5 października 2026 r.",
-    "launchAvailable": "Oreon 11 już jest.",
-    "countdownDays": "dni",
-    "countdownHours": "godziny",
-    "countdownMinutes": "min",
-    "countdownSeconds": "sek.",
     "downloadPage": "Strona pobierania",
     "downloadOreon10": "Pobierz Oreon 10",
     "wallpaperAlt": "Tapeta Oreon 11",
@@ -297,9 +291,10 @@
     "betaWarning": "Wersje beta są niedokończone. Nie wszystkie zapowiadane funkcje zostały jeszcze dodane, a nad niektórymi wciąż trwają prace. Nie należy instalować ich na sprzęcie produkcyjnym.",
     "betaDownloadX86": "Pobierz wersję x86_64",
     "betaDownloadAarch64": "Pobierz wersję aarch64",
-    "getOreon11": "Wkrótce premiera Oreon 11",
-    "getOreon11Desc": "Oreon 11 pojawi się 5 października 2026 roku. Do tego czasu Oreon 10 jest najnowszą stabilną wersją, którą można już dziś pobrać i wypróbować.",
     "ogTitle": "Oreon 11",
-    "ogDescription": "Premiera Oreon 11 odbędzie się 5 października 2026 roku. Środowisko graficzne KDE Plasma, menedżer systemu Oreon, Oreon Defense, obrazy ISO w wersji stable-rolling i LTS, instalator Centrio z funkcją wykrywania sterowników oraz wiele innych funkcji, które pojawią się w przyszłości."
+    "launchLabel": "Premiera w 2027 roku",
+    "getOreon11": "Oreon 11 pojawi się w 2027 roku",
+    "getOreon11Desc": "Oreon 11 pojawi się w 2027 roku. Do tego czasu Oreon 10 jest najnowszą stabilną wersją, którą można już dziś pobrać i wypróbować.",
+    "ogDescription": "Oreon 11 pojawi się w 2027 roku. Środowisko graficzne KDE Plasma, menedżer systemu Oreon, Oreon Defense, obrazy ISO w trybie „stable-rolling” i LTS, instalator Centrio z funkcją wykrywania sterowników oraz wiele innych funkcji, które pojawią się w przyszłości."
   }
 }

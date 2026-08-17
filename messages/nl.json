@@ -258,12 +258,6 @@
     "heroTitle": "Oreon 11",
     "heroSlogan": "Geschikt voor bijna iedereen. Krachtig van binnen.",
     "heroSubtitle": "Oreon 11 is ontworpen voor zowel absolute beginners als ervaren gebruikers. Een KDE Plasma-bureaublad, ingebouwde geavanceerde functies, universele optimalisaties en een krachtige infrastructuur maken dit alles mogelijk.",
-    "launchLabel": "Verschijnt op 5 oktober 2026",
-    "launchAvailable": "Oreon 11 is er.",
-    "countdownDays": "dagen",
-    "countdownHours": "uren",
-    "countdownMinutes": "minuten",
-    "countdownSeconds": "seconden",
     "downloadPage": "Downloadpagina",
     "downloadOreon10": "Oreon 10 downloaden",
     "wallpaperAlt": "Oreon 11-achtergrond",
@@ -297,9 +291,10 @@
     "betaWarning": "Bètaversies zijn nog niet voltooid. Niet alle aangekondigde functies zijn al opgenomen; aan sommige wordt nog gewerkt. Installeer deze versie niet op productiehardware.",
     "betaDownloadX86": "x86_64 downloaden",
     "betaDownloadAarch64": "Download aarch64",
-    "getOreon11": "Oreon 11 komt binnenkort uit",
-    "getOreon11Desc": "Oreon 11 komt op 5 oktober 2026 uit. Tot die tijd is Oreon 10 de nieuwste stabiele versie die je vandaag kunt downloaden en uitproberen.",
     "ogTitle": "Oreon 11",
-    "ogDescription": "Oreon 11 wordt op 5 oktober 2026 gelanceerd. KDE Plasma-bureaublad, Oreon System Manager, Oreon Defense, ISO’s voor de ‘stable-rolling’- en LTS-versies, het Centrio-installatieprogramma met stuurprogramma-herkenning, en er komt nog meer aan."
+    "launchLabel": "Verschijnt in 2027",
+    "getOreon11": "Oreon 11 komt in 2027 uit",
+    "getOreon11Desc": "Oreon 11 komt in 2027 uit. Tot die tijd is Oreon 10 de nieuwste stabiele versie die je vandaag kunt downloaden en uitproberen.",
+    "ogDescription": "Oreon 11 komt in 2027 uit. Met de KDE Plasma-desktop, Oreon System Manager, Oreon Defense, ISO’s voor de stable-rolling- en LTS-versies, het Centrio-installatieprogramma met stuurprogramma-herkenning, en er komt nog meer aan."
   }
 }

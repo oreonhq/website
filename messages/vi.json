@@ -258,12 +258,6 @@
     "heroTitle": "Oreon 11",
     "heroSlogan": "Được thiết kế dành cho hầu hết mọi người. Ẩn chứa sức mạnh bên trong.",
     "heroSubtitle": "Oreon 11 được thiết kế dành cho cả người mới bắt đầu hoàn toàn lẫn người dùng chuyên nghiệp. Giao diện người dùng KDE Plasma, các tính năng chuyên sâu được tích hợp sẵn, các tối ưu hóa toàn diện và cơ sở hạ tầng mạnh mẽ đã biến tất cả điều đó thành hiện thực.",
-    "launchLabel": "Phát hành vào ngày 5 tháng 10 năm 2026",
-    "launchAvailable": "Oreon 11 đã ra mắt.",
-    "countdownDays": "ngày",
-    "countdownHours": "giờ",
-    "countdownMinutes": "phút",
-    "countdownSeconds": "giây",
     "downloadPage": "Trang tải xuống",
     "downloadOreon10": "Tải xuống Oreon 10",
     "wallpaperAlt": "Hình nền Oreon 11",
@@ -297,9 +291,10 @@
     "betaWarning": "Các bản dựng Beta vẫn chưa hoàn thiện. Không phải tất cả các tính năng đã được công bố đều đã được tích hợp, một số tính năng vẫn đang trong quá trình phát triển. Không nên cài đặt trên hệ thống sản xuất.",
     "betaDownloadX86": "Tải xuống phiên bản x86_64",
     "betaDownloadAarch64": "Tải xuống aarch64",
-    "getOreon11": "Oreon 11 sẽ sớm ra mắt",
-    "getOreon11Desc": "Oreon 11 sẽ ra mắt vào ngày 5 tháng 10 năm 2026. Cho đến lúc đó, Oreon 10 là phiên bản ổn định mới nhất mà bạn có thể tải xuống và dùng thử ngay hôm nay.",
     "ogTitle": "Oreon 11",
-    "ogDescription": "Oreon 11 sẽ ra mắt vào ngày 5 tháng 10 năm 2026. Giao diện người dùng KDE Plasma, Trình quản lý hệ thống Oreon, Oreon Defense, các bản ISO theo mô hình cập nhật liên tục (stable-rolling) và LTS, trình cài đặt Centrio với tính năng tự động phát hiện trình điều khiển, cùng nhiều tính năng khác sẽ được ra mắt trong thời gian tới."
+    "launchLabel": "Sẽ ra mắt vào năm 2027",
+    "getOreon11": "Oreon 11 sẽ ra mắt vào năm 2027",
+    "getOreon11Desc": "Oreon 11 sẽ ra mắt vào năm 2027. Cho đến lúc đó, Oreon 10 là phiên bản ổn định mới nhất mà bạn có thể tải xuống và dùng thử ngay hôm nay.",
+    "ogDescription": "Oreon 11 sẽ ra mắt vào năm 2027. Giao diện người dùng KDE Plasma, Trình quản lý hệ thống Oreon, Oreon Defense, các bản ISO theo mô hình cập nhật liên tục (stable-rolling) và LTS, trình cài đặt Centrio với tính năng tự động phát hiện trình điều khiển, cùng nhiều tính năng khác sẽ được ra mắt trong thời gian tới."
   }
 }

@@ -3,7 +3,6 @@ import Image from 'next/image'
 import { Download } from 'lucide-react'
 import { getMessages, getT } from '@/lib/i18n/get-messages'
 import LocaleLink from '@/components/LocaleLink'
-import Oreon11Countdown from '@/components/Oreon11Countdown'
 
 export async function generateMetadata({
   params,
@@ -82,8 +81,8 @@ export default async function Oreon({
             <p className="text-xl md:text-2xl text-white font-medium leading-relaxed max-w-3xl mb-4">
               {t('oreon.heroSlogan')}
             </p>
-            <p className="text-lg text-white/85 leading-relaxed font-light max-w-3xl mb-10">{t('oreon.heroSubtitle')}</p>
-            <Oreon11Countdown />
+            <p className="text-lg text-white/85 leading-relaxed font-light max-w-3xl mb-4">{t('oreon.heroSubtitle')}</p>
+            <p className="text-lg text-white/90 font-medium">{t('oreon.launchLabel')}</p>
           </div>
         </div>
       </section>

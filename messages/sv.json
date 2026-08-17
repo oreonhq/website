@@ -258,12 +258,6 @@
     "heroTitle": "Oreon 11",
     "heroSlogan": "Skapat för nästan alla. Kraftfull inuti.",
     "heroSubtitle": "Oreon 11 är utvecklat för såväl nybörjare som avancerade användare. Ett KDE Plasma-skrivbord, inbyggda avancerade funktioner, universella optimeringar och en kraftfull infrastruktur gör allt detta möjligt.",
-    "launchLabel": "Premiär den 5 oktober 2026",
-    "launchAvailable": "Oreon 11 är här.",
-    "countdownDays": "dagar",
-    "countdownHours": "timmar",
-    "countdownMinutes": "minuter",
-    "countdownSeconds": "sekunder",
     "downloadPage": "Nedladdningssida",
     "downloadOreon10": "Ladda ner Oreon 10",
     "wallpaperAlt": "Oreon 11 – bakgrundsbild",
@@ -297,9 +291,10 @@
     "betaWarning": "Betaversioner är ofärdiga. Alla tillkännagivna funktioner ingår inte ännu; vissa är fortfarande under utveckling. Installera inte på produktionsutrustning.",
     "betaDownloadX86": "Ladda ner x86_64",
     "betaDownloadAarch64": "Ladda ner aarch64",
-    "getOreon11": "Oreon 11 släpps snart",
-    "getOreon11Desc": "Oreon 11 släpps den 5 oktober 2026. Fram till dess är Oreon 10 den senaste stabila versionen som du kan ladda ner och testa redan idag.",
     "ogTitle": "Oreon 11",
-    "ogDescription": "Oreon 11 släpps den 5 oktober 2026. KDE Plasma-skrivbordsmiljö, Oreon System Manager, Oreon Defense, ISO-filer för stable-rolling och LTS, Centrio-installationsprogram med drivrutinsdetektering och mycket mer på väg."
+    "launchLabel": "Kommer 2027",
+    "getOreon11": "Oreon 11 kommer 2027",
+    "getOreon11Desc": "Oreon 11 kommer år 2027. Fram till dess är Oreon 10 den senaste stabila versionen som du kan ladda ner och testa redan idag.",
+    "ogDescription": "Oreon 11 släpps 2027. KDE Plasma-skrivbordsmiljö, Oreon System Manager, Oreon Defense, ISO-filer med stabil-rolling och LTS, Centrio-installationsprogram med drivrutinsdetektering och mycket mer på gång."
   }
 }

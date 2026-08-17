@@ -258,12 +258,6 @@
     "heroTitle": "Oreon 11",
     "heroSlogan": "Feito para praticamente todo mundo. Potente por dentro.",
     "heroSubtitle": "O Oreon 11 foi desenvolvido tanto para usuários totalmente iniciantes quanto para usuários avançados. Uma área de trabalho KDE Plasma, recursos avançados integrados, otimizações universais e uma infraestrutura robusta tornam tudo isso possível.",
-    "launchLabel": "Lançamento em 5 de outubro de 2026",
-    "launchAvailable": "O Oreon 11 já chegou.",
-    "countdownDays": "dias",
-    "countdownHours": "horas",
-    "countdownMinutes": "minutos",
-    "countdownSeconds": "segundos",
     "downloadPage": "Página de download",
     "downloadOreon10": "Baixar o Oreon 10",
     "wallpaperAlt": "Fundo de tela do Oreon 11",
@@ -297,9 +291,10 @@
     "betaWarning": "As versões beta ainda não estão concluídas. Nem todos os recursos anunciados estão incluídos ainda; alguns ainda estão em desenvolvimento. Não instale em equipamentos de produção.",
     "betaDownloadX86": "Baixar x86_64",
     "betaDownloadAarch64": "Baixar aarch64",
-    "getOreon11": "O Oreon 11 será lançado em breve",
-    "getOreon11Desc": "O Oreon 11 será lançado em 5 de outubro de 2026. Até lá, o Oreon 10 é a versão estável mais recente que você pode baixar e experimentar hoje mesmo.",
     "ogTitle": "Oreon 11",
-    "ogDescription": "O Oreon 11 será lançado em 5 de outubro de 2026. Área de trabalho KDE Plasma, Oreon System Manager, Oreon Defense, ISOs nas versões “stable-rolling” e LTS, instalador Centrio com detecção de drivers e muito mais por vir."
+    "launchLabel": "A ser lançado em 2027",
+    "getOreon11": "O Oreon 11 será lançado em 2027",
+    "getOreon11Desc": "O Oreon 11 será lançado em 2027. Até lá, o Oreon 10 é a versão estável mais recente que você pode baixar e experimentar hoje mesmo.",
+    "ogDescription": "O Oreon 11 será lançado em 2027. Área de trabalho KDE Plasma, Oreon System Manager, Oreon Defense, ISOs com atualização contínua e LTS, instalador Centrio com detecção de drivers e muito mais por vir."
   }
 }

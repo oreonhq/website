@@ -258,12 +258,6 @@
     "heroTitle": "Oreon 11",
     "heroSlogan": "Für fast jeden geeignet. Leistungsstark unter der Haube.",
     "heroSubtitle": "Oreon 11 richtet sich sowohl an absolute Anfänger als auch an erfahrene Nutzer. Ein KDE-Plasma-Desktop, leistungsstarke integrierte Funktionen, universelle Optimierungen und eine leistungsfähige Infrastruktur machen all dies möglich.",
-    "launchLabel": "Erscheint am 5. Oktober 2026",
-    "launchAvailable": "Oreon 11 ist da.",
-    "countdownDays": "Tage",
-    "countdownHours": "Stunden",
-    "countdownMinutes": "Minuten",
-    "countdownSeconds": "Sek.",
     "downloadPage": "Download-Seite",
     "downloadOreon10": "Oreon 10 herunterladen",
     "wallpaperAlt": "Oreon 11 – Hintergrundbild",
@@ -297,9 +291,10 @@
     "betaWarning": "Beta-Versionen sind noch nicht fertiggestellt. Nicht alle angekündigten Funktionen sind bereits enthalten, an einigen wird noch gearbeitet. Installieren Sie diese Version nicht auf Produktionssystemen.",
     "betaDownloadX86": "x86_64 herunterladen",
     "betaDownloadAarch64": "aarch64 herunterladen",
-    "getOreon11": "Oreon 11 erscheint in Kürze",
-    "getOreon11Desc": "Oreon 11 erscheint am 5. Oktober 2026. Bis dahin ist Oreon 10 die aktuellste stabile Version, die Sie bereits heute herunterladen und ausprobieren können.",
     "ogTitle": "Oreon 11",
-    "ogDescription": "Oreon 11 erscheint am 5. Oktober 2026. KDE-Plasma-Desktop, Oreon System Manager, Oreon Defense, „Stable-Rolling“- und LTS-ISOs, Centrio-Installationsprogramm mit Treibererkennung und vieles mehr wird noch folgen."
+    "launchLabel": "Erscheint 2027",
+    "getOreon11": "Oreon 11 kommt 2027 auf den Markt",
+    "getOreon11Desc": "Oreon 11 erscheint im Jahr 2027. Bis dahin ist Oreon 10 die aktuellste stabile Version, die Sie heute herunterladen und ausprobieren können.",
+    "ogDescription": "Oreon 11 erscheint im Jahr 2027. Mit dabei sind der KDE-Plasma-Desktop, der Oreon System Manager, Oreon Defense, „Stable-Rolling“- und LTS-ISOs, das Centrio-Installationsprogramm mit Treibererkennung und vieles mehr, das noch folgen wird."
   }
 }

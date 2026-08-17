@@ -258,12 +258,6 @@
     "heroTitle": "Oreon 11",
     "heroSlogan": "Suunniteltu lähes kaikille. Tehokas sisältäpäin.",
     "heroSubtitle": "Oreon 11 on suunniteltu sekä aloittelijoille että kokeneille käyttäjille. KDE Plasma -työpöytäympäristö, kattavat sisäänrakennetut ominaisuudet, yleispätevät optimoinnit ja tehokas infrastruktuuri tekevät tästä kaiken mahdolliseksi.",
-    "launchLabel": "Julkaistaan 5. lokakuuta 2026",
-    "launchAvailable": "Oreon 11 on nyt saatavilla.",
-    "countdownDays": "päivää",
-    "countdownHours": "tuntia",
-    "countdownMinutes": "minuuttia",
-    "countdownSeconds": "sekuntia",
     "downloadPage": "Lataussivu",
     "downloadOreon10": "Lataa Oreon 10",
     "wallpaperAlt": "Oreon 11 -taustakuva",
@@ -297,9 +291,10 @@
     "betaWarning": "Beta-versiot ovat keskeneräisiä. Kaikkia ilmoitettuja ominaisuuksia ei ole vielä sisällytetty niihin, vaan osa niistä on vielä kehitteillä. Älä asenna niitä tuotantokäyttöön tarkoitettuun laitteistoon.",
     "betaDownloadX86": "Lataa x86_64",
     "betaDownloadAarch64": "Lataa aarch64",
-    "getOreon11": "Oreon 11 julkaistaan pian",
-    "getOreon11Desc": "Oreon 11 julkaistaan 5. lokakuuta 2026. Siihen asti Oreon 10 on uusin vakaa versio, jonka voit ladata ja kokeilla jo tänään.",
     "ogTitle": "Oreon 11",
-    "ogDescription": "Oreon 11 julkaistaan 5. lokakuuta 2026. Mukana ovat KDE Plasma -työpöytäympäristö, Oreon System Manager, Oreon Defense, stable-rolling- ja LTS-ISO-tiedostot, Centrio-asennusohjelma ajurintunnistuksella sekä paljon muuta, mitä on vielä tulossa."
+    "launchLabel": "Tulossa vuonna 2027",
+    "getOreon11": "Oreon 11 julkaistaan vuonna 2027",
+    "getOreon11Desc": "Oreon 11 julkaistaan vuonna 2027. Siihen asti Oreon 10 on uusin vakaa versio, jonka voit ladata ja kokeilla jo tänään.",
+    "ogDescription": "Oreon 11 julkaistaan vuonna 2027. Mukana ovat KDE Plasma -työpöytäympäristö, Oreon System Manager, Oreon Defense, stable-rolling- ja LTS-ISO-tiedostot, Centrio-asennusohjelma ajurintunnistuksella sekä paljon muuta, mitä on vielä tulossa."
   }
 }

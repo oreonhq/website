@@ -258,12 +258,6 @@
     "heroTitle": "Oreon 11",
     "heroSlogan": "Vhodné téměř pro každého. Pod kapotou se skrývá pořádný výkon.",
     "heroSubtitle": "Oreon 11 je určen jak pro úplné začátečníky, tak pro pokročilé uživatele. To vše umožňuje pracovní plocha KDE Plasma, integrované pokročilé funkce, univerzální optimalizace a výkonná infrastruktura.",
-    "launchLabel": "Premiéra 5. října 2026",
-    "launchAvailable": "Oreon 11 je tu.",
-    "countdownDays": "dny",
-    "countdownHours": "hodiny",
-    "countdownMinutes": "minut",
-    "countdownSeconds": "sekundy",
     "downloadPage": "Stránka ke stažení",
     "downloadOreon10": "Stáhnout Oreon 10",
     "wallpaperAlt": "Pozadí tapety Oreon 11",
@@ -297,9 +291,10 @@
     "betaWarning": "Beta verze jsou nedokončené. Neobsahují zatím všechny ohlášené funkce; na některých se stále pracuje. Neinstalujte je na produkční hardware.",
     "betaDownloadX86": "Stáhnout x86_64",
     "betaDownloadAarch64": "Stáhnout aarch64",
-    "getOreon11": "Oreon 11 vyjde brzy",
-    "getOreon11Desc": "Oreon 11 vyjde 5. října 2026. Do té doby je Oreon 10 nejnovější stabilní verzí, kterou si můžete stáhnout a vyzkoušet už dnes.",
     "ogTitle": "Oreon 11",
-    "ogDescription": "Oreon 11 bude uveden na trh 5. října 2026. Pracovní plocha KDE Plasma, správce systému Oreon, Oreon Defense, ISO obrazy se stabilním průběžným vydáváním a s podporou LTS, instalační program Centrio s detekcí ovladačů a další novinky, které ještě přijdou."
+    "launchLabel": "V roce 2027",
+    "getOreon11": "Oreon 11 se objeví v roce 2027",
+    "getOreon11Desc": "Oreon 11 vyjde v roce 2027. Do té doby je Oreon 10 nejnovější stabilní verzí, kterou si můžete stáhnout a vyzkoušet už dnes.",
+    "ogDescription": "Oreon 11 vyjde v roce 2027. Pracovní plocha KDE Plasma, správce systému Oreon, Oreon Defense, ISO obrazy se stabilním průběžným aktualizováním a s podporou LTS, instalační program Centrio s detekcí ovladačů a další novinky, které ještě přijdou."
   }
 }

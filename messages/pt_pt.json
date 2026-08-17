@@ -258,12 +258,6 @@
     "heroTitle": "Oreon 11",
     "heroSlogan": "Concebido para quase toda a gente. Potente por dentro.",
     "heroSubtitle": "O Oreon 11 foi concebido tanto para principiantes absolutos como para utilizadores avançados. Um ambiente de trabalho KDE Plasma, funcionalidades avançadas integradas, otimizações universais e uma infraestrutura robusta tornam tudo isto possível.",
-    "launchLabel": "Estreia a 5 de outubro de 2026",
-    "launchAvailable": "O Oreon 11 já está disponível.",
-    "countdownDays": "dias",
-    "countdownHours": "horas",
-    "countdownMinutes": "minutos",
-    "countdownSeconds": "segundos",
     "downloadPage": "Página de transferência",
     "downloadOreon10": "Descarregar o Oreon 10",
     "wallpaperAlt": "Fundo de ecrã do Oreon 11",
@@ -297,9 +291,10 @@
     "betaWarning": "As versões beta estão incompletas. Nem todas as funcionalidades anunciadas estão ainda incluídas; algumas ainda se encontram em desenvolvimento. Não instale em equipamento de produção.",
     "betaDownloadX86": "Descarregar x86_64",
     "betaDownloadAarch64": "Descarregar aarch64",
-    "getOreon11": "O Oreon 11 será lançado em breve",
-    "getOreon11Desc": "O Oreon 11 será lançado a 5 de outubro de 2026. Até lá, o Oreon 10 é a versão estável mais recente que pode descarregar e experimentar hoje mesmo.",
     "ogTitle": "Oreon 11",
-    "ogDescription": "O Oreon 11 será lançado a 5 de outubro de 2026. Ambiente de trabalho KDE Plasma, Gestor de Sistema Oreon, Oreon Defense, ISOs «stable-rolling» e LTS, programa de instalação Centrio com deteção de controladores e muito mais por vir."
+    "launchLabel": "A chegar em 2027",
+    "getOreon11": "O Oreon 11 será lançado em 2027",
+    "getOreon11Desc": "O Oreon 11 será lançado em 2027. Até lá, o Oreon 10 é a versão estável mais recente que pode descarregar e experimentar hoje mesmo.",
+    "ogDescription": "O Oreon 11 será lançado em 2027. Ambiente de trabalho KDE Plasma, Gestor de Sistema Oreon, Oreon Defense, ISOs «stable-rolling» e LTS, programa de instalação Centrio com deteção de controladores e muito mais por vir."
   }
 }
