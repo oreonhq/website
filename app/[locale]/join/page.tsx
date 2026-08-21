@@ -50,32 +50,6 @@ export default async function JoinPage({
         </div>
       </section>
 
-      <section className="enterprise-section bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-12 gap-10">
-            <div className="lg:col-span-7 rounded-enterprise border border-black/5 bg-gray-50 p-8">
-              <h2 className="text-2xl font-bold text-gray-900 mb-3 tracking-tight">{t('join.urgentTitle')}</h2>
-              <p className="text-gray-600 leading-relaxed">{t('join.urgentText')}</p>
-            </div>
-            <div className="lg:col-span-5 rounded-enterprise border border-black/5 bg-gray-50 p-8">
-              <h2 className="text-xl font-bold text-gray-900 mb-3 tracking-tight">{t('join.whereTitle')}</h2>
-              <p className="text-gray-600 mb-6 leading-relaxed">{t('join.whereText')}</p>
-              <div className="space-y-3">
-                <a href="https://discord.gg/2Yyacu58Ap" target="_blank" rel="noopener noreferrer" className="btn-oreon-gradient w-full justify-center">
-                  {t('join.joinDiscord')}
-                </a>
-                <a href="https://matrix.to/#/#oreon:oreonhq.com" target="_blank" rel="noopener noreferrer" className="btn-white w-full justify-center border border-black/10">
-                  {t('join.joinMatrix')}
-                </a>
-                <a href="https://community.oreonhq.com" target="_blank" rel="noopener noreferrer" className="btn-white w-full justify-center border border-black/10">
-                  {t('join.visitForum')}
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section className="enterprise-section bg-gray-50 border-y border-black/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mb-12">
